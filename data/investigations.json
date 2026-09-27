@@ -1,0 +1,495 @@
+{
+  "roadmap": "https://github.com/adachi6k/riscv-review-atlas/issues/1",
+  "repositories": [
+    {
+      "repository": "lowRISC/ibex",
+      "host": "github",
+      "category": "core",
+      "issue_number": 2,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/2"
+    },
+    {
+      "repository": "openhwfoundation/cv32e40p",
+      "host": "github",
+      "category": "core",
+      "issue_number": 3,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/3"
+    },
+    {
+      "repository": "openhwfoundation/cv32e40x",
+      "host": "github",
+      "category": "core",
+      "issue_number": 4,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/4"
+    },
+    {
+      "repository": "openhwfoundation/cv32e40s",
+      "host": "github",
+      "category": "core",
+      "issue_number": 5,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/5"
+    },
+    {
+      "repository": "openhwfoundation/cva6",
+      "host": "github",
+      "category": "core",
+      "issue_number": 6,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/6"
+    },
+    {
+      "repository": "openhwfoundation/core-v-verif",
+      "host": "github",
+      "category": "related",
+      "issue_number": 7,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/7"
+    },
+    {
+      "repository": "chipsalliance/rocket-chip",
+      "host": "github",
+      "category": "core",
+      "issue_number": 8,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/8"
+    },
+    {
+      "repository": "riscv-boom/riscv-boom",
+      "host": "github",
+      "category": "core",
+      "issue_number": 9,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/9"
+    },
+    {
+      "repository": "ucb-bar/chipyard",
+      "host": "github",
+      "category": "related",
+      "issue_number": 10,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/10"
+    },
+    {
+      "repository": "SpinalHDL/VexRiscv",
+      "host": "github",
+      "category": "core",
+      "issue_number": 11,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/11"
+    },
+    {
+      "repository": "SpinalHDL/VexiiRiscv",
+      "host": "github",
+      "category": "core",
+      "issue_number": 12,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/12"
+    },
+    {
+      "repository": "SpinalHDL/NaxRiscv",
+      "host": "github",
+      "category": "core",
+      "issue_number": 13,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/13"
+    },
+    {
+      "repository": "stnolting/neorv32",
+      "host": "github",
+      "category": "core",
+      "issue_number": 14,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/14"
+    },
+    {
+      "repository": "YosysHQ/picorv32",
+      "host": "github",
+      "category": "core",
+      "issue_number": 15,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/15"
+    },
+    {
+      "repository": "olofk/serv",
+      "host": "github",
+      "category": "core",
+      "issue_number": 16,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/16"
+    },
+    {
+      "repository": "enjoy-digital/litex",
+      "host": "github",
+      "category": "related",
+      "issue_number": 17,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/17"
+    },
+    {
+      "repository": "ultraembedded/biriscv",
+      "host": "github",
+      "category": "core",
+      "issue_number": 18,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/18"
+    },
+    {
+      "repository": "ultraembedded/riscv",
+      "host": "github",
+      "category": "core",
+      "issue_number": 19,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/19"
+    },
+    {
+      "repository": "syntacore/scr1",
+      "host": "github",
+      "category": "core",
+      "issue_number": 20,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/20"
+    },
+    {
+      "repository": "chipsalliance/Cores-VeeR-EH1",
+      "host": "github",
+      "category": "core",
+      "issue_number": 21,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/21"
+    },
+    {
+      "repository": "chipsalliance/Cores-VeeR-EH2",
+      "host": "github",
+      "category": "core",
+      "issue_number": 22,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/22"
+    },
+    {
+      "repository": "chipsalliance/Cores-VeeR-EL2",
+      "host": "github",
+      "category": "core",
+      "issue_number": 23,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/23"
+    },
+    {
+      "repository": "lowRISC/opentitan",
+      "host": "github",
+      "category": "related",
+      "issue_number": 24,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/24"
+    },
+    {
+      "repository": "pulp-platform/snitch_cluster",
+      "host": "github",
+      "category": "core",
+      "issue_number": 25,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/25"
+    },
+    {
+      "repository": "pulp-platform/snitch",
+      "host": "github",
+      "category": "lineage",
+      "issue_number": 26,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/26"
+    },
+    {
+      "repository": "pulp-platform/cv32e40p",
+      "host": "github",
+      "category": "lineage",
+      "issue_number": 27,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/27"
+    },
+    {
+      "repository": "pulp-platform/ibex",
+      "host": "github",
+      "category": "lineage",
+      "issue_number": 28,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/28"
+    },
+    {
+      "repository": "pulp-platform/ara",
+      "host": "github",
+      "category": "related",
+      "issue_number": 29,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/29"
+    },
+    {
+      "repository": "OpenXiangShan/XiangShan",
+      "host": "github",
+      "category": "core",
+      "issue_number": 30,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/30"
+    },
+    {
+      "repository": "OpenXiangShan/difftest",
+      "host": "github",
+      "category": "related",
+      "issue_number": 31,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/31"
+    },
+    {
+      "repository": "OpenXiangShan/NEMU",
+      "host": "github",
+      "category": "related",
+      "issue_number": 32,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/32"
+    },
+    {
+      "repository": "OpenXiangShan/CoupledL2",
+      "host": "github",
+      "category": "related",
+      "issue_number": 33,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/33"
+    },
+    {
+      "repository": "black-parrot/black-parrot",
+      "host": "github",
+      "category": "core",
+      "issue_number": 34,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/34"
+    },
+    {
+      "repository": "bluespec/Piccolo",
+      "host": "github",
+      "category": "core",
+      "issue_number": 35,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/35"
+    },
+    {
+      "repository": "bluespec/Flute",
+      "host": "github",
+      "category": "core",
+      "issue_number": 36,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/36"
+    },
+    {
+      "repository": "bluespec/Toooba",
+      "host": "github",
+      "category": "core",
+      "issue_number": 37,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/37"
+    },
+    {
+      "repository": "riscv-software-src/riscv-isa-sim",
+      "host": "github",
+      "category": "related",
+      "issue_number": 38,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/38"
+    },
+    {
+      "repository": "riscv-mcu/e203_hbirdv2",
+      "host": "github",
+      "category": "core",
+      "issue_number": 39,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/39"
+    },
+    {
+      "repository": "SpinalHDL/SaxonSoc",
+      "host": "github",
+      "category": "related",
+      "issue_number": 40,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/40"
+    },
+    {
+      "repository": "sifive/freedom",
+      "host": "github",
+      "category": "lineage",
+      "issue_number": 41,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/41"
+    },
+    {
+      "repository": "openhwfoundation/cve2",
+      "host": "github",
+      "category": "core",
+      "issue_number": 42,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/42"
+    },
+    {
+      "repository": "openhwfoundation/cva5",
+      "host": "github",
+      "category": "core",
+      "issue_number": 43,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/43"
+    },
+    {
+      "repository": "openhwfoundation/cvw",
+      "host": "github",
+      "category": "core",
+      "issue_number": 44,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/44"
+    },
+    {
+      "repository": "Wren6991/Hazard3",
+      "host": "github",
+      "category": "core",
+      "issue_number": 45,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/45"
+    },
+    {
+      "repository": "darklife/darkriscv",
+      "host": "github",
+      "category": "core",
+      "issue_number": 46,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/46"
+    },
+    {
+      "repository": "splinedrive/kianRiscV",
+      "host": "github",
+      "category": "core",
+      "issue_number": 47,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/47"
+    },
+    {
+      "repository": "meiniKi/FazyRV",
+      "host": "github",
+      "category": "core",
+      "issue_number": 48,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/48"
+    },
+    {
+      "repository": "chipsalliance/caliptra-rtl",
+      "host": "github",
+      "category": "related",
+      "issue_number": 49,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/49"
+    },
+    {
+      "repository": "chipsalliance/riscv-dv",
+      "host": "github",
+      "category": "related",
+      "issue_number": 50,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/50"
+    },
+    {
+      "repository": "riscv/riscv-arch-test",
+      "host": "github",
+      "category": "related",
+      "issue_number": 51,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/51"
+    },
+    {
+      "repository": "pulp-platform/riscv-dbg",
+      "host": "github",
+      "category": "related",
+      "issue_number": 52,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/52"
+    },
+    {
+      "repository": "pulp-platform/croc",
+      "host": "github",
+      "category": "related",
+      "issue_number": 53,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/53"
+    },
+    {
+      "repository": "pulp-platform/cv32e40x",
+      "host": "github",
+      "category": "lineage",
+      "issue_number": 54,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/54"
+    },
+    {
+      "repository": "pulp-platform/cva6",
+      "host": "github",
+      "category": "lineage",
+      "issue_number": 55,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/55"
+    },
+    {
+      "repository": "XUANTIE-RV/openc906",
+      "host": "github",
+      "category": "core",
+      "issue_number": 56,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/56"
+    },
+    {
+      "repository": "XUANTIE-RV/openc910",
+      "host": "github",
+      "category": "core",
+      "issue_number": 57,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/57"
+    },
+    {
+      "repository": "XUANTIE-RV/opene902",
+      "host": "github",
+      "category": "core",
+      "issue_number": 58,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/58"
+    },
+    {
+      "repository": "XUANTIE-RV/opene906",
+      "host": "github",
+      "category": "core",
+      "issue_number": 59,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/59"
+    },
+    {
+      "repository": "minerva-cpu/minerva",
+      "host": "github",
+      "category": "core",
+      "issue_number": 60,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/60"
+    },
+    {
+      "repository": "rsd-devel/rsd",
+      "host": "github",
+      "category": "core",
+      "issue_number": 61,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/61"
+    },
+    {
+      "repository": "kuznia-rdzeni/coreblocks",
+      "host": "github",
+      "category": "core",
+      "issue_number": 62,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/62"
+    },
+    {
+      "repository": "vortexgpgpu/vortex",
+      "host": "github",
+      "category": "related",
+      "issue_number": 63,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/63"
+    },
+    {
+      "repository": "ucb-bar/riscv-sodor",
+      "host": "github",
+      "category": "core",
+      "issue_number": 64,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/64"
+    },
+    {
+      "repository": "csail-csg/riscy-OOO",
+      "host": "github",
+      "category": "lineage",
+      "issue_number": 65,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/65"
+    },
+    {
+      "repository": "RoaLogic/RV12",
+      "host": "github",
+      "category": "core",
+      "issue_number": 66,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/66"
+    },
+    {
+      "repository": "tomverbeure/mr1",
+      "host": "github",
+      "category": "core",
+      "issue_number": 67,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/67"
+    },
+    {
+      "repository": "bieganski/mtkcpu",
+      "host": "github",
+      "category": "core",
+      "issue_number": 68,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/68"
+    },
+    {
+      "repository": "shaktiproject/cores/c-class",
+      "host": "gitlab",
+      "category": "gitlab-candidate",
+      "issue_number": 69,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/69"
+    },
+    {
+      "repository": "shaktiproject/cores/e-class",
+      "host": "gitlab",
+      "category": "gitlab-candidate",
+      "issue_number": 70,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/70"
+    },
+    {
+      "repository": "incoresemi/core-generators/chromite",
+      "host": "gitlab",
+      "category": "gitlab-candidate",
+      "issue_number": 71,
+      "issue_url": "https://github.com/adachi6k/riscv-review-atlas/issues/71"
+    }
+  ]
+}

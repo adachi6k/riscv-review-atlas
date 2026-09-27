@@ -11,7 +11,7 @@ This repository starts with a discovery catalog, not a completed checklist or a 
 - **67 GitHub repositories:** 44 core candidates, 7 lineage/integration-history repositories, and 16 related verification, reference-model, or system projects.
 - **3 additional GitLab candidates:** public project metadata checked; bulk history access still needs validation.
 - Snapshot date: **2026-09-28**. GitHub public HEAD references and issue/PR totals were retrieved. No claim of exhaustive worldwide coverage.
-- Repository investigations are tracked in [GitHub Issues](https://github.com/adachi6k/riscv-review-atlas/issues).
+- **70 repository investigation issues** are linked from the [research roadmap](https://github.com/adachi6k/riscv-review-atlas/issues/1) and [investigation index](docs/investigation-index.md).
 - Full history ingestion, automated model evaluation, and independent reproductions have not been performed by this project yet.
 
 ## Explore
