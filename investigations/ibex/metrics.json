@@ -1,0 +1,71 @@
+{
+  "snapshot_date": "2026-09-28",
+  "repository": "lowRISC/ibex",
+  "head": "7cd891ef267e8db36813b29cb8851142ab2636d5",
+  "index_records": 2481,
+  "issues": 921,
+  "pull_requests": 1560,
+  "commit_records": 3089,
+  "title_fix_keyword_prs": 344,
+  "index_payload_proxy": {
+    "title_metadata": {
+      "bytes": 220995,
+      "cl100k_base_tokens": 68364
+    },
+    "title_and_body": {
+      "bytes": 2189467,
+      "cl100k_base_tokens": 635999
+    }
+  },
+  "jev": {
+    "full": {
+      "calls": 30,
+      "input_tokens": 117685,
+      "output_tokens": 2730,
+      "input_cost_usd_at_list_price": 0.004942770000000001,
+      "category_counts": {
+        "rtl": 26,
+        "verification": 4
+      },
+      "input_tokens_min": 1377,
+      "input_tokens_max": 14591
+    },
+    "compact": {
+      "calls": 30,
+      "input_tokens": 21689,
+      "output_tokens": 2730,
+      "input_cost_usd_at_list_price": 0.0009109380000000001,
+      "category_counts": {
+        "rtl": 26,
+        "verification": 4
+      },
+      "input_tokens_min": 623,
+      "input_tokens_max": 1598
+    },
+    "category_agreement": 30,
+    "compact_input_reduction_fraction": 0.8157029358032035,
+    "total_input_tokens": 139374,
+    "total_output_tokens": 5460,
+    "total_input_cost_usd_at_list_price": 0.005853708000000001,
+    "hypothetical_threshold_0_7": {
+      "full": [],
+      "compact": [
+        398,
+        919,
+        928,
+        1234,
+        1309
+      ]
+    }
+  },
+  "pricing_source": "https://docs.typesafe.ai/models",
+  "pricing_checked": "2026-09-28",
+  "pricing_usd_per_million_input_tokens": 0.042,
+  "notes": [
+    "cl100k_base is a payload-size proxy, not the Codex or Jev tokenizer or billing.",
+    "Jev usage is from API responses. List-price arithmetic is not an invoice.",
+    "Index sizes exclude comments, diffs, prompts, outputs and reasoning.",
+    "No actual Codex session token total or monetary cost is available.",
+    "Sample is purposive; agreement does not measure accuracy or recall."
+  ]
+}

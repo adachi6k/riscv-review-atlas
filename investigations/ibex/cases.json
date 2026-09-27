@@ -1,0 +1,939 @@
+[
+  {
+    "number": 157,
+    "url": "https://github.com/lowRISC/ibex/pull/157",
+    "merged": true,
+    "merged_at": "2019-07-15T17:37:34Z",
+    "merge_commit_sha": "a775abd96768165c4637ea6bc3c5bf09a298007c",
+    "base_sha": "c4370083106042cc0398de615e69d661032c04ba",
+    "head_sha": "0750ae108e32aaa815b77638cc86c5ccaa28ff9c",
+    "diff_sha256": "33c549a2286a4433095cf0bf969881e2984e68ac2b5bbc21cd1403fec71fae64",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "67056c960fc1459e7f659e65d8b990fc378877d9",
+      "cf24fdafb0f256b309f6d4a9627b12459c22ec2a",
+      "0750ae108e32aaa815b77638cc86c5ccaa28ff9c"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/153"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-001"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Accepted debug entry must capture a matching DPC and cause; withdrawing a request must not leave entry and capture disagreeing.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "a775abd96768165c4637ea6bc3c5bf09a298007c"
+  },
+  {
+    "number": 272,
+    "url": "https://github.com/lowRISC/ibex/pull/272",
+    "merged": true,
+    "merged_at": "2019-08-29T10:59:05Z",
+    "merge_commit_sha": "d79722ba47340974b663dc18967c0ec292bf2129",
+    "base_sha": "68b170638ab4771623e5897d5cc44dd6f11a0872",
+    "head_sha": "7f46fa60350b023f19fcc7ce291090cbc53c8b59",
+    "diff_sha256": "4370fe35b3113de3a5c6b504d36eea794bac8006610ece398405cd4f8ad3a594",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "7f46fa60350b023f19fcc7ce291090cbc53c8b59"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/270"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-002"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "DRET and accesses to debug-only CSRs must follow the selected debug specification outside debug mode.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "d79722ba47340974b663dc18967c0ec292bf2129"
+  },
+  {
+    "number": 277,
+    "url": "https://github.com/lowRISC/ibex/pull/277",
+    "merged": true,
+    "merged_at": "2019-09-03T11:14:51Z",
+    "merge_commit_sha": "9b51b1143ad268f670228e435a2c61bdd8e4490f",
+    "base_sha": "892ad8a6213057e20e43f44a2eb70b02d90cce35",
+    "head_sha": "09f0c7e27213b339533b11bb7c4c05043acf3c3a",
+    "diff_sha256": "4058ddc28985e5fb87c63c3dd9348347406a9a4d1a2afc1afdba4ddd60f9b8b2",
+    "diff_file_count": 5,
+    "reported_file_count": 5,
+    "pr_commit_shas": [
+      "09f0c7e27213b339533b11bb7c4c05043acf3c3a"
+    ],
+    "changed_paths": [
+      "lint/verilator_waiver.vlt",
+      "rtl/ibex_controller.sv",
+      "rtl/ibex_core.sv",
+      "rtl/ibex_cs_registers.sv",
+      "rtl/ibex_id_stage.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/275"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-002"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "DRET and accesses to debug-only CSRs must follow the selected debug specification outside debug mode.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "9b51b1143ad268f670228e435a2c61bdd8e4490f"
+  },
+  {
+    "number": 294,
+    "url": "https://github.com/lowRISC/ibex/pull/294",
+    "merged": true,
+    "merged_at": "2019-09-09T12:05:49Z",
+    "merge_commit_sha": "8d3d87ae53254f7716852e944caffa788b473253",
+    "base_sha": "b87ed7c82e0d4875ecc8bade1330a88e67f48090",
+    "head_sha": "e3fe318c1768e05d9a47479a37220dc32775037c",
+    "diff_sha256": "523859b87006b3bd62c3c052e87bd258e57eddd20ae988034270dd7e3abc26aa",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "e3fe318c1768e05d9a47479a37220dc32775037c"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/290"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-003"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Cause encoding must include the correct interrupt bank offset and source index.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "8d3d87ae53254f7716852e944caffa788b473253"
+  },
+  {
+    "number": 332,
+    "url": "https://github.com/lowRISC/ibex/pull/332",
+    "merged": true,
+    "merged_at": "2019-10-01T07:23:09Z",
+    "merge_commit_sha": "f2fccaadbc6aaedf08bec73b7386ffce3aaeb618",
+    "base_sha": "1e8381bfa1a1e70056cc25cc1d55c306d1eba680",
+    "head_sha": "41f11a9cc713e77027ad7d457f35f9fc815a6ac9",
+    "diff_sha256": "c5566d9177048526217995c99a998842dcaa8dea1495c9a4077243cbfbc9a095",
+    "diff_file_count": 7,
+    "reported_file_count": 7,
+    "pr_commit_shas": [
+      "41f11a9cc713e77027ad7d457f35f9fc815a6ac9"
+    ],
+    "changed_paths": [
+      "doc/instruction_fetch.rst",
+      "lint/verilator_waiver.vlt",
+      "rtl/ibex_controller.sv",
+      "rtl/ibex_core.sv",
+      "rtl/ibex_fetch_fifo.sv",
+      "rtl/ibex_id_stage.sv",
+      "rtl/ibex_prefetch_buffer.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/296",
+      "https://github.com/lowRISC/ibex/issues/320",
+      "https://github.com/lowRISC/ibex/issues/340",
+      "https://github.com/lowRISC/ibex/issues/348"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [],
+    "disposition": "deferred-broad-change",
+    "summary": "Evidence collected and Jev evaluated; broad prefetch/debug change needs a separate mechanism review before checklist extraction.",
+    "analyst_category": "mixed-unresolved",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "f2fccaadbc6aaedf08bec73b7386ffce3aaeb618"
+  },
+  {
+    "number": 398,
+    "url": "https://github.com/lowRISC/ibex/pull/398",
+    "merged": true,
+    "merged_at": "2019-10-16T08:10:35Z",
+    "merge_commit_sha": "b94961402cab9729cac4b0692a0710a840b108f0",
+    "base_sha": "2bc785e7d9ec632f9d5bb6a6ef19667c6746fccb",
+    "head_sha": "a118f0f320da6d289ba4491ae412bf4cb1a009ed",
+    "diff_sha256": "901cf9ff06a4d3d1a30e88a02d3f22338da62bb53a308af1f399b62cc9dc89c6",
+    "diff_file_count": 5,
+    "reported_file_count": 5,
+    "pr_commit_shas": [
+      "02636cf49245a3a0853ff72c5ecd65887186800b",
+      "a118f0f320da6d289ba4491ae412bf4cb1a009ed"
+    ],
+    "changed_paths": [
+      "lint/verilator_waiver.vlt",
+      "rtl/ibex_controller.sv",
+      "rtl/ibex_core.sv",
+      "rtl/ibex_cs_registers.sv",
+      "rtl/ibex_id_stage.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [],
+    "disposition": "deferred-broad-change",
+    "summary": "Evidence collected and Jev evaluated; broad prefetch/debug change needs a separate mechanism review before checklist extraction.",
+    "analyst_category": "mixed-unresolved",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "b94961402cab9729cac4b0692a0710a840b108f0"
+  },
+  {
+    "number": 401,
+    "url": "https://github.com/lowRISC/ibex/pull/401",
+    "merged": true,
+    "merged_at": "2019-10-16T09:23:06Z",
+    "merge_commit_sha": "cc94bc8d54bec64020ba616df7d5db4f253447ec",
+    "base_sha": "b94961402cab9729cac4b0692a0710a840b108f0",
+    "head_sha": "d2ef33feab86737b7c7f87711d5208aee8af4973",
+    "diff_sha256": "2928c8923321dee8be8f7a57e343dd7a3c53e026d7639ccf5beb923e77c85ae0",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "d2ef33feab86737b7c7f87711d5208aee8af4973"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-004"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A stepped instruction that traps must preserve the specified trap transition before recording the debug resume PC.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "cc94bc8d54bec64020ba616df7d5db4f253447ec"
+  },
+  {
+    "number": 465,
+    "url": "https://github.com/lowRISC/ibex/pull/465",
+    "merged": true,
+    "merged_at": "2019-11-14T09:37:03Z",
+    "merge_commit_sha": "0243e081119ad971a045097f0b74b552d5d1fab4",
+    "base_sha": "6ce8b6ecf2fa931b333c7878bb2345b92f745854",
+    "head_sha": "209b6f97b7137be9751d75389bede371f7036d7d",
+    "diff_sha256": "9c2235fbc43bec99f0f4a95d851b6fd06bbd7612258607ee2dce60f50ad72d55",
+    "diff_file_count": 5,
+    "reported_file_count": 5,
+    "pr_commit_shas": [
+      "209b6f97b7137be9751d75389bede371f7036d7d"
+    ],
+    "changed_paths": [
+      "lint/verilator_waiver.vlt",
+      "rtl/ibex_controller.sv",
+      "rtl/ibex_core.sv",
+      "rtl/ibex_cs_registers.sv",
+      "rtl/ibex_id_stage.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/463"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-005"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Debug entry uses the required execution privilege and DRET restores the saved privilege.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "0243e081119ad971a045097f0b74b552d5d1fab4"
+  },
+  {
+    "number": 475,
+    "url": "https://github.com/lowRISC/ibex/pull/475",
+    "merged": true,
+    "merged_at": "2019-11-19T14:15:43Z",
+    "merge_commit_sha": "99a12ff6d507b44587c2dac6e4f20a4a82aeeaf6",
+    "base_sha": "aefbcdceb327a7af47e8c9af710a5110aab5a0eb",
+    "head_sha": "dab57a2de9de946ac8319ab7c4a41c3d5e4c12c4",
+    "diff_sha256": "fc5f0c18c2c9d722f4b3e1c28ba907f4ec3dcf76f37ec128701cce80f93694e0",
+    "diff_file_count": 6,
+    "reported_file_count": 6,
+    "pr_commit_shas": [
+      "82adf45d375f2e4639fea81c1bedeaa4e27e3445",
+      "9027d80651a1b152922e79eb40fbeda0b4abad6f",
+      "dab57a2de9de946ac8319ab7c4a41c3d5e4c12c4"
+    ],
+    "changed_paths": [
+      "doc/cs_registers.rst",
+      "doc/debug.rst",
+      "doc/exception_interrupts.rst",
+      "doc/integration.rst",
+      "doc/verification.rst",
+      "rtl/ibex_cs_registers.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/168",
+      "https://github.com/lowRISC/ibex/issues/307",
+      "https://github.com/lowRISC/ibex/issues/365"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-006"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Implicit exception entry while already in debug must not overwrite context protected by the selected debug specification.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "99a12ff6d507b44587c2dac6e4f20a4a82aeeaf6"
+  },
+  {
+    "number": 712,
+    "url": "https://github.com/lowRISC/ibex/pull/712",
+    "merged": true,
+    "merged_at": "2020-03-18T12:53:10Z",
+    "merge_commit_sha": "8bb649e4abe8a5652fefda882e3e00fb8cebd450",
+    "base_sha": "ef17d4fcc28e77b91d82af16eeef204ba606a76b",
+    "head_sha": "f86c7c9345070e00b2a80a6afade6bc059af81f6",
+    "diff_sha256": "8fd920ff93c058fa4d1f97cadfd6fe22533c71145480809c288b2634df479792",
+    "diff_file_count": 2,
+    "reported_file_count": 2,
+    "pr_commit_shas": [
+      "f86c7c9345070e00b2a80a6afade6bc059af81f6"
+    ],
+    "changed_paths": [
+      "doc/icache.rst",
+      "rtl/ibex_icache.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-007"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A protection-rejected fetch must complete through an error path without waiting for data from a request never sent externally.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "8bb649e4abe8a5652fefda882e3e00fb8cebd450"
+  },
+  {
+    "number": 742,
+    "url": "https://github.com/lowRISC/ibex/pull/742",
+    "merged": true,
+    "merged_at": "2020-03-27T16:43:36Z",
+    "merge_commit_sha": "ea2ffe82f1f48be653ab8ff29c06ef02aa131dca",
+    "base_sha": "158e9b9714033db33824ea3a03b5d0f2466c26ec",
+    "head_sha": "b0acfedd7fc2aa82367cff59923bd3085810d800",
+    "diff_sha256": "67b141b56ab1f5662d1d4bd65bebcfeeac7215c86b940ee6f9e803d10a16a6e7",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "b0acfedd7fc2aa82367cff59923bd3085810d800"
+    ],
+    "changed_paths": [
+      "rtl/ibex_pmp.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-008"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Permission comes from the architecturally selected matching PMP entry, not a union of permissions.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "ea2ffe82f1f48be653ab8ff29c06ef02aa131dca"
+  },
+  {
+    "number": 792,
+    "url": "https://github.com/lowRISC/ibex/pull/792",
+    "merged": true,
+    "merged_at": "2020-04-20T15:05:21Z",
+    "merge_commit_sha": "a3a1f9f40a73b3494de378f38d587c31d4ef9da9",
+    "base_sha": "06f50ddeaca401f4b250c3ab517ed49033dac5dc",
+    "head_sha": "33949ead0834b01fcdb3b14ea7bddbb7129d7fd7",
+    "diff_sha256": "7bcd20a824823f4cdddd537c1816431ca1721e5a3c1e756dbc1eed649a0cb7fe",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "33949ead0834b01fcdb3b14ea7bddbb7129d7fd7"
+    ],
+    "changed_paths": [
+      "rtl/ibex_icache.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-007"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A protection-rejected fetch must complete through an error path without waiting for data from a request never sent externally.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "a3a1f9f40a73b3494de378f38d587c31d4ef9da9"
+  },
+  {
+    "number": 813,
+    "url": "https://github.com/lowRISC/ibex/pull/813",
+    "merged": true,
+    "merged_at": "2020-04-24T08:06:06Z",
+    "merge_commit_sha": "73155145c0bbff0a7045cbc4688eabf4bd92b26d",
+    "base_sha": "dcf18d86c3db4b7a3a5bb1f670ad74400dc77042",
+    "head_sha": "02666bfd73bec58b1f651c173bfce8c592ed591a",
+    "diff_sha256": "743a4d4dc568cf1533c63e99ecf4f5ef8a343922197d3fc4c563a0426bb59ec4",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "02666bfd73bec58b1f651c173bfce8c592ed591a"
+    ],
+    "changed_paths": [
+      "rtl/ibex_load_store_unit.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/808"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-009"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A prior protection failure must not poison an unrelated later legal memory operation.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "73155145c0bbff0a7045cbc4688eabf4bd92b26d"
+  },
+  {
+    "number": 854,
+    "url": "https://github.com/lowRISC/ibex/pull/854",
+    "merged": true,
+    "merged_at": "2020-05-15T10:13:21Z",
+    "merge_commit_sha": "8934267c78a991ac71f7cbd4eeb27668837f8bf7",
+    "base_sha": "863fb56eb166dc8d6e25f4e98b7319f0c7088564",
+    "head_sha": "ce49af8ca0c9459ecf7bb68cad7caf872310062c",
+    "diff_sha256": "6e0c7be7cbed1cdda9e7b00d6bec717a5b6a4070288491c518fb19ab7fe31866",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "ce49af8ca0c9459ecf7bb68cad7caf872310062c"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/849"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-010"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "An outstanding older memory operation can still raise a fault when decode has no valid instruction.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "8934267c78a991ac71f7cbd4eeb27668837f8bf7"
+  },
+  {
+    "number": 903,
+    "url": "https://github.com/lowRISC/ibex/pull/903",
+    "merged": true,
+    "merged_at": "2020-06-02T12:41:04Z",
+    "merge_commit_sha": "f190e3abe46e3625708ce776376f53bc9adc5424",
+    "base_sha": "4b01580a7bd88d5293aba786bce1724536a823fa",
+    "head_sha": "c9c65e072b72997e64eb18ce639f6c69e021b595",
+    "diff_sha256": "f457e2315a823f37fe571585716ef62512fda92bb1fcba0c216fdbb60e9a6165",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "c9c65e072b72997e64eb18ce639f6c69e021b595"
+    ],
+    "changed_paths": [
+      "rtl/ibex_pmp.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/902"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-011"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "NA4, NAPOT and TOR matching must use the appropriate mode-specific comparisons and granularity.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "f190e3abe46e3625708ce776376f53bc9adc5424"
+  },
+  {
+    "number": 919,
+    "url": "https://github.com/lowRISC/ibex/pull/919",
+    "merged": true,
+    "merged_at": "2020-06-02T12:45:48Z",
+    "merge_commit_sha": "023d86d912744e49164a7fdb204945fc96718d68",
+    "base_sha": "f4366264e4a65ffbe5aa4f1722ecf147f0c0a4b3",
+    "head_sha": "49e8083d3ef69e3c5e0edd5a8f5e0899c2dd32f2",
+    "diff_sha256": "006a57eb14a31d7778f2930d6fffe15bb1db55ebf8c8c280706e0e49d88cd54e",
+    "diff_file_count": 3,
+    "reported_file_count": 3,
+    "pr_commit_shas": [
+      "23f82e4d54a6b5173f691693dc2641eab060e6cb",
+      "e7e9492dfec9162627664204c61fce5db8a75073",
+      "49e8083d3ef69e3c5e0edd5a8f5e0899c2dd32f2"
+    ],
+    "changed_paths": [
+      "examples/sw/simple_system/common/simple_system_common.c",
+      "rtl/ibex_controller.sv",
+      "rtl/ibex_id_stage.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/912"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-012"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A younger exception must not override an older memory fault or flush away its unresolved outcome.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Assertion addition observed in selected diff; assertion was not run.",
+    "api_merge_commit_sha": "023d86d912744e49164a7fdb204945fc96718d68"
+  },
+  {
+    "number": 928,
+    "url": "https://github.com/lowRISC/ibex/pull/928",
+    "merged": true,
+    "merged_at": "2020-06-10T14:13:33Z",
+    "merge_commit_sha": "5ecaa11c635b259d644532c081a2c6818740f43c",
+    "base_sha": "13135e2e706b0340301fca718cb517cb0dc262df",
+    "head_sha": "61efe074558689758782b3d1c48123c7a23fb5bd",
+    "diff_sha256": "37fe86b51a398aa2cd9eba5650d6d9bb1d5620550037dd86fe0a3e84b5a292ef",
+    "diff_file_count": 5,
+    "reported_file_count": 5,
+    "pr_commit_shas": [
+      "d24fd1a5731b4bccaea97a78ac7a1c69ab3707b0",
+      "61efe074558689758782b3d1c48123c7a23fb5bd"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv",
+      "rtl/ibex_core.sv",
+      "rtl/ibex_id_stage.sv",
+      "rtl/ibex_load_store_unit.sv",
+      "rtl/ibex_wb_stage.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-013"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Control redirection must preserve the completion and ownership of an already active memory operation.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Assertion addition observed in selected diff; assertion was not run.",
+    "api_merge_commit_sha": "5ecaa11c635b259d644532c081a2c6818740f43c"
+  },
+  {
+    "number": 1054,
+    "url": "https://github.com/lowRISC/ibex/pull/1054",
+    "merged": true,
+    "merged_at": "2020-08-05T08:17:34Z",
+    "merge_commit_sha": "7eaf0e4a6eba22c8e498de56174fbcbe2347ecd6",
+    "base_sha": "ac51db259d7ba09616b47cb372e528d45358d6db",
+    "head_sha": "a0783c5a53bddadaa2d118416a174222f9cbda0c",
+    "diff_sha256": "903ca16f4e0fe5df26fef305400cf7f0d2b7c361227b6966b22bbfdf774fe3dc",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "a0783c5a53bddadaa2d118416a174222f9cbda0c"
+    ],
+    "changed_paths": [
+      "rtl/ibex_cs_registers.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1044"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-014"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A neighboring TOR entry restricts address writes under the specified lock conditions, without blocking otherwise legal writes.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "7eaf0e4a6eba22c8e498de56174fbcbe2347ecd6"
+  },
+  {
+    "number": 1107,
+    "url": "https://github.com/lowRISC/ibex/pull/1107",
+    "merged": true,
+    "merged_at": "2020-09-14T13:19:36Z",
+    "merge_commit_sha": "2c22c1ee01b9842d3ee75bb80265cb84c014eaaf",
+    "base_sha": "c31d066130bdce11dfbacf7afab7641dbd9157f5",
+    "head_sha": "e0e2066bfd8b1ce0970dda5041272a6e0d9e62cd",
+    "diff_sha256": "13b98362499bf80df0494667a0d6100e752a170539387f56f30016729aced3da",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "e0e2066bfd8b1ce0970dda5041272a6e0d9e62cd"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1106"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-015"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Concurrent debug causes must select the specified priority and a DPC corresponding to the winning event.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "2c22c1ee01b9842d3ee75bb80265cb84c014eaaf"
+  },
+  {
+    "number": 1136,
+    "url": "https://github.com/lowRISC/ibex/pull/1136",
+    "merged": true,
+    "merged_at": "2020-10-14T16:35:01Z",
+    "merge_commit_sha": "dbd92c5d4b5c47d408741a881c249d3cb4f9346d",
+    "base_sha": "1a9545baaf973c361d4ee5ac7b715d5957a4ceef",
+    "head_sha": "5b77ee678c319757de314944d7d2512490e8a50f",
+    "diff_sha256": "e7c762b78906caa7fb0fb865679bf99eb89d9ff4a50aff86cf4d06cc5c3bca08",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "5b77ee678c319757de314944d7d2512490e8a50f"
+    ],
+    "changed_paths": [
+      "rtl/ibex_cs_registers.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1134"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-016"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Writes must preserve read-only fields while applying the permitted update to writable fields.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "dbd92c5d4b5c47d408741a881c249d3cb4f9346d"
+  },
+  {
+    "number": 1141,
+    "url": "https://github.com/lowRISC/ibex/pull/1141",
+    "merged": true,
+    "merged_at": "2020-11-10T11:43:18Z",
+    "merge_commit_sha": "62405f931fe70ffe8ef8e5de70afd07ef7714c94",
+    "base_sha": "94c87ba987f9db6e1cd4dbb3a2605da83bd67ad8",
+    "head_sha": "57d93aa558e889357bd3ed95e87bfe3fd1a1cdbd",
+    "diff_sha256": "7282dc21c7638bb36e1bdbab67188f346d0778212e6f2bd33a96b6420c2e6578",
+    "diff_file_count": 3,
+    "reported_file_count": 3,
+    "pr_commit_shas": [
+      "57d93aa558e889357bd3ed95e87bfe3fd1a1cdbd"
+    ],
+    "changed_paths": [
+      "rtl/ibex_core.sv",
+      "rtl/ibex_id_stage.sv",
+      "rtl/ibex_wb_stage.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1132"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-017"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Retirement counting must exclude trapping instructions and must not reuse stale pipeline bookkeeping across bubbles.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "62405f931fe70ffe8ef8e5de70afd07ef7714c94"
+  },
+  {
+    "number": 1234,
+    "url": "https://github.com/lowRISC/ibex/pull/1234",
+    "merged": true,
+    "merged_at": "2021-01-19T10:24:33Z",
+    "merge_commit_sha": "6a61e0ec0c9bcafc9760c9ddbb9b910f3403068f",
+    "base_sha": "0f2dc5c64ada16118a8621df9f34cf07eb943f4e",
+    "head_sha": "05ac2b3f95c895c2e16c8a0c4a98a12f8aadcd0e",
+    "diff_sha256": "c3fef16f5eb4b581c6d21e77269f1d193b1c8c6840f26f7c0274586758093a51",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "05ac2b3f95c895c2e16c8a0c4a98a12f8aadcd0e"
+    ],
+    "changed_paths": [
+      "rtl/ibex_pmp.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/pull/1179"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-011"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "NA4, NAPOT and TOR matching must use the appropriate mode-specific comparisons and granularity.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "6a61e0ec0c9bcafc9760c9ddbb9b910f3403068f"
+  },
+  {
+    "number": 1309,
+    "url": "https://github.com/lowRISC/ibex/pull/1309",
+    "merged": true,
+    "merged_at": "2021-03-22T17:35:35Z",
+    "merge_commit_sha": "c1e287e13b6877589944a4e91e2bae11ea2bd508",
+    "base_sha": "4b43afa53315d00784d5c3b714583276127eddcc",
+    "head_sha": "be71f2dfc5ad1fa6a8236d327a1ed6996e7153eb",
+    "diff_sha256": "74d8901c5cbe45e389e67bdddff5a69c364280223fe21d57f94ed432d5ad19ed",
+    "diff_file_count": 5,
+    "reported_file_count": 5,
+    "pr_commit_shas": [
+      "377724eabbc3e150badc7e87159798628b74fb53",
+      "eb8a554bfe86974f85a990c97c9a92801dd36b50",
+      "3eae22d9160cc01925a33101f8b6419a887235ad",
+      "be71f2dfc5ad1fa6a8236d327a1ed6996e7153eb"
+    ],
+    "changed_paths": [
+      "dv/uvm/core_ibex/env/core_ibex_env_cfg.sv",
+      "dv/uvm/core_ibex/riscv_dv_extension/testlist.yaml",
+      "dv/uvm/core_ibex/tests/core_ibex_seq_lib.sv",
+      "dv/uvm/core_ibex/tests/core_ibex_test_lib.sv",
+      "dv/uvm/core_ibex/tests/core_ibex_vseq.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-019"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A test must distinguish interrupt handling inside debug from legal handling after DRET.",
+    "analyst_category": "verification",
+    "regression_evidence": "Verification-code change reviewed; no independent regression of that verification change was run.",
+    "api_merge_commit_sha": "c1e287e13b6877589944a4e91e2bae11ea2bd508"
+  },
+  {
+    "number": 1744,
+    "url": "https://github.com/lowRISC/ibex/pull/1744",
+    "merged": true,
+    "merged_at": "2022-08-05T11:03:36Z",
+    "merge_commit_sha": "23806e2ad7d0d6fab429ae227d9a45cbd42f0fb3",
+    "base_sha": "c4a97e05f5853b25e40fa1ea5b4edcfafba9a370",
+    "head_sha": "28cf49eb4351983e4d08fffe50d873a9e54d325c",
+    "diff_sha256": "7ee437e272db48981d280bd36a5c18cb3f49dc624382d88a76f106e82aaaa764",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "28cf49eb4351983e4d08fffe50d873a9e54d325c"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1743"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-015"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Concurrent debug causes must select the specified priority and a DPC corresponding to the winning event.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "23806e2ad7d0d6fab429ae227d9a45cbd42f0fb3"
+  },
+  {
+    "number": 1813,
+    "url": "https://github.com/lowRISC/ibex/pull/1813",
+    "merged": true,
+    "merged_at": "2022-09-27T09:12:09Z",
+    "merge_commit_sha": "7b1be3354d650bc5b23dff6f439459c353288e4f",
+    "base_sha": "d35ff67df650633795ead001ea5f285c44b73078",
+    "head_sha": "c1760dc79cf1de18441115de82906884cedec816",
+    "diff_sha256": "a37145bd577d08ae5d87f6b287a7329f2f87471988b9435b180af528ce3745ef",
+    "diff_file_count": 4,
+    "reported_file_count": 4,
+    "pr_commit_shas": [
+      "c1760dc79cf1de18441115de82906884cedec816"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv",
+      "rtl/ibex_core.sv",
+      "rtl/ibex_cs_registers.sv",
+      "rtl/ibex_id_stage.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1472"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-020"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "A dynamic debug program must not execute stale cached instructions, including on the first entry-cycle fetch.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "7b1be3354d650bc5b23dff6f439459c353288e4f"
+  },
+  {
+    "number": 1883,
+    "url": "https://github.com/lowRISC/ibex/pull/1883",
+    "merged": true,
+    "merged_at": "2022-10-31T14:29:59Z",
+    "merge_commit_sha": "eca86aef03539bc297ab4879c58a33632d8c48e3",
+    "base_sha": "0c0626ebbf6ded92fe84dbb8cdb558383c99adf2",
+    "head_sha": "02250a3373a91ad07403f7c218d43963cafffe45",
+    "diff_sha256": "a45d1e2d0142117d120ea46317642a8f7b1a4e82839537470056a73330af8e55",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "02250a3373a91ad07403f7c218d43963cafffe45"
+    ],
+    "changed_paths": [
+      "rtl/ibex_controller.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-021"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Verification-visible exception information must not describe a younger instruction killed by an older fault.",
+    "analyst_category": "verification",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "eca86aef03539bc297ab4879c58a33632d8c48e3"
+  },
+  {
+    "number": 2439,
+    "url": "https://github.com/lowRISC/ibex/pull/2439",
+    "merged": false,
+    "merged_at": null,
+    "merge_commit_sha": null,
+    "base_sha": "9742d89f54fc297bed026841c8e68454ddfd7cc0",
+    "head_sha": "28e595311f0d5eec9de521bb0d6e841ab8386fb0",
+    "diff_sha256": "f2809b6ace394880820318d25853675eed1cd7b9586291ebf8e11af323a50f2f",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "28e595311f0d5eec9de521bb0d6e841ab8386fb0"
+    ],
+    "changed_paths": [
+      "vendor/google_riscv-dv/scripts/gen_csr_test.py"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1337"
+    ],
+    "affected_revision_status": "Unmerged proposal: base/head identify the reviewed diff. GitHub API merge_commit_sha may refer to a test merge; it is not evidence of an integrated fix.",
+    "checklist_ids": [
+      "IBEX-024"
+    ],
+    "disposition": "source-reviewed-proposed-change",
+    "summary": "A generated test must direct unexpected traps to a defined failure path.",
+    "analyst_category": "verification",
+    "regression_evidence": "Verification-code change reviewed; no independent regression of that verification change was run.",
+    "api_merge_commit_sha": "181f212cf16f4f6310865d6308b911ae0304d25a"
+  },
+  {
+    "number": 2442,
+    "url": "https://github.com/lowRISC/ibex/pull/2442",
+    "merged": false,
+    "merged_at": null,
+    "merge_commit_sha": null,
+    "base_sha": "f45407744572b2db9b04db1a7ba7cfb95a0fc811",
+    "head_sha": "8c54df6113c8ef18e924b0906d8574bc35cf27d2",
+    "diff_sha256": "bee47eef40e209d30a2ec0d48c6c77339a8595aafb94bf69af990959e865a13f",
+    "diff_file_count": 2,
+    "reported_file_count": 2,
+    "pr_commit_shas": [
+      "8c54df6113c8ef18e924b0906d8574bc35cf27d2"
+    ],
+    "changed_paths": [
+      "vendor/google_riscv-dv/scripts/gen_csr_test.py",
+      "vendor/patches/google_riscv-dv/0001-mask-readonly-csr-fields.patch"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/issues/1337"
+    ],
+    "affected_revision_status": "Unmerged proposal: base/head identify the reviewed diff. GitHub API merge_commit_sha may refer to a test merge; it is not evidence of an integrated fix.",
+    "checklist_ids": [
+      "IBEX-023"
+    ],
+    "disposition": "source-reviewed-proposed-change",
+    "summary": "A generator must emit the operand it has constrained for field access and use that same operand in prediction.",
+    "analyst_category": "verification",
+    "regression_evidence": "Verification-code change reviewed; no independent regression of that verification change was run.",
+    "api_merge_commit_sha": "b22a73d396e2f24dc767db87de5e2cbe79c11af9"
+  },
+  {
+    "number": 2446,
+    "url": "https://github.com/lowRISC/ibex/pull/2446",
+    "merged": true,
+    "merged_at": "2026-06-11T11:02:23Z",
+    "merge_commit_sha": "6418433401263841607d2d9c49cb56e7b2b3f654",
+    "base_sha": "57d37bf9008640415532d23ad59018b795c642aa",
+    "head_sha": "d4663ba555dfcce4389654d93714c69bbe372b08",
+    "diff_sha256": "51c6504cdcfb4846c49c54b41a97a89869b4f548669242e56ed7bfde09622077",
+    "diff_file_count": 2,
+    "reported_file_count": 2,
+    "pr_commit_shas": [
+      "fd429f54c0c69292fca5cce88eb06edae1c021aa",
+      "d4663ba555dfcce4389654d93714c69bbe372b08"
+    ],
+    "changed_paths": [
+      "rtl/ibex_id_stage.sv",
+      "rtl/ibex_wb_stage.sv"
+    ],
+    "linked_record_urls": [
+      "https://github.com/lowRISC/ibex/pull/2403"
+    ],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-017",
+      "IBEX-018"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Retirement counting must exclude trapping instructions and must not reuse stale pipeline bookkeeping across bubbles. Software writes to an instruction-retirement counter must have the specified priority over concurrent increments.",
+    "analyst_category": "rtl",
+    "regression_evidence": "Not independently executed; no claim that linked regression coverage is complete.",
+    "api_merge_commit_sha": "6418433401263841607d2d9c49cb56e7b2b3f654"
+  },
+  {
+    "number": 2501,
+    "url": "https://github.com/lowRISC/ibex/pull/2501",
+    "merged": true,
+    "merged_at": "2026-09-16T17:04:29Z",
+    "merge_commit_sha": "46d0c75d68230460d1ea001857909bd348c7b75e",
+    "base_sha": "90331a69edd7151413c335a7f4b3e950baa07c19",
+    "head_sha": "6ef3a05adaa87a3bb60e26a03e96276ae8e60c42",
+    "diff_sha256": "422a2b5593a077933f81c0d2c29c59edc577946f7721571f1f0695ed90d04a0a",
+    "diff_file_count": 1,
+    "reported_file_count": 1,
+    "pr_commit_shas": [
+      "6ef3a05adaa87a3bb60e26a03e96276ae8e60c42"
+    ],
+    "changed_paths": [
+      "dv/uvm/core_ibex/tb/core_ibex_tb_top.sv"
+    ],
+    "linked_record_urls": [],
+    "affected_revision_status": "PR base/head identify the comparison context; vulnerable revision ranges were not established.",
+    "checklist_ids": [
+      "IBEX-022"
+    ],
+    "disposition": "source-reviewed-selected-mechanism",
+    "summary": "Requested ISA and register-file selections must be applied through the actual elaboration parameters.",
+    "analyst_category": "verification",
+    "regression_evidence": "Verification-code change reviewed; no independent regression of that verification change was run.",
+    "api_merge_commit_sha": "46d0c75d68230460d1ea001857909bd348c7b75e"
+  }
+]

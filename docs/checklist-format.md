@@ -17,4 +17,4 @@ Each future entry should contain:
 | Lineage and duplicates | Shared patches, inherited fixes, related questions |
 | Limitations | Missing evidence, exclusions, and inapplicable configurations |
 
-No validated checklist entries have been published yet. The repository catalog and investigation tickets are inputs to this process, not completed verification.
+The [Ibex pilot](../investigations/ibex/checklist.md) publishes source-reviewed candidate entries, distinguishing merged fixes from unmerged proposals. No independently validated checklist entries have been published yet. The repository catalog and investigation tickets are inputs to this process, not completed verification.

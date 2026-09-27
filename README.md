@@ -6,15 +6,18 @@ The goal is to turn issues, discussions, fixing commits, and regression tests in
 
 ## Current status
 
-This repository starts with a discovery catalog, not a completed checklist or a collection of confirmed vulnerabilities.
+This repository contains a discovery catalog and a bounded Ibex pilot. Checklist entries are evidence-backed candidates, not independently validated findings or a collection of confirmed vulnerabilities.
 
 - **67 GitHub repositories:** 44 core candidates, 7 lineage/integration-history repositories, and 16 related verification, reference-model, or system projects.
 - **3 additional GitLab candidates:** public project metadata checked; bulk history access still needs validation.
 - Snapshot date: **2026-09-28**. GitHub public HEAD references and issue/PR totals were retrieved. No claim of exhaustive worldwide coverage.
 - **70 repository investigation issues** are linked from the [research roadmap](https://github.com/adachi6k/riscv-review-atlas/issues/1) and [investigation index](docs/investigation-index.md).
-- Full history ingestion, automated model evaluation, and independent reproductions have not been performed by this project yet.
+- **Ibex pilot:** 30 historical PRs collected, 24 candidate properties extracted from 28 PRs, two broad changes deferred; 60 Jev evaluations measured. No independent RTL reproduction has been run.
+- Exhaustive deep history review remains incomplete. See the [pilot report and token budget](investigations/ibex/README.md).
 
 ## Explore
+
+- [Ibex pilot](investigations/ibex/README.md): checklist candidates, evidence, Jev comparison and bounded continuation plan.
 
 - [Repository catalog](docs/repository-catalog.md): categorized sources, counts, and history links.
 - [Investigation index](docs/investigation-index.md): one task per repository and the overall roadmap.
