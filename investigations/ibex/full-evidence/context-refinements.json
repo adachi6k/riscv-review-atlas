@@ -1,0 +1,22 @@
+[
+  {
+    "parent": "883b5a3c90438cc74785bc0f37a038ec20d14c5223790842269ab059fdf0a906",
+    "group": "G01962",
+    "children": [
+      "6e5e7740704f8e9a526ff1e720c1ebeb22411c29f2a37e0495d8bcf492864652",
+      "d9f33fd046ec1fb7dd570e84e8f7e095feb7c456311ca578b0171030bda5099c"
+    ],
+    "reason": "Jev max_tokens_exceeded; lossless subdivision, not evidence omission",
+    "at": "2026-09-28T15:46:02.641476+00:00"
+  },
+  {
+    "parent": "6a4a8433c64d5089cf89ce0be205071de024e3821498b53009e874b0d421387c",
+    "group": "G01962",
+    "children": [
+      "5d57487f5cb66dca2f85970dcf0a00d85506e52459d32bf0bfb02908cf12fc21",
+      "68234e72a28516bee6f401507849beebcad82cbcad3398ba938a586f48040b25"
+    ],
+    "reason": "Jev max_tokens_exceeded; lossless subdivision, not evidence omission",
+    "at": "2026-09-28T15:46:02.691836+00:00"
+  }
+]

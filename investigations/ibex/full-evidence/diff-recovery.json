@@ -1,0 +1,118 @@
+[
+  {
+    "number": 2318,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "b80761b1be506a1dfc9fdeba07a379152e71cd3dbc10eadad29c6e76576e117b",
+    "text_sha256": "b80761b1be506a1dfc9fdeba07a379152e71cd3dbc10eadad29c6e76576e117b",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:32:37.078787+00:00",
+    "base_sha": "9e8b32a13802db36515a8ca042a5e9889cdf9218",
+    "head_sha": "b9476f12fc280d5f699aa89474e00e2234f57124",
+    "merge_base_sha": "53888bcdf4ca3c07e5e715fb6386cb4cc643a61b",
+    "verified_file_count": 207
+  },
+  {
+    "number": 1215,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "5a7d3b465f5cb78e51f5db2982d053997fff46ea5b1cb2b6267cdf8f53781789",
+    "text_sha256": "5a7d3b465f5cb78e51f5db2982d053997fff46ea5b1cb2b6267cdf8f53781789",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:30:45.954973+00:00",
+    "base_sha": "aa7582b8d420888541c2e8688447c17918a71aeb",
+    "head_sha": "51b6f79cd76e8596d56b8519cace94bae80b0512",
+    "merge_base_sha": "aa7582b8d420888541c2e8688447c17918a71aeb",
+    "verified_file_count": 303
+  },
+  {
+    "number": 1201,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "fb9d982551d1f77e6e0042104a00134040b4683fc824c99b8d291c3f4a85b1bc",
+    "text_sha256": "fb9d982551d1f77e6e0042104a00134040b4683fc824c99b8d291c3f4a85b1bc",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:30:31.301348+00:00",
+    "base_sha": "77d801001554cce8fe69e742e96539eecbe74425",
+    "head_sha": "469936f66195c74f1fe91dd2f6a834c6da4fa6c1",
+    "merge_base_sha": "77d801001554cce8fe69e742e96539eecbe74425",
+    "verified_file_count": 452
+  },
+  {
+    "number": 1981,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "3db8e838efab91c763f7af43bb7bd2dd1b1526662a90f13af6265c8c7c6fb95e",
+    "text_sha256": "3db8e838efab91c763f7af43bb7bd2dd1b1526662a90f13af6265c8c7c6fb95e",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:32:00.204684+00:00",
+    "base_sha": "b4ae5bbb30f12638b73a32b3d14512037d593c97",
+    "head_sha": "ec9d6faf7ffa90dff5d51e5945672d138707166c",
+    "merge_base_sha": "b4ae5bbb30f12638b73a32b3d14512037d593c97",
+    "verified_file_count": 1316
+  },
+  {
+    "number": 1668,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "dde464206d3e5f7f721c67f39846c2a12c9cf1138c987bfa368b9f8fc6548543",
+    "text_sha256": "dde464206d3e5f7f721c67f39846c2a12c9cf1138c987bfa368b9f8fc6548543",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:31:11.652622+00:00",
+    "base_sha": "c5567e8f66b68b2603023f85cbe724f598134ca2",
+    "head_sha": "98542f69078b0a5719117e6a9a8fd5881119cd83",
+    "merge_base_sha": "09d2dd23061a12b2eaf68815e1dc1d5488fb805a",
+    "verified_file_count": 88
+  },
+  {
+    "number": 2339,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "0a484fa20f2f2fc17132351af372c1a70edf3a1171a093f89b0d21c1ea8b6136",
+    "text_sha256": "0a484fa20f2f2fc17132351af372c1a70edf3a1171a093f89b0d21c1ea8b6136",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:33:03.476612+00:00",
+    "base_sha": "2fadd1afcfca5151a6d3412dc07821121e497620",
+    "head_sha": "1adcd833114a22b95663f63f9af4c82f382e2cbd",
+    "merge_base_sha": "2fadd1afcfca5151a6d3412dc07821121e497620",
+    "verified_file_count": 465
+  },
+  {
+    "number": 609,
+    "method": "GitHub REST diff with reversible decoding",
+    "raw_sha256": "e01251f806d91dc68cde6cd78a7da25a9d5c10fbbe81560a96d9cfbd628acbcd",
+    "text_sha256": "7ccbe30ead6964b2fe606cb81c0b7504086540ef508b47873d319955f356d62c",
+    "decoding": "latin-1-byte-mapping",
+    "retrieved_at": "2026-09-28T15:30:04.795183+00:00"
+  },
+  {
+    "number": 2170,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "9458247ff98339f5a555aef5ce830cab46fa337c2a7f55ef71c6c391c9d77733",
+    "text_sha256": "9458247ff98339f5a555aef5ce830cab46fa337c2a7f55ef71c6c391c9d77733",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:32:23.412611+00:00",
+    "base_sha": "5977d4e3a0433e96d43a9225bae941a216ecac8e",
+    "head_sha": "fdcc7e87d821ffd40c2afabb01796ccdf7925eb4",
+    "merge_base_sha": "5977d4e3a0433e96d43a9225bae941a216ecac8e",
+    "verified_file_count": 842
+  },
+  {
+    "number": 1251,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "ea20a936890ef6e7c171651097f540e3dc76521a9c31187aa76722b4ae9ad428",
+    "text_sha256": "ea20a936890ef6e7c171651097f540e3dc76521a9c31187aa76722b4ae9ad428",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:30:58.881254+00:00",
+    "base_sha": "b295f07b2d574262f7510e733eab49ed550f22e7",
+    "head_sha": "a7758dd98d0d0d23b6aacc9407a2efba71424d6a",
+    "merge_base_sha": "fbe4e9da0884f7fd4a58a154f1b2369444b3595c",
+    "verified_file_count": 106
+  },
+  {
+    "number": 1962,
+    "method": "Local Git merge-base diff; changed-path set verified against paginated GitHub files",
+    "raw_sha256": "c6c69f5fe0efed7f37e37da1363a9aba8530aea3b0485304220342304ca91688",
+    "text_sha256": "c6c69f5fe0efed7f37e37da1363a9aba8530aea3b0485304220342304ca91688",
+    "decoding": "utf-8",
+    "retrieved_at": "2026-09-28T15:31:37.801044+00:00",
+    "base_sha": "ec32fb1a6460d8512f9192a84d5fc395502c13f5",
+    "head_sha": "262718b80fa0d3e70303580a607b105a252bdaf3",
+    "merge_base_sha": "9a65bc1f0d5cd5fb6b68f4119eab9648103f852d",
+    "verified_file_count": 483
+  }
+]

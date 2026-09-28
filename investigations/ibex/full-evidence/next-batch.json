@@ -1,0 +1,504 @@
+{
+  "status": "Proposed only; no additional source-level review performed",
+  "selection": "Exclude groups containing the previous 30 pilot PRs. Five deterministic low-priority audits, then category-diverse deep-read groups preferring new/mixed leads and smaller payloads. At most 30 groups and 100,000 sum of prepared-payload cl100k_base proxy tokens.",
+  "planning_proxy_tokens": 97635,
+  "warning": "A group can contain several source records. This proxy includes Jev questions and is not a Codex input or billing limit. Reassess before expanding detailed reading beyond the representatives.",
+  "records": [
+    {
+      "group": "G01710",
+      "representative": 1710,
+      "title": "[doc] Documentation Improvement - catch all for documentation issues",
+      "url": "https://github.com/lowRISC/ibex/issues/1710",
+      "all_members": [
+        1710
+      ],
+      "queue_purpose": "exclusion_audit",
+      "categories": [
+        "tooling"
+      ],
+      "novelty_labels": [
+        "not_applicable"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3285
+    },
+    {
+      "group": "G01644",
+      "representative": 1644,
+      "title": "Sim: Simple system: handle unused parameter",
+      "url": "https://github.com/lowRISC/ibex/pull/1644",
+      "all_members": [
+        1644
+      ],
+      "queue_purpose": "exclusion_audit",
+      "categories": [
+        "tooling"
+      ],
+      "novelty_labels": [
+        "not_applicable"
+      ],
+      "closest_existing": [
+        "IBEX-022"
+      ],
+      "planning_proxy_tokens": 3114
+    },
+    {
+      "group": "G01751",
+      "representative": 1751,
+      "title": "[ci] Move to spike-ibex-v0.4",
+      "url": "https://github.com/lowRISC/ibex/pull/1751",
+      "all_members": [
+        1751
+      ],
+      "queue_purpose": "exclusion_audit",
+      "categories": [
+        "tooling"
+      ],
+      "novelty_labels": [
+        "not_applicable"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3194
+    },
+    {
+      "group": "G02148",
+      "representative": 2148,
+      "title": "Floating-point support (software)",
+      "url": "https://github.com/lowRISC/ibex/issues/2148",
+      "all_members": [
+        2148
+      ],
+      "queue_purpose": "exclusion_audit",
+      "categories": [
+        "tooling"
+      ],
+      "novelty_labels": [
+        "not_applicable"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3305
+    },
+    {
+      "group": "G00129",
+      "representative": 129,
+      "title": "Trivial doc cleanups",
+      "url": "https://github.com/lowRISC/ibex/pull/129",
+      "all_members": [
+        129
+      ],
+      "queue_purpose": "exclusion_audit",
+      "categories": [
+        "tooling"
+      ],
+      "novelty_labels": [
+        "not_applicable"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3094
+    },
+    {
+      "group": "G02246",
+      "representative": 2246,
+      "title": "mtvec.BASE aligned to 256 bytes bug",
+      "url": "https://github.com/lowRISC/ibex/issues/2246",
+      "all_members": [
+        2246
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "rtl"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 2820
+    },
+    {
+      "group": "G01709",
+      "representative": 1709,
+      "title": "[dv] Consider explicit PMP fail/pass checking",
+      "url": "https://github.com/lowRISC/ibex/issues/1709",
+      "all_members": [
+        1709
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 2851
+    },
+    {
+      "group": "G02009",
+      "representative": 2009,
+      "title": "[rvfi] Only catch LSU RF write data if it's actually valid",
+      "url": "https://github.com/lowRISC/ibex/pull/2009",
+      "all_members": [
+        2009
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification_interface"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3016
+    },
+    {
+      "group": "G02142",
+      "representative": 2142,
+      "title": "[bus] Return error if decode fails",
+      "url": "https://github.com/lowRISC/ibex/pull/2142",
+      "all_members": [
+        2142
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "integration"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3791
+    },
+    {
+      "group": "G00399",
+      "representative": 399,
+      "title": "[RTL] Prevent CSR write on any illegal CSR reason",
+      "url": "https://github.com/lowRISC/ibex/pull/399",
+      "all_members": [
+        399
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "rtl"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [
+        "IBEX-002"
+      ],
+      "planning_proxy_tokens": 3041
+    },
+    {
+      "group": "G01948",
+      "representative": 1948,
+      "title": "[cosim] Sort out error/pmp failure behaviour on unaligned accesses",
+      "url": "https://github.com/lowRISC/ibex/issues/1948",
+      "all_members": [
+        1948
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 2983
+    },
+    {
+      "group": "G02028",
+      "representative": 2028,
+      "title": "[dv] Add asserts to check alerts for memory integrity failures",
+      "url": "https://github.com/lowRISC/ibex/pull/2028",
+      "all_members": [
+        2028
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification_interface"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3373
+    },
+    {
+      "group": "G02311",
+      "representative": 2311,
+      "title": "[rtl] IbexSimpleSystem missing instruction address check",
+      "url": "https://github.com/lowRISC/ibex/issues/2311",
+      "all_members": [
+        2311
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "integration"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 4203
+    },
+    {
+      "group": "G00125",
+      "representative": 125,
+      "title": "Check `rs1` & `rd` for non-CSR system instructions",
+      "url": "https://github.com/lowRISC/ibex/pull/125",
+      "all_members": [
+        125
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "rtl"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3056
+    },
+    {
+      "group": "G00529",
+      "representative": 529,
+      "title": "Update google_riscv-dv to google/riscv-dv@74b8cb6",
+      "url": "https://github.com/lowRISC/ibex/pull/529",
+      "all_members": [
+        529
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 4176
+    },
+    {
+      "group": "G02337",
+      "representative": 2337,
+      "title": "[rtl] Stop rvfi from reporting load information on stores",
+      "url": "https://github.com/lowRISC/ibex/pull/2337",
+      "all_members": [
+        2337
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification_interface"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3382
+    },
+    {
+      "group": "G02258",
+      "representative": 2258,
+      "title": "Ibex data memory interface through and bus adapters",
+      "url": "https://github.com/lowRISC/ibex/issues/2258",
+      "all_members": [
+        2258
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "integration"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 6484
+    },
+    {
+      "group": "G01942",
+      "representative": 1942,
+      "title": "[rtl] Flush pipe on MSECCFG CSR write",
+      "url": "https://github.com/lowRISC/ibex/pull/1942",
+      "all_members": [
+        1942
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "rtl"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3061
+    },
+    {
+      "group": "G00228",
+      "representative": 256,
+      "title": "[DV] Make mtvec writable, remove previous workaround",
+      "url": "https://github.com/lowRISC/ibex/pull/256",
+      "all_members": [
+        228,
+        256
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [
+        "IBEX-016"
+      ],
+      "planning_proxy_tokens": 4739
+    },
+    {
+      "group": "G02231",
+      "representative": 2231,
+      "title": "[rvfi] rvfi_pc_wdata doesn't consider mret/dret",
+      "url": "https://github.com/lowRISC/ibex/issues/2231",
+      "all_members": [
+        2231
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification_interface"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3543
+    },
+    {
+      "group": "G02453",
+      "representative": 2453,
+      "title": "Trying another example",
+      "url": "https://github.com/lowRISC/ibex/issues/2453",
+      "all_members": [
+        2453
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "integration"
+      ],
+      "novelty_labels": [
+        "not_applicable"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3494
+    },
+    {
+      "group": "G02022",
+      "representative": 2022,
+      "title": "fence instruction throwing unexpected illegal in RV32E congfiguration",
+      "url": "https://github.com/lowRISC/ibex/issues/2022",
+      "all_members": [
+        2022
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "rtl"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3084
+    },
+    {
+      "group": "G01878",
+      "representative": 1878,
+      "title": "[cosim] Fixup ebreak behaviour",
+      "url": "https://github.com/lowRISC/ibex/pull/1878",
+      "all_members": [
+        1878
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 4843
+    },
+    {
+      "group": "G00191",
+      "representative": 191,
+      "title": "RVFI: re-add accidentally removed `rvfi_intr` signal",
+      "url": "https://github.com/lowRISC/ibex/pull/191",
+      "all_members": [
+        191
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification_interface"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [
+        "IBEX-021"
+      ],
+      "planning_proxy_tokens": 3908
+    },
+    {
+      "group": "G02323",
+      "representative": 2323,
+      "title": "[SecureIbex] OpenOCD attach fails when SecureIbex=1 (works when SecureIbex=0)",
+      "url": "https://github.com/lowRISC/ibex/issues/2323",
+      "all_members": [
+        2323
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "integration"
+      ],
+      "novelty_labels": [
+        "unclear"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3603
+    },
+    {
+      "group": "G00990",
+      "representative": 990,
+      "title": "[rtl] Fix icache xprop issue",
+      "url": "https://github.com/lowRISC/ibex/pull/990",
+      "all_members": [
+        990
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "rtl"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 3152
+    },
+    {
+      "group": "G01755",
+      "representative": 1873,
+      "title": "[dv] Add test glitching PC of Ibex",
+      "url": "https://github.com/lowRISC/ibex/pull/1873",
+      "all_members": [
+        1755,
+        1873
+      ],
+      "queue_purpose": "deep_read",
+      "categories": [
+        "verification"
+      ],
+      "novelty_labels": [
+        "new_candidate"
+      ],
+      "closest_existing": [],
+      "planning_proxy_tokens": 5040
+    }
+  ]
+}

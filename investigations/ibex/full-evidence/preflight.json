@@ -1,0 +1,14 @@
+{
+  "records": 2481,
+  "groups": 1804,
+  "parts": 5019,
+  "multipart_groups": 198,
+  "largest_group_members": 33,
+  "pr_diffs": 1560,
+  "standalone_commits": 27,
+  "unique_evidence_bytes": 136071281,
+  "payload_proxy_tokens": 65999634,
+  "max_payload_proxy_tokens": 20407,
+  "groups_with_collection_gaps": 0,
+  "initial_planned_parts": 5017
+}

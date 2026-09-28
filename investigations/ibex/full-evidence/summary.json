@@ -1,0 +1,86 @@
+{
+  "repository": "lowRISC/ibex",
+  "source_records": 2481,
+  "retrieval_groups": 1804,
+  "planned_parts": 5019,
+  "evaluated_parts": 5019,
+  "missing_parts": [],
+  "input_tokens": 92709516,
+  "output_tokens": 2775773,
+  "list_price_usd_successful_input": 3.893799672,
+  "failed_attempts": 5,
+  "failed_http_statuses": {
+    "400": 5
+  },
+  "group_routes": {
+    "fetch_evidence": 349,
+    "deep_read": 807,
+    "low_priority": 648
+  },
+  "baseline_group_routes": {
+    "fetch_evidence": 1265,
+    "deep_read": 432,
+    "low_priority": 107
+  },
+  "group_transition_matrix": [
+    {
+      "from": "deep_read",
+      "to": "deep_read",
+      "groups": 366
+    },
+    {
+      "from": "deep_read",
+      "to": "fetch_evidence",
+      "groups": 43
+    },
+    {
+      "from": "deep_read",
+      "to": "low_priority",
+      "groups": 23
+    },
+    {
+      "from": "fetch_evidence",
+      "to": "deep_read",
+      "groups": 439
+    },
+    {
+      "from": "fetch_evidence",
+      "to": "fetch_evidence",
+      "groups": 301
+    },
+    {
+      "from": "fetch_evidence",
+      "to": "low_priority",
+      "groups": 525
+    },
+    {
+      "from": "low_priority",
+      "to": "deep_read",
+      "groups": 2
+    },
+    {
+      "from": "low_priority",
+      "to": "fetch_evidence",
+      "groups": 5
+    },
+    {
+      "from": "low_priority",
+      "to": "low_priority",
+      "groups": 100
+    }
+  ],
+  "records_in_routed_groups": {
+    "fetch_evidence": 427,
+    "deep_read": 1362,
+    "low_priority": 692
+  },
+  "groups_with_new_candidate": 187,
+  "notes": [
+    "Retrieval groups are connected issue/PR associations, not deduplicated bugs.",
+    "Baseline routes are regrouped over exactly the same members; questions and collection time also changed, so this is not a controlled accuracy or input-only effect study.",
+    "Record-weighted group routes are inherited group actions, not new individual-record judgments.",
+    "Partition routing is conservative. More parts increase opportunities to select deep_read. Scores are not aggregated into bug probabilities.",
+    "Successful API responses only; failed attempts without usage and Codex session usage are unavailable.",
+    "No new source-level mechanism confirmation or independent RTL reproduction in this triage pass."
+  ]
+}

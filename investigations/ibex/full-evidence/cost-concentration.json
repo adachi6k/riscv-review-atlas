@@ -1,0 +1,108 @@
+[
+  {
+    "group": "G02220",
+    "members": [
+      2220
+    ],
+    "parts": 1032,
+    "input_tokens": 34104789,
+    "share_of_input": 0.3678671885203241
+  },
+  {
+    "group": "G01981",
+    "members": [
+      1981
+    ],
+    "parts": 823,
+    "input_tokens": 17409774,
+    "share_of_input": 0.18778842508464827
+  },
+  {
+    "group": "G00754",
+    "members": [
+      754
+    ],
+    "parts": 90,
+    "input_tokens": 2355550,
+    "share_of_input": 0.02540785565097762
+  },
+  {
+    "group": "G02288",
+    "members": [
+      2288,
+      2289,
+      2324,
+      2326,
+      2398,
+      2444,
+      2445
+    ],
+    "parts": 93,
+    "input_tokens": 1803949,
+    "share_of_input": 0.019458078068275104
+  },
+  {
+    "group": "G00711",
+    "members": [
+      711,
+      840,
+      841,
+      848,
+      985,
+      1042,
+      1043,
+      1047,
+      1201,
+      2141
+    ],
+    "parts": 64,
+    "input_tokens": 1478315,
+    "share_of_input": 0.015945666246386186
+  },
+  {
+    "group": "G00533",
+    "members": [
+      533
+    ],
+    "parts": 57,
+    "input_tokens": 1140408,
+    "share_of_input": 0.012300873191916998
+  },
+  {
+    "group": "G00409",
+    "members": [
+      409
+    ],
+    "parts": 38,
+    "input_tokens": 1006310,
+    "share_of_input": 0.010854441306758628
+  },
+  {
+    "group": "G01962",
+    "members": [
+      1962
+    ],
+    "parts": 48,
+    "input_tokens": 913780,
+    "share_of_input": 0.00985637763441673
+  },
+  {
+    "group": "G00585",
+    "members": [
+      585,
+      647
+    ],
+    "parts": 48,
+    "input_tokens": 909977,
+    "share_of_input": 0.00981535703411503
+  },
+  {
+    "group": "G01215",
+    "members": [
+      1215
+    ],
+    "parts": 43,
+    "input_tokens": 793907,
+    "share_of_input": 0.008563381994141788
+  }
+]

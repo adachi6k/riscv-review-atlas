@@ -74,6 +74,10 @@ Jev can offload structured triage. It does not replace tracing the fix, forming 
 
 A subsequent [whole-index routing pass](reading-triage/README.md) asks Jev to choose between detailed reading, evidence fetching and low priority. It publishes every route, measured API usage and a proposed 25-case reading queue plus five exclusion audits. The inputs are title/body only; this does not complete source-level review or establish recall.
 
+## Follow-up: collect comments and diffs before triage
+
+The [assessment with comments and diffs](full-evidence/README.md) completes a further Jev pass with all PR text diffs, collected conversations/reviews and explicit linked standalone commits. It compares regrouped baseline actions and measured API usage; model leads remain unverified.
+
 ## Proposed continuation with explicit limits
 
 1. **Index locally.** Reuse the cached issue/PR and commit indexes. Deduplicate linked issues and fixing PRs before extracting properties; retain separate evidence records.

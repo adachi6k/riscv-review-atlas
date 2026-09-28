@@ -1,0 +1,10 @@
+{
+  "source_records": 2481,
+  "pull_requests": 1560,
+  "conversation_comments": 5043,
+  "inline_review_comments": 5783,
+  "review_summaries": 4841,
+  "standalone_commits": 27,
+  "diff_recoveries": 10,
+  "records_with_collection_gaps": 0
+}

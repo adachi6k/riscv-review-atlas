@@ -1,0 +1,327 @@
+[
+  {
+    "sha": "cb320352b9a7b7b7573b91dc1a71eb6f5de486a5",
+    "url": "https://github.com/lowRISC/ibex/commit/cb320352b9a7b7b7573b91dc1a71eb6f5de486a5",
+    "references": [
+      15
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "015f09881a0b6e066e91a2d9b7405c80ecbce60d"
+    ]
+  },
+  {
+    "sha": "9ef3c13f87a7112da3be35e7c45934d8a4c6a035",
+    "url": "https://github.com/lowRISC/ibex/commit/9ef3c13f87a7112da3be35e7c45934d8a4c6a035",
+    "references": [
+      108
+    ],
+    "diff_files": 2,
+    "metadata_file_count": 2,
+    "parents": [
+      "fd6426f52c94c1c307fa49571747b89a2206f7d0"
+    ]
+  },
+  {
+    "sha": "8613e880fcc3edd7fb9a6819edacbbb5c7cd1592",
+    "url": "https://github.com/lowRISC/ibex/commit/8613e880fcc3edd7fb9a6819edacbbb5c7cd1592",
+    "references": [
+      121
+    ],
+    "diff_files": 4,
+    "metadata_file_count": 4,
+    "parents": [
+      "c84ca25755a701c2246276d099065f7a211c3283"
+    ]
+  },
+  {
+    "sha": "ce042bd350b5956bb50a28673ca4b8639b30947a",
+    "url": "https://github.com/lowRISC/ibex/commit/ce042bd350b5956bb50a28673ca4b8639b30947a",
+    "references": [
+      123
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "ec89314a20b6e3924dc1617f2bb6fcfa525f7f46"
+    ]
+  },
+  {
+    "sha": "76f6a3d4c3b591d919b8991ddd806d83627624ae",
+    "url": "https://github.com/lowRISC/ibex/commit/76f6a3d4c3b591d919b8991ddd806d83627624ae",
+    "references": [
+      144
+    ],
+    "diff_files": 7,
+    "metadata_file_count": 7,
+    "parents": [
+      "6be1e8aff36df9969496d1f7de6ae396c8a41b1d"
+    ]
+  },
+  {
+    "sha": "c2fffe04406287bc7e1be3962999f0f6b44ebe87",
+    "url": "https://github.com/lowRISC/ibex/commit/c2fffe04406287bc7e1be3962999f0f6b44ebe87",
+    "references": [
+      195
+    ],
+    "diff_files": 5,
+    "metadata_file_count": 5,
+    "parents": [
+      "1a487c4626f8f0b0686e9626a0745abd6c04f70d"
+    ]
+  },
+  {
+    "sha": "e45e314686e33104e3be8406bbacfaefffe2c7d9",
+    "url": "https://github.com/lowRISC/ibex/commit/e45e314686e33104e3be8406bbacfaefffe2c7d9",
+    "references": [
+      317
+    ],
+    "diff_files": 8,
+    "metadata_file_count": 8,
+    "parents": [
+      "347b80f631fa49ad80bc2f87f46e76602b0c69ac"
+    ]
+  },
+  {
+    "sha": "7aa87156d317a42d4f748c6afe9db3bf72670233",
+    "url": "https://github.com/lowRISC/ibex/commit/7aa87156d317a42d4f748c6afe9db3bf72670233",
+    "references": [
+      393
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "6b8b3762ec2f0ef24974207783e42a1cf4b46c2b"
+    ]
+  },
+  {
+    "sha": "03e785890dedb243b069cb2dd01f4ed77d604fae",
+    "url": "https://github.com/lowRISC/ibex/commit/03e785890dedb243b069cb2dd01f4ed77d604fae",
+    "references": [
+      411
+    ],
+    "diff_files": 2,
+    "metadata_file_count": 2,
+    "parents": [
+      "dd08b63fe8f7f89c051fe2df29c1b113c8c62f91"
+    ]
+  },
+  {
+    "sha": "3bc105492fc63f7bcb10c675abb90d37df1dfda4",
+    "url": "https://github.com/lowRISC/ibex/commit/3bc105492fc63f7bcb10c675abb90d37df1dfda4",
+    "references": [
+      736
+    ],
+    "diff_files": 2,
+    "metadata_file_count": 2,
+    "parents": [
+      "c436ea1b1baf3c09f17fb88ec6943a9bfce01e1b"
+    ]
+  },
+  {
+    "sha": "230e879651a6d6c58d6bf22f7d2704fc71284e1c",
+    "url": "https://github.com/lowRISC/ibex/commit/230e879651a6d6c58d6bf22f7d2704fc71284e1c",
+    "references": [
+      745
+    ],
+    "diff_files": 2,
+    "metadata_file_count": 2,
+    "parents": [
+      "04ceda526746947ba1fb761a9633a50bc322587f"
+    ]
+  },
+  {
+    "sha": "833bdefe33d0301845d2499abd0d813eccf705f2",
+    "url": "https://github.com/lowRISC/ibex/commit/833bdefe33d0301845d2499abd0d813eccf705f2",
+    "references": [
+      912
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "ff5375db5cb9f70ed12cb3d97fdd8814d5e6725e"
+    ]
+  },
+  {
+    "sha": "50be975226e8d8a16f405e20e3dcd55c4b89a66e",
+    "url": "https://github.com/lowRISC/ibex/commit/50be975226e8d8a16f405e20e3dcd55c4b89a66e",
+    "references": [
+      1339
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "62b1a30c7d0d8fa60a0476d896fec7551cb4c96f"
+    ]
+  },
+  {
+    "sha": "a8e17579e2c9e0056df51d6887b1530150f01441",
+    "url": "https://github.com/lowRISC/ibex/commit/a8e17579e2c9e0056df51d6887b1530150f01441",
+    "references": [
+      1367
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "f3b163af3534c0f8ac83b68e8cf702f42bcf0c87"
+    ]
+  },
+  {
+    "sha": "f3b163af3534c0f8ac83b68e8cf702f42bcf0c87",
+    "url": "https://github.com/lowRISC/ibex/commit/f3b163af3534c0f8ac83b68e8cf702f42bcf0c87",
+    "references": [
+      1368
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "2ce6653c65dad0987ff56631694f4f814a14a2b6"
+    ]
+  },
+  {
+    "sha": "75c030b776c32072eba0bd45825daa25776ce13f",
+    "url": "https://github.com/lowRISC/ibex/commit/75c030b776c32072eba0bd45825daa25776ce13f",
+    "references": [
+      1452
+    ],
+    "diff_files": 2,
+    "metadata_file_count": 2,
+    "parents": [
+      "31c5b5eefdf5607ce67427b3316f9111f801c465"
+    ]
+  },
+  {
+    "sha": "8653927bbd788fc3e4c7dd6a68cd63af85fbe24d",
+    "url": "https://github.com/lowRISC/ibex/commit/8653927bbd788fc3e4c7dd6a68cd63af85fbe24d",
+    "references": [
+      1727
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "37745c5c729110d0cde2c8fb1c9c0e7365feea0f"
+    ]
+  },
+  {
+    "sha": "6e46b3ce1ec37ee6d8e9860a3fce9b691b14a271",
+    "url": "https://github.com/lowRISC/ibex/commit/6e46b3ce1ec37ee6d8e9860a3fce9b691b14a271",
+    "references": [
+      1745
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "d083593bb4e07078b1f889536a0ccb1cf5a47dc7"
+    ]
+  },
+  {
+    "sha": "3d76300686fb9332783295daf689e221c3dddd51",
+    "url": "https://github.com/lowRISC/ibex/commit/3d76300686fb9332783295daf689e221c3dddd51",
+    "references": [
+      1787
+    ],
+    "diff_files": 4,
+    "metadata_file_count": 4,
+    "parents": [
+      "9c4e4bdf6a9e1323d7af2c5cae7cf0673d5de77c"
+    ]
+  },
+  {
+    "sha": "48789dd095b67239e1262a7eeee6452e7f8a89cc",
+    "url": "https://github.com/lowRISC/ibex/commit/48789dd095b67239e1262a7eeee6452e7f8a89cc",
+    "references": [
+      1814
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "25d81afef664351f6fd14fd4ed7a19bba2224b55"
+    ]
+  },
+  {
+    "sha": "e317666d4805bed58b17fdf3e663cb4ecfcd21ed",
+    "url": "https://github.com/lowRISC/ibex/commit/e317666d4805bed58b17fdf3e663cb4ecfcd21ed",
+    "references": [
+      1861
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "d2b6a7dfadf66d662228f055999f48fa961211c9"
+    ]
+  },
+  {
+    "sha": "7015eb67647c3878dd57154fcba1d69684ca10d5",
+    "url": "https://github.com/lowRISC/ibex/commit/7015eb67647c3878dd57154fcba1d69684ca10d5",
+    "references": [
+      2030
+    ],
+    "diff_files": 6,
+    "metadata_file_count": 6,
+    "parents": [
+      "c1af7f6f12aebe4cbcb65946b097901bd5699659"
+    ]
+  },
+  {
+    "sha": "a39f0a8148304fb9e43b0aaa0583c6bfdcfa5952",
+    "url": "https://github.com/lowRISC/ibex/commit/a39f0a8148304fb9e43b0aaa0583c6bfdcfa5952",
+    "references": [
+      2108
+    ],
+    "diff_files": 19,
+    "metadata_file_count": 19,
+    "parents": [
+      "35efee094fd1a0d2e717592d8d194cf3eefe259d"
+    ]
+  },
+  {
+    "sha": "d1e312526fa03c35ef79390e3260569d438c69cb",
+    "url": "https://github.com/lowRISC/ibex/commit/d1e312526fa03c35ef79390e3260569d438c69cb",
+    "references": [
+      2116
+    ],
+    "diff_files": 14,
+    "metadata_file_count": 14,
+    "parents": [
+      "e8f906754c31ce5b485a0224aa9a1c3acc318b57"
+    ]
+  },
+  {
+    "sha": "89f4d867191cd03781afcbc50ea672906a1e3839",
+    "url": "https://github.com/lowRISC/ibex/commit/89f4d867191cd03781afcbc50ea672906a1e3839",
+    "references": [
+      2187
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "2c132113c017f0272aa1c642afddc90ff703b53f"
+    ]
+  },
+  {
+    "sha": "470b39a2a250250702042fd55fcd0856321da258",
+    "url": "https://github.com/lowRISC/ibex/commit/470b39a2a250250702042fd55fcd0856321da258",
+    "references": [
+      2187
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "65a7231a2945d1c08d170469cb83cf44a6b9eb6d"
+    ]
+  },
+  {
+    "sha": "9e4a950aa6aa0e20eb638aeeb78743d4a9ddaaeb",
+    "url": "https://github.com/lowRISC/ibex/commit/9e4a950aa6aa0e20eb638aeeb78743d4a9ddaaeb",
+    "references": [
+      2188,
+      2192
+    ],
+    "diff_files": 1,
+    "metadata_file_count": 1,
+    "parents": [
+      "668233699df9ec2a40413e69e0de0a5b10185980"
+    ]
+  }
+]
