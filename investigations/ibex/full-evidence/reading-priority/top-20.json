@@ -1,0 +1,463 @@
+[
+  {
+    "rank": 1,
+    "priority": "P1",
+    "group": "G02144",
+    "representative": 2166,
+    "title": "[rtl] Guard against false memory responses for secure configurations",
+    "url": "https://github.com/lowRISC/ibex/pull/2166",
+    "topic": "Unexpected memory responses",
+    "reading_question": "Check that response/error handling requires an outstanding transaction; distinguish secure hardening from the non-secure protocol assumption.",
+    "source_status": "merged PR",
+    "members": [
+      2144,
+      2166,
+      2213
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [
+      "IBEX-009"
+    ],
+    "payload_proxy_tokens": 12051,
+    "head_sha": "2fc670d861e5cfc93e0eec8783e6dea633691ee0",
+    "updated_at": "2024-06-04T12:00:36Z"
+  },
+  {
+    "rank": 2,
+    "priority": "P1",
+    "group": "G01462",
+    "representative": 1469,
+    "title": "Move not-taken, predicted taken branch address calculation to ID stage",
+    "url": "https://github.com/lowRISC/ibex/pull/1469",
+    "topic": "Branch prediction recovery",
+    "reading_question": "Check ownership of the recovery PC when consecutive predicted branches overlap with a skid-buffer stall.",
+    "source_status": "merged PR",
+    "members": [
+      1462,
+      1469
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 13184,
+    "head_sha": "41809fa045424b12ec5a66b957c90cab39740436",
+    "updated_at": "2021-11-18T13:05:19Z"
+  },
+  {
+    "rank": 3,
+    "priority": "P1",
+    "group": "G02374",
+    "representative": 2374,
+    "title": "[rtl] Flush Zcmp state machine on exception or interrupt and make the committing instructions atomic",
+    "url": "https://github.com/lowRISC/ibex/pull/2374",
+    "topic": "Expanded instruction interruption",
+    "reading_question": "Check abort-state reset, atomic commit and debug boundaries; read #2461 alongside the fix to separate manual checks from regression coverage.",
+    "source_status": "merged PR",
+    "members": [
+      2374,
+      2461,
+      2497,
+      2498
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [
+      "IBEX-017"
+    ],
+    "payload_proxy_tokens": 27442,
+    "head_sha": "ea4c30522f4ed54361537202397dcda4af6b61f6",
+    "updated_at": "2026-07-16T16:53:24Z"
+  },
+  {
+    "rank": 4,
+    "priority": "P1",
+    "group": "G00162",
+    "representative": 169,
+    "title": "ID/EX stage: do not write to register file upon load errors",
+    "url": "https://github.com/lowRISC/ibex/pull/169",
+    "topic": "Faulting-load side effects",
+    "reading_question": "Check that a load error suppresses register writeback, including error/data arriving together.",
+    "source_status": "merged PR",
+    "members": [
+      162,
+      169
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 4830,
+    "head_sha": "b4a38a847218f42e4534f24e19ab18b2b0c0115d",
+    "updated_at": "2019-07-18T11:32:40Z"
+  },
+  {
+    "rank": 5,
+    "priority": "P1",
+    "group": "G00170",
+    "representative": 172,
+    "title": "Decoder: avoid setting PC upon illegal JALR instructions",
+    "url": "https://github.com/lowRISC/ibex/pull/172",
+    "topic": "Illegal jump side effects",
+    "reading_question": "Check that illegal JALR does not redirect the PC or corrupt the exception PC.",
+    "source_status": "merged PR",
+    "members": [
+      170,
+      172
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 4003,
+    "head_sha": "24968c32d7b92eb0d8cba131ac579d83f3815497",
+    "updated_at": "2019-07-19T08:15:48Z"
+  },
+  {
+    "rank": 6,
+    "priority": "P1",
+    "group": "G00836",
+    "representative": 836,
+    "title": "[rtl] Fix jump signal stuck high during stall",
+    "url": "https://github.com/lowRISC/ibex/pull/836",
+    "topic": "Stalled jump control",
+    "reading_question": "Check whether a preceding memory stall stretches jump control and repeats fetch activity.",
+    "source_status": "merged PR",
+    "members": [
+      836
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 3483,
+    "head_sha": "a855c653364c78fc58d7faa5faeb2a790108c84d",
+    "updated_at": "2020-05-04T08:19:11Z"
+  },
+  {
+    "rank": 7,
+    "priority": "P1",
+    "group": "G02178",
+    "representative": 2178,
+    "title": "Store instructions do not always raise RV32E exceptions",
+    "url": "https://github.com/lowRISC/ibex/issues/2178",
+    "topic": "RV32E source-register legality",
+    "reading_question": "Check the store-data register independently of the ALU immediate selection; confirm the reported behavior against the pinned implementation.",
+    "source_status": "issue report",
+    "members": [
+      2178
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 3249,
+    "head_sha": null,
+    "updated_at": "2025-05-15T13:11:56Z"
+  },
+  {
+    "rank": 8,
+    "priority": "P1",
+    "group": "G02514",
+    "representative": 2514,
+    "title": "[dv] Keep checking after a mid-test reset",
+    "url": "https://github.com/lowRISC/ibex/pull/2514",
+    "topic": "Reset can disable the checker",
+    "reading_question": "Inspect the proposed reset/checker restart tests and require nonzero checked progress after reset; this PR is unmerged in the snapshot.",
+    "source_status": "unmerged PR",
+    "members": [
+      2514
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 7307,
+    "head_sha": "464b44ca8ac24a14502dc494be696e983b8729e1",
+    "updated_at": "2026-09-25T05:43:15Z"
+  },
+  {
+    "rank": 9,
+    "priority": "P1",
+    "group": "G00858",
+    "representative": 858,
+    "title": "Fix two bugs in the icache <-> core protocol checker",
+    "url": "https://github.com/lowRISC/ibex/pull/858",
+    "topic": "Protocol-checker correctness",
+    "reading_question": "Inspect both checker fixes and derive a negative test for the checker itself; do not assume checker assertions are a trustworthy oracle.",
+    "source_status": "merged PR",
+    "members": [
+      858
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 5850,
+    "head_sha": "d197b32e29b594661b1b443e14ffd1bf963aae1f",
+    "updated_at": "2020-05-12T16:49:48Z"
+  },
+  {
+    "rank": 10,
+    "priority": "P1",
+    "group": "G02142",
+    "representative": 2142,
+    "title": "[bus] Return error if decode fails",
+    "url": "https://github.com/lowRISC/ibex/pull/2142",
+    "topic": "Unmapped-address handling",
+    "reading_question": "Check that decode misses produce errors rather than aliasing a real device; applicability is the example system/interconnect.",
+    "source_status": "merged PR",
+    "members": [
+      2142
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 3791,
+    "head_sha": "de2ace9665c6a5f0c973135ee7cd6691b75eb1a2",
+    "updated_at": "2024-02-15T18:26:38Z"
+  },
+  {
+    "rank": 11,
+    "priority": "P2",
+    "group": "G00709",
+    "representative": 713,
+    "title": "[rtl] Fix mtval for unaligned instr errors",
+    "url": "https://github.com/lowRISC/ibex/pull/713",
+    "topic": "Split instruction fault address",
+    "reading_question": "Check that mtval identifies the faulting half of a split instruction, rather than always the instruction start.",
+    "source_status": "merged PR",
+    "members": [
+      709,
+      713
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 12114,
+    "head_sha": "f17d86bb3c2f253cc2247b2d02ef00035612ca2e",
+    "updated_at": "2020-03-18T12:53:41Z"
+  },
+  {
+    "rank": 12,
+    "priority": "P2",
+    "group": "G01421",
+    "representative": 1421,
+    "title": "[rtl] Fix mtval for unaligned accesses",
+    "url": "https://github.com/lowRISC/ibex/pull/1421",
+    "topic": "Split data fault address",
+    "reading_question": "Check the fault address for the second aligned transfer of a misaligned load/store; compare with the instruction-fetch case without conflating them.",
+    "source_status": "merged PR",
+    "members": [
+      1421
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 7767,
+    "head_sha": "aa06be2005d00e9ee4dd20c8f706b694c7ebc597",
+    "updated_at": "2021-08-13T14:45:40Z"
+  },
+  {
+    "rank": 13,
+    "priority": "P2",
+    "group": "G01747",
+    "representative": 1747,
+    "title": "[rtl] Fix scrambling key request on icache inval",
+    "url": "https://github.com/lowRISC/ibex/pull/1747",
+    "topic": "Cache invalidation re-entry",
+    "reading_question": "Check that another invalidation request during an active invalidation does not request a new scrambling key.",
+    "source_status": "merged PR",
+    "members": [
+      1747,
+      1754
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 13054,
+    "head_sha": "c14da5949f1bd5be4afa2c1b8d4484280a1eb20d",
+    "updated_at": "2022-08-11T08:21:54Z"
+  },
+  {
+    "rank": 14,
+    "priority": "P2",
+    "group": "G01018",
+    "representative": 1036,
+    "title": "[rtl] Make sure decoder also checks bits 26 and 25 for slli, srli, srai",
+    "url": "https://github.com/lowRISC/ibex/pull/1036",
+    "topic": "Reserved shift encodings",
+    "reading_question": "Check all required encoding bits, including bits 26 and 25, when deciding shift-immediate legality.",
+    "source_status": "merged PR",
+    "members": [
+      1018,
+      1036
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 4663,
+    "head_sha": "ecd1aafc7942cb6438a860e315689250458958c4",
+    "updated_at": "2020-08-21T14:04:46Z"
+  },
+  {
+    "rank": 15,
+    "priority": "P2",
+    "group": "G00567",
+    "representative": 575,
+    "title": "[rtl] Decouple `mip` and `mie` CSRs",
+    "url": "https://github.com/lowRISC/ibex/pull/575",
+    "topic": "Pending versus enabled interrupts",
+    "reading_question": "Check that reading interrupt-pending state does not depend on interrupt-enable bits.",
+    "source_status": "merged PR",
+    "members": [
+      567,
+      575
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 10737,
+    "head_sha": "39894e99d2be86bca07b91a0e218bd8e3ddee2f7",
+    "updated_at": "2020-08-21T14:04:47Z"
+  },
+  {
+    "rank": 16,
+    "priority": "P2",
+    "group": "G01948",
+    "representative": 1948,
+    "title": "[cosim] Sort out error/pmp failure behaviour on unaligned accesses",
+    "url": "https://github.com/lowRISC/ibex/issues/1948",
+    "topic": "Reference-model mismatch",
+    "reading_question": "Separate permitted split-access behavior from a real RTL defect; inspect pending-access bookkeeping on PMP failure.",
+    "source_status": "issue report",
+    "members": [
+      1948
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 2983,
+    "head_sha": null,
+    "updated_at": "2023-06-16T17:41:48Z"
+  },
+  {
+    "rank": 17,
+    "priority": "P2",
+    "group": "G02169",
+    "representative": 2169,
+    "title": "Incorrect stalling behaviour for configurations with writeback stage but without branch target ALU results in an incorrect branch target",
+    "url": "https://github.com/lowRISC/ibex/issues/2169",
+    "topic": "Configuration-dependent branch stall",
+    "reading_question": "Investigate the reported load/branch sequence with writeback enabled and no branch-target ALU; external reproducer is not included in the corpus.",
+    "source_status": "issue report",
+    "members": [
+      2169
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 3668,
+    "head_sha": null,
+    "updated_at": "2024-06-04T11:58:50Z"
+  },
+  {
+    "rank": 18,
+    "priority": "P2",
+    "group": "G01835",
+    "representative": 1835,
+    "title": "[rtl/dv] Bring back data integrity check on write responses",
+    "url": "https://github.com/lowRISC/ibex/pull/1835",
+    "topic": "Write-response integrity",
+    "reading_question": "Check the intended integrity-alert policy for write responses even though their data payload is unused; scope the security assumptions.",
+    "source_status": "merged PR",
+    "members": [
+      1835
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 9712,
+    "head_sha": "4369fa0d86b3a23d52cf1906b65a8458c62c94e8",
+    "updated_at": "2022-10-14T17:23:01Z"
+  },
+  {
+    "rank": 19,
+    "priority": "P2",
+    "group": "G02490",
+    "representative": 2490,
+    "title": "[pmp]: Custom `PMPRstCfg` values bypass PMP WARL normalization",
+    "url": "https://github.com/lowRISC/ibex/issues/2490",
+    "topic": "Reset-time PMP legality",
+    "reading_question": "Compare configurable PMP reset values with CSR-write WARL handling; validate the report and its parameter/specification assumptions before adopting a property.",
+    "source_status": "issue report",
+    "members": [
+      2490
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [
+      "IBEX-011"
+    ],
+    "payload_proxy_tokens": 3276,
+    "head_sha": null,
+    "updated_at": "2026-09-03T11:12:25Z"
+  },
+  {
+    "rank": 20,
+    "priority": "P2",
+    "group": "G01080",
+    "representative": 1135,
+    "title": "[rtl] Various security feature bugfixes",
+    "url": "https://github.com/lowRISC/ibex/pull/1135",
+    "topic": "Security feature combinations",
+    "reading_question": "Separate parameter legality, fetch-error PC checks and dummy-instruction checks into distinct candidate properties.",
+    "source_status": "merged PR",
+    "members": [
+      1080,
+      1094,
+      1095,
+      1135
+    ],
+    "jev_route": "deep_read",
+    "jev_novelty_labels": [
+      "new_candidate"
+    ],
+    "existing_property_hints": [],
+    "payload_proxy_tokens": 6462,
+    "head_sha": "a8c642db1d763ee027ab7062b74ab0c915d01dea",
+    "updated_at": "2020-10-14T14:46:16Z"
+  }
+]

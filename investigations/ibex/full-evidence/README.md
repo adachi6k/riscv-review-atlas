@@ -1,5 +1,7 @@
 # Ibex: evaluate the evidence before deciding what to read
 
+**Recommended next step:** [Prioritized top 20 reading cases](reading-priority/README.md), with classifications for every retrieval group. This supersedes the budget-first queue as the reading order.
+
 **Result:** every record in the 2,481-record source index was included in a completed Jev assessment with collected conversations, reviews and available linked code diffs. The unit is now a connected retrieval group, not an individual title/body record. This is triage, not an independently verified bug list.
 
 ## What changed

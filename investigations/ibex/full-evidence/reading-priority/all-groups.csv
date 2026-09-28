@@ -1,0 +1,1805 @@
+group,priority,members,jev_route,payload_proxy_tokens,reason
+G00001,P4,1 761 778 786 1199,fetch_evidence,203860,Resolve evidence or partition-context gaps before routine deep reading
+G00002,covered,2 61 62 70 77 97 103 104 105 108 114 120 121 126 132 134 136 147 150 151 154 155 265 266 276 282 288 293 296 320 332 340 348,deep_read,337924,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00003,P3,3 143 149,deep_read,38823,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00004,P4,4,fetch_evidence,2810,Resolve evidence or partition-context gaps before routine deep reading
+G00005,P4,5,fetch_evidence,2724,Resolve evidence or partition-context gaps before routine deep reading
+G00006,P3,6 244,deep_read,7654,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00007,P3,7 9 10 11 12 1174 1180 2281,deep_read,85907,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00008,P3,8 252,deep_read,110393,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00013,P4,13,fetch_evidence,3568,Resolve evidence or partition-context gaps before routine deep reading
+G00014,P5,14,low_priority,2906,Jev low-priority route; retain for exclusion audits
+G00015,P3,15 16 27 53,deep_read,206965,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00017,P3,17,deep_read,3184,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00018,P3,18,deep_read,3744,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00019,P3,19,deep_read,2746,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00020,P4,20,fetch_evidence,2710,Resolve evidence or partition-context gaps before routine deep reading
+G00021,P5,21,low_priority,2785,Jev low-priority route; retain for exclusion audits
+G00022,P4,22,fetch_evidence,6615,Resolve evidence or partition-context gaps before routine deep reading
+G00023,P5,23,low_priority,3144,Jev low-priority route; retain for exclusion audits
+G00024,P3,24 36 37 41 43 44 45 51 54 59 203,deep_read,74592,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00025,P3,25 175 176,deep_read,4930,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00026,P4,26,fetch_evidence,33218,Resolve evidence or partition-context gaps before routine deep reading
+G00028,P5,28 30 969,low_priority,13258,Jev low-priority route; retain for exclusion audits
+G00029,P3,29 197 217 220 261 262 279 280 287 289 292 322 360 373,deep_read,170315,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00031,P4,31 32 33 34 35 127 152,fetch_evidence,58595,Resolve evidence or partition-context gaps before routine deep reading
+G00038,P4,38,fetch_evidence,6506,Resolve evidence or partition-context gaps before routine deep reading
+G00039,P3,39,deep_read,8605,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00040,P4,40,fetch_evidence,3256,Resolve evidence or partition-context gaps before routine deep reading
+G00042,P5,42,low_priority,4921,Jev low-priority route; retain for exclusion audits
+G00046,P3,46 48,deep_read,7642,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00047,P3,47,deep_read,8234,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00049,P4,49,fetch_evidence,14884,Resolve evidence or partition-context gaps before routine deep reading
+G00050,P3,50,deep_read,5325,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00052,P4,52,fetch_evidence,5763,Resolve evidence or partition-context gaps before routine deep reading
+G00055,P4,55,fetch_evidence,131113,Resolve evidence or partition-context gaps before routine deep reading
+G00056,P4,56,fetch_evidence,23931,Resolve evidence or partition-context gaps before routine deep reading
+G00057,P5,57,low_priority,5452,Jev low-priority route; retain for exclusion audits
+G00058,P5,58,low_priority,2969,Jev low-priority route; retain for exclusion audits
+G00060,P4,60 342 501 502 543,fetch_evidence,36638,Resolve evidence or partition-context gaps before routine deep reading
+G00063,P5,63,low_priority,2609,Jev low-priority route; retain for exclusion audits
+G00064,P5,64,low_priority,3326,Jev low-priority route; retain for exclusion audits
+G00065,P5,65,low_priority,3035,Jev low-priority route; retain for exclusion audits
+G00066,P5,66,low_priority,4985,Jev low-priority route; retain for exclusion audits
+G00067,P4,67,fetch_evidence,34542,Resolve evidence or partition-context gaps before routine deep reading
+G00068,P4,68,fetch_evidence,4255,Resolve evidence or partition-context gaps before routine deep reading
+G00069,P3,69,deep_read,6537,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00071,P5,71,low_priority,4840,Jev low-priority route; retain for exclusion audits
+G00072,P4,72 78 96 144 241,fetch_evidence,82767,Resolve evidence or partition-context gaps before routine deep reading
+G00073,P5,73,low_priority,2993,Jev low-priority route; retain for exclusion audits
+G00074,P5,74,low_priority,4702,Jev low-priority route; retain for exclusion audits
+G00075,P3,75 82 93 95,deep_read,31008,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00076,P5,76,low_priority,3099,Jev low-priority route; retain for exclusion audits
+G00079,P5,79,low_priority,2937,Jev low-priority route; retain for exclusion audits
+G00080,P3,80 83 84,deep_read,16951,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00081,P5,81,low_priority,5679,Jev low-priority route; retain for exclusion audits
+G00085,P3,85,deep_read,7533,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00086,P4,86,fetch_evidence,2728,Resolve evidence or partition-context gaps before routine deep reading
+G00087,covered,87 88 117 168 254 306 307 336 343 365 370 398 475 544 603 604,deep_read,89072,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00089,P3,89 257 526 683 708 746 777 780 781 783 799 815 821 826 863 866 870 892 965 966 997 1011 1076,deep_read,587077,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00090,P4,90,fetch_evidence,3053,Resolve evidence or partition-context gaps before routine deep reading
+G00091,P3,91 1314 1324,deep_read,10441,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00092,P3,92,deep_read,8949,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00094,P3,94,deep_read,3425,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00098,P5,98,low_priority,2820,Jev low-priority route; retain for exclusion audits
+G00099,P4,99 209 213 214 259 457 476,fetch_evidence,42703,Resolve evidence or partition-context gaps before routine deep reading
+G00100,P3,100 427 428 458 459 1178 1179 1233 1251,deep_read,177117,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00101,P3,101,deep_read,4655,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00102,P5,102,low_priority,6296,Jev low-priority route; retain for exclusion audits
+G00106,P4,106,fetch_evidence,452330,Resolve evidence or partition-context gaps before routine deep reading
+G00107,P4,107,fetch_evidence,457838,Resolve evidence or partition-context gaps before routine deep reading
+G00109,P3,109 224,deep_read,13615,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00110,P3,110,deep_read,3027,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00111,P5,111,low_priority,3000,Jev low-priority route; retain for exclusion audits
+G00112,P3,112 113,deep_read,3593,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00115,P5,115,low_priority,2935,Jev low-priority route; retain for exclusion audits
+G00116,P3,116,deep_read,12958,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00118,P3,118 193 226,deep_read,23236,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00119,P3,119,deep_read,3500,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00122,P3,122,deep_read,34338,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00123,P5,123 128,low_priority,6121,Jev low-priority route; retain for exclusion audits
+G00124,P4,124 200,fetch_evidence,8735,Resolve evidence or partition-context gaps before routine deep reading
+G00125,P3,125,deep_read,3056,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00129,P5,129,low_priority,3094,Jev low-priority route; retain for exclusion audits
+G00130,P3,130 131,deep_read,4179,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00133,P5,133 135,low_priority,3473,Jev low-priority route; retain for exclusion audits
+G00137,P3,137 145,deep_read,3266,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00138,P5,138,low_priority,3074,Jev low-priority route; retain for exclusion audits
+G00139,P5,139,low_priority,6916,Jev low-priority route; retain for exclusion audits
+G00140,P5,140 141 207 208,low_priority,10995,Jev low-priority route; retain for exclusion audits
+G00142,P4,142,fetch_evidence,4451,Resolve evidence or partition-context gaps before routine deep reading
+G00146,P3,146,deep_read,7420,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00148,P4,148,fetch_evidence,3657,Resolve evidence or partition-context gaps before routine deep reading
+G00153,covered,153 157,deep_read,5876,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00156,P5,156,low_priority,7267,Jev low-priority route; retain for exclusion audits
+G00158,P3,158,deep_read,3407,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00159,P4,159,fetch_evidence,3613,Resolve evidence or partition-context gaps before routine deep reading
+G00160,P3,160,deep_read,4800,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00161,P5,161,low_priority,3278,Jev low-priority route; retain for exclusion audits
+G00162,P1,162 169,deep_read,4830,Selected editorial reading shortlist
+G00163,P3,163 166,deep_read,4738,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00164,P3,164 167,deep_read,4301,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00165,P3,165,deep_read,3100,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00170,P1,170 172,deep_read,4003,Selected editorial reading shortlist
+G00171,P5,171,low_priority,2979,Jev low-priority route; retain for exclusion audits
+G00173,P5,173 174,low_priority,16862,Jev low-priority route; retain for exclusion audits
+G00177,P3,177,deep_read,10388,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00178,P3,178,deep_read,5180,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00179,P4,179,fetch_evidence,3031,Resolve evidence or partition-context gaps before routine deep reading
+G00180,P3,180,deep_read,4429,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00181,P5,181 192,low_priority,5001,Jev low-priority route; retain for exclusion audits
+G00182,P3,182,deep_read,3145,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00183,P3,183,deep_read,2943,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00184,P4,184,fetch_evidence,3938,Resolve evidence or partition-context gaps before routine deep reading
+G00185,P3,185,deep_read,5344,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00186,P5,186,low_priority,3237,Jev low-priority route; retain for exclusion audits
+G00187,P3,187 188 189,deep_read,10921,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00190,P4,190,fetch_evidence,3749,Resolve evidence or partition-context gaps before routine deep reading
+G00191,P3,191,deep_read,3908,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00194,P5,194,low_priority,3866,Jev low-priority route; retain for exclusion audits
+G00195,P3,195 196,deep_read,8571,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00198,P3,198,deep_read,3165,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00199,P3,199,deep_read,4276,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00201,P4,201,fetch_evidence,2610,Resolve evidence or partition-context gaps before routine deep reading
+G00202,P4,202,fetch_evidence,2734,Resolve evidence or partition-context gaps before routine deep reading
+G00204,P4,204,fetch_evidence,2601,Resolve evidence or partition-context gaps before routine deep reading
+G00205,P3,205 243,deep_read,8443,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00206,P4,206,fetch_evidence,10820,Resolve evidence or partition-context gaps before routine deep reading
+G00210,P5,210,low_priority,3029,Jev low-priority route; retain for exclusion audits
+G00211,P3,211 442,deep_read,4901,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00212,P3,212 1250,deep_read,4649,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00215,P3,215,deep_read,3571,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00216,P3,216 222,deep_read,4579,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00218,P5,218,low_priority,2507,Jev low-priority route; retain for exclusion audits
+G00219,P5,219,low_priority,2512,Jev low-priority route; retain for exclusion audits
+G00221,P5,221,low_priority,4047,Jev low-priority route; retain for exclusion audits
+G00223,P5,223,low_priority,3005,Jev low-priority route; retain for exclusion audits
+G00225,P3,225,deep_read,3046,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00227,P5,227,low_priority,4236,Jev low-priority route; retain for exclusion audits
+G00228,P3,228 256,deep_read,4739,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00229,P3,229 248,deep_read,5757,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00230,P5,230,low_priority,3061,Jev low-priority route; retain for exclusion audits
+G00231,P3,231,deep_read,12616,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00232,P3,232,deep_read,9145,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00233,P3,233,deep_read,16023,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00234,P4,234,fetch_evidence,25488,Resolve evidence or partition-context gaps before routine deep reading
+G00235,P4,235,fetch_evidence,4176,Resolve evidence or partition-context gaps before routine deep reading
+G00236,P5,236,low_priority,13939,Jev low-priority route; retain for exclusion audits
+G00237,P3,237,deep_read,4485,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00238,P4,238,fetch_evidence,2772,Resolve evidence or partition-context gaps before routine deep reading
+G00239,P3,239,deep_read,2971,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00240,P3,240,deep_read,3329,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00242,P3,242,deep_read,6749,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00245,P5,245,low_priority,3260,Jev low-priority route; retain for exclusion audits
+G00246,P3,246,deep_read,17446,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00247,P5,247,low_priority,4683,Jev low-priority route; retain for exclusion audits
+G00249,P3,249,deep_read,3005,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00250,P5,250,low_priority,2938,Jev low-priority route; retain for exclusion audits
+G00251,P3,251,deep_read,9242,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00253,P3,253,deep_read,6900,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00255,P5,255,low_priority,4067,Jev low-priority route; retain for exclusion audits
+G00258,P3,258 284 301 334,deep_read,10777,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00260,P5,260,low_priority,2949,Jev low-priority route; retain for exclusion audits
+G00263,P4,263,fetch_evidence,26474,Resolve evidence or partition-context gaps before routine deep reading
+G00264,P3,264,deep_read,14918,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00267,P5,267,low_priority,3586,Jev low-priority route; retain for exclusion audits
+G00268,P3,268 269,deep_read,24672,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00270,covered,270 272,deep_read,4730,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00271,P3,271,deep_read,4286,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00273,P5,273,low_priority,3932,Jev low-priority route; retain for exclusion audits
+G00274,P3,274 472,deep_read,5682,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00275,covered,275 277,deep_read,5908,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00278,P4,278,fetch_evidence,2583,Resolve evidence or partition-context gaps before routine deep reading
+G00281,P3,281,deep_read,17833,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00283,P4,283,fetch_evidence,2837,Resolve evidence or partition-context gaps before routine deep reading
+G00285,P3,285 286,deep_read,3693,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00290,covered,290 294,deep_read,6175,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00291,P5,291,low_priority,2964,Jev low-priority route; retain for exclusion audits
+G00295,P3,295,deep_read,4309,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00297,P3,297 316,deep_read,3613,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00298,P4,298 381 422 474,fetch_evidence,74960,Resolve evidence or partition-context gaps before routine deep reading
+G00299,P5,299,low_priority,12368,Jev low-priority route; retain for exclusion audits
+G00300,P3,300 302,deep_read,3721,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00303,P5,303 304 538,low_priority,8375,Jev low-priority route; retain for exclusion audits
+G00305,P3,305 335,deep_read,12187,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00309,P5,309,low_priority,3036,Jev low-priority route; retain for exclusion audits
+G00310,P3,310,deep_read,3183,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00311,P4,311 438,fetch_evidence,26390,Resolve evidence or partition-context gaps before routine deep reading
+G00312,P4,312,fetch_evidence,478930,Resolve evidence or partition-context gaps before routine deep reading
+G00313,P4,313,fetch_evidence,4104,Resolve evidence or partition-context gaps before routine deep reading
+G00314,P4,314,fetch_evidence,3098,Resolve evidence or partition-context gaps before routine deep reading
+G00315,P3,315,deep_read,5452,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00317,P3,317,deep_read,20209,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00318,P5,318,low_priority,8835,Jev low-priority route; retain for exclusion audits
+G00319,P5,319,low_priority,3254,Jev low-priority route; retain for exclusion audits
+G00321,P3,321,deep_read,17299,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00323,P5,323,low_priority,3305,Jev low-priority route; retain for exclusion audits
+G00324,P3,324,deep_read,26849,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00325,P3,325,deep_read,3022,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00326,P5,326,low_priority,3796,Jev low-priority route; retain for exclusion audits
+G00327,P5,327,low_priority,3222,Jev low-priority route; retain for exclusion audits
+G00328,P3,328,deep_read,7374,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00329,P5,329,low_priority,3779,Jev low-priority route; retain for exclusion audits
+G00330,P3,330,deep_read,11475,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00331,P4,331,fetch_evidence,98887,Resolve evidence or partition-context gaps before routine deep reading
+G00333,P3,333,deep_read,6996,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00337,P4,337,fetch_evidence,3010,Resolve evidence or partition-context gaps before routine deep reading
+G00338,P3,338,deep_read,3264,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00339,P3,339,deep_read,3069,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00341,P5,341 350,low_priority,7386,Jev low-priority route; retain for exclusion audits
+G00344,P3,344,deep_read,6499,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00345,P4,345,fetch_evidence,4123,Resolve evidence or partition-context gaps before routine deep reading
+G00346,P3,346,deep_read,3155,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00347,P4,347,fetch_evidence,38783,Resolve evidence or partition-context gaps before routine deep reading
+G00349,P3,349,deep_read,9509,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00351,P3,351 579 686 687 693 999 1000 1014 2071 2082,deep_read,215273,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00352,P5,352,low_priority,4746,Jev low-priority route; retain for exclusion audits
+G00353,P3,353,deep_read,5616,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00354,P3,354,deep_read,5427,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00355,P3,355,deep_read,4790,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00356,P3,356,deep_read,3103,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00357,P3,357,deep_read,10735,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00358,P5,358,low_priority,3017,Jev low-priority route; retain for exclusion audits
+G00359,P5,359,low_priority,2999,Jev low-priority route; retain for exclusion audits
+G00361,P5,361,low_priority,3225,Jev low-priority route; retain for exclusion audits
+G00362,P3,362,deep_read,5114,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00363,P3,363,deep_read,10067,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00364,P5,364,low_priority,3119,Jev low-priority route; retain for exclusion audits
+G00366,P3,366,deep_read,7409,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00367,P3,367,deep_read,3040,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00368,P5,368,low_priority,3310,Jev low-priority route; retain for exclusion audits
+G00369,P3,369,deep_read,3020,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00371,P3,371,deep_read,5335,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00372,P3,372 375,deep_read,3727,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00374,P3,374 377,deep_read,10042,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00376,P5,376,low_priority,2731,Jev low-priority route; retain for exclusion audits
+G00378,P3,378,deep_read,3556,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00379,P5,379,low_priority,2978,Jev low-priority route; retain for exclusion audits
+G00380,P5,380,low_priority,3263,Jev low-priority route; retain for exclusion audits
+G00382,P3,382 511,deep_read,33924,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00383,P5,383,low_priority,3662,Jev low-priority route; retain for exclusion audits
+G00384,P4,384,fetch_evidence,43158,Resolve evidence or partition-context gaps before routine deep reading
+G00385,P4,385,fetch_evidence,43939,Resolve evidence or partition-context gaps before routine deep reading
+G00386,P3,386,deep_read,3645,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00387,P4,387,fetch_evidence,3657,Resolve evidence or partition-context gaps before routine deep reading
+G00388,P3,388,deep_read,3251,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00389,P5,389,low_priority,3649,Jev low-priority route; retain for exclusion audits
+G00390,P5,390,low_priority,3150,Jev low-priority route; retain for exclusion audits
+G00391,P3,391 451,deep_read,10041,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00392,P3,392,deep_read,6847,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00393,P3,393,deep_read,4838,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00394,P4,394,fetch_evidence,2758,Resolve evidence or partition-context gaps before routine deep reading
+G00395,P3,395,deep_read,11962,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00396,P3,396 408,deep_read,4839,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00397,P5,397,low_priority,8159,Jev low-priority route; retain for exclusion audits
+G00399,P3,399,deep_read,3041,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00400,P3,400,deep_read,4519,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00401,covered,401,deep_read,3448,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00402,P5,402,low_priority,3397,Jev low-priority route; retain for exclusion audits
+G00403,P5,403,low_priority,4353,Jev low-priority route; retain for exclusion audits
+G00404,P5,404,low_priority,3043,Jev low-priority route; retain for exclusion audits
+G00405,P3,405,deep_read,3561,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00406,P3,406,deep_read,19914,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00407,P5,407,low_priority,2913,Jev low-priority route; retain for exclusion audits
+G00409,P4,409,fetch_evidence,640422,Resolve evidence or partition-context gaps before routine deep reading
+G00410,P3,410,deep_read,4645,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00411,P3,411 496 512,deep_read,62160,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00412,P3,412 423,deep_read,14854,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00413,P5,413,low_priority,6953,Jev low-priority route; retain for exclusion audits
+G00414,P3,414 416 417,deep_read,58141,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00415,P3,415,deep_read,3656,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00418,P3,418,deep_read,5523,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00419,P5,419,low_priority,3722,Jev low-priority route; retain for exclusion audits
+G00420,P3,420 424,deep_read,5017,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00421,P3,421 425,deep_read,3873,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00426,P3,426,deep_read,5986,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00429,P3,429 430 431,deep_read,5711,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00432,P3,432 439,deep_read,4335,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00433,P5,433,low_priority,19560,Jev low-priority route; retain for exclusion audits
+G00434,P3,434,deep_read,4262,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00435,P3,435,deep_read,5511,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00436,P4,436,fetch_evidence,3452,Resolve evidence or partition-context gaps before routine deep reading
+G00437,P5,437,low_priority,5332,Jev low-priority route; retain for exclusion audits
+G00440,P3,440,deep_read,7939,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00441,P5,441,low_priority,4088,Jev low-priority route; retain for exclusion audits
+G00443,P3,443,deep_read,8395,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00444,P3,444 461,deep_read,3601,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00445,P4,445,fetch_evidence,35967,Resolve evidence or partition-context gaps before routine deep reading
+G00446,P4,446,fetch_evidence,3912,Resolve evidence or partition-context gaps before routine deep reading
+G00447,P3,447,deep_read,3507,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00448,P5,448,low_priority,3500,Jev low-priority route; retain for exclusion audits
+G00449,P5,449,low_priority,3713,Jev low-priority route; retain for exclusion audits
+G00450,P3,450,deep_read,4334,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00452,P5,452,low_priority,2750,Jev low-priority route; retain for exclusion audits
+G00453,P3,453,deep_read,5035,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00454,P5,454 466,low_priority,3582,Jev low-priority route; retain for exclusion audits
+G00455,P5,455,low_priority,3431,Jev low-priority route; retain for exclusion audits
+G00456,P3,456,deep_read,3258,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00460,P4,460,fetch_evidence,3690,Resolve evidence or partition-context gaps before routine deep reading
+G00462,P4,462,fetch_evidence,24289,Resolve evidence or partition-context gaps before routine deep reading
+G00463,covered,463 465,deep_read,5586,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00464,P3,464,deep_read,5624,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00467,P5,467,low_priority,2915,Jev low-priority route; retain for exclusion audits
+G00468,P3,468 470,deep_read,4995,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00469,P3,469,deep_read,4539,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00471,P3,471,deep_read,7583,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00473,P3,473 516 522 527 541 555 559 568 571 574 601 624 907,deep_read,343619,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00477,P5,477,low_priority,2982,Jev low-priority route; retain for exclusion audits
+G00478,P3,478,deep_read,3057,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00479,P5,479,low_priority,6900,Jev low-priority route; retain for exclusion audits
+G00480,P5,480,low_priority,5342,Jev low-priority route; retain for exclusion audits
+G00481,P3,481,deep_read,4626,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00482,P3,482,deep_read,3375,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00483,P3,483,deep_read,4403,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00484,P3,484,deep_read,6312,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00485,P3,485 486 487 491,deep_read,33817,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00488,P5,488,low_priority,3285,Jev low-priority route; retain for exclusion audits
+G00489,P5,489,low_priority,4454,Jev low-priority route; retain for exclusion audits
+G00490,P4,490,fetch_evidence,4711,Resolve evidence or partition-context gaps before routine deep reading
+G00492,P3,492 518,deep_read,8685,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00493,P5,493,low_priority,2898,Jev low-priority route; retain for exclusion audits
+G00494,P5,494,low_priority,3518,Jev low-priority route; retain for exclusion audits
+G00495,P5,495,low_priority,5682,Jev low-priority route; retain for exclusion audits
+G00497,P3,497 507,deep_read,3862,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00498,P3,498,deep_read,5131,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00499,P5,499,low_priority,2958,Jev low-priority route; retain for exclusion audits
+G00500,P3,500,deep_read,7188,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00503,P5,503,low_priority,3926,Jev low-priority route; retain for exclusion audits
+G00504,P3,504,deep_read,5536,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00505,P5,505,low_priority,2718,Jev low-priority route; retain for exclusion audits
+G00506,P5,506,low_priority,2954,Jev low-priority route; retain for exclusion audits
+G00508,P5,508,low_priority,3431,Jev low-priority route; retain for exclusion audits
+G00509,P3,509,deep_read,3024,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00510,P5,510,low_priority,2929,Jev low-priority route; retain for exclusion audits
+G00513,P4,513,fetch_evidence,2997,Resolve evidence or partition-context gaps before routine deep reading
+G00514,P4,514,fetch_evidence,4734,Resolve evidence or partition-context gaps before routine deep reading
+G00515,P3,515,deep_read,8058,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00517,P4,517,fetch_evidence,27612,Resolve evidence or partition-context gaps before routine deep reading
+G00519,P3,519,deep_read,7192,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00520,P4,520,fetch_evidence,3088,Resolve evidence or partition-context gaps before routine deep reading
+G00521,P5,521,low_priority,3096,Jev low-priority route; retain for exclusion audits
+G00523,P4,523,fetch_evidence,142556,Resolve evidence or partition-context gaps before routine deep reading
+G00524,P3,524,deep_read,3683,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00525,P5,525,low_priority,3071,Jev low-priority route; retain for exclusion audits
+G00528,P3,528,deep_read,28696,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00529,P3,529,deep_read,4176,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00530,P3,530,deep_read,3498,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00531,P3,531,deep_read,4951,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00532,P5,532,low_priority,3060,Jev low-priority route; retain for exclusion audits
+G00533,P4,533,fetch_evidence,1024328,Resolve evidence or partition-context gaps before routine deep reading
+G00534,P3,534,deep_read,3700,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00535,P5,535,low_priority,2973,Jev low-priority route; retain for exclusion audits
+G00536,P3,536 540 1326,deep_read,6564,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00537,P3,537,deep_read,9245,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00539,P3,539,deep_read,3422,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00542,P3,542,deep_read,48540,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00545,P4,545,fetch_evidence,137909,Resolve evidence or partition-context gaps before routine deep reading
+G00546,P3,546,deep_read,5425,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00547,P3,547,deep_read,6705,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00548,P3,548 591,deep_read,5815,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00549,P4,549,fetch_evidence,138251,Resolve evidence or partition-context gaps before routine deep reading
+G00550,P5,550,low_priority,3071,Jev low-priority route; retain for exclusion audits
+G00551,P5,551,low_priority,3020,Jev low-priority route; retain for exclusion audits
+G00552,P5,552,low_priority,4485,Jev low-priority route; retain for exclusion audits
+G00553,P3,553,deep_read,30528,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00554,P3,554,deep_read,3644,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00556,P5,556,low_priority,3860,Jev low-priority route; retain for exclusion audits
+G00557,P3,557 560 577,deep_read,20264,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00558,P5,558,low_priority,14107,Jev low-priority route; retain for exclusion audits
+G00561,P3,561,deep_read,3335,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00562,P5,562,low_priority,3771,Jev low-priority route; retain for exclusion audits
+G00563,P5,563,low_priority,4494,Jev low-priority route; retain for exclusion audits
+G00564,P4,564,fetch_evidence,26810,Resolve evidence or partition-context gaps before routine deep reading
+G00565,P3,565,deep_read,4976,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00566,P3,566 569 572 576,deep_read,23429,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00567,P2,567 575,deep_read,10737,Selected editorial reading shortlist
+G00570,P3,570,deep_read,6464,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00573,P4,573,fetch_evidence,68853,Resolve evidence or partition-context gaps before routine deep reading
+G00578,P5,578 584,low_priority,4189,Jev low-priority route; retain for exclusion audits
+G00580,P5,580,low_priority,3090,Jev low-priority route; retain for exclusion audits
+G00581,P3,581,deep_read,3159,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00582,P5,582,low_priority,3034,Jev low-priority route; retain for exclusion audits
+G00583,P5,583,low_priority,3103,Jev low-priority route; retain for exclusion audits
+G00585,P3,585 647,deep_read,855892,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00586,P5,586,low_priority,2556,Jev low-priority route; retain for exclusion audits
+G00587,P3,587,deep_read,10704,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00588,P4,588,fetch_evidence,5211,Resolve evidence or partition-context gaps before routine deep reading
+G00589,P5,589,low_priority,3508,Jev low-priority route; retain for exclusion audits
+G00590,P3,590 595,deep_read,19694,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00592,P5,592,low_priority,8781,Jev low-priority route; retain for exclusion audits
+G00593,P5,593,low_priority,3011,Jev low-priority route; retain for exclusion audits
+G00594,P4,594,fetch_evidence,3140,Resolve evidence or partition-context gaps before routine deep reading
+G00596,P5,596 602,low_priority,3145,Jev low-priority route; retain for exclusion audits
+G00597,P5,597 598,low_priority,4278,Jev low-priority route; retain for exclusion audits
+G00599,P4,599,fetch_evidence,4816,Resolve evidence or partition-context gaps before routine deep reading
+G00600,P3,600,deep_read,11936,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00605,P5,605,low_priority,2883,Jev low-priority route; retain for exclusion audits
+G00606,P5,606,low_priority,7549,Jev low-priority route; retain for exclusion audits
+G00607,P4,607,fetch_evidence,2657,Resolve evidence or partition-context gaps before routine deep reading
+G00608,P4,608 614,fetch_evidence,3436,Resolve evidence or partition-context gaps before routine deep reading
+G00609,P4,609,fetch_evidence,312216,Resolve evidence or partition-context gaps before routine deep reading
+G00610,P3,610,deep_read,17034,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00611,P5,611,low_priority,7346,Jev low-priority route; retain for exclusion audits
+G00612,P3,612 613,deep_read,4290,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00615,P5,615,low_priority,2970,Jev low-priority route; retain for exclusion audits
+G00616,P4,616,fetch_evidence,3029,Resolve evidence or partition-context gaps before routine deep reading
+G00617,P3,617,deep_read,17344,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00618,P5,618,low_priority,8182,Jev low-priority route; retain for exclusion audits
+G00619,P4,619,fetch_evidence,2735,Resolve evidence or partition-context gaps before routine deep reading
+G00620,P3,620,deep_read,4963,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00621,P5,621,low_priority,3161,Jev low-priority route; retain for exclusion audits
+G00622,P3,622 669 670 671 677 699,deep_read,17309,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00623,P3,623,deep_read,12377,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00625,P5,625,low_priority,3216,Jev low-priority route; retain for exclusion audits
+G00626,P5,626,low_priority,4305,Jev low-priority route; retain for exclusion audits
+G00627,P5,627,low_priority,2952,Jev low-priority route; retain for exclusion audits
+G00628,P3,628,deep_read,16719,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00629,P5,629,low_priority,3008,Jev low-priority route; retain for exclusion audits
+G00630,P5,630,low_priority,3778,Jev low-priority route; retain for exclusion audits
+G00631,P5,631,low_priority,3025,Jev low-priority route; retain for exclusion audits
+G00632,P4,632,fetch_evidence,29904,Resolve evidence or partition-context gaps before routine deep reading
+G00633,P4,633,fetch_evidence,3134,Resolve evidence or partition-context gaps before routine deep reading
+G00634,P3,634,deep_read,3064,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00635,P5,635,low_priority,3748,Jev low-priority route; retain for exclusion audits
+G00636,P5,636,low_priority,2892,Jev low-priority route; retain for exclusion audits
+G00637,P3,637,deep_read,3440,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00638,P5,638,low_priority,3242,Jev low-priority route; retain for exclusion audits
+G00639,P5,639,low_priority,4041,Jev low-priority route; retain for exclusion audits
+G00640,P3,640,deep_read,5437,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00641,P4,641,fetch_evidence,4694,Resolve evidence or partition-context gaps before routine deep reading
+G00642,P3,642,deep_read,14697,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00643,P3,643,deep_read,5349,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00644,P5,644,low_priority,3731,Jev low-priority route; retain for exclusion audits
+G00645,P5,645,low_priority,5169,Jev low-priority route; retain for exclusion audits
+G00646,P3,646,deep_read,6672,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00648,P3,648,deep_read,136518,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00649,P3,649 656,deep_read,6052,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00650,P5,650 658,low_priority,3619,Jev low-priority route; retain for exclusion audits
+G00651,P4,651,fetch_evidence,2695,Resolve evidence or partition-context gaps before routine deep reading
+G00652,P4,652 654 871,fetch_evidence,66767,Resolve evidence or partition-context gaps before routine deep reading
+G00653,P5,653,low_priority,2696,Jev low-priority route; retain for exclusion audits
+G00655,P3,655,deep_read,3773,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00657,P3,657 661 662,deep_read,4753,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00659,P3,659,deep_read,11329,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00660,P4,660,fetch_evidence,35168,Resolve evidence or partition-context gaps before routine deep reading
+G00663,P4,663,fetch_evidence,4063,Resolve evidence or partition-context gaps before routine deep reading
+G00664,P5,664,low_priority,3437,Jev low-priority route; retain for exclusion audits
+G00665,P4,665,fetch_evidence,2650,Resolve evidence or partition-context gaps before routine deep reading
+G00666,P3,666,deep_read,5340,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00667,P4,667,fetch_evidence,3088,Resolve evidence or partition-context gaps before routine deep reading
+G00668,P4,668,fetch_evidence,2927,Resolve evidence or partition-context gaps before routine deep reading
+G00672,P3,672,deep_read,3078,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00673,P3,673,deep_read,10679,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00674,P3,674 678 682 691 704,deep_read,19554,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00675,P4,675,fetch_evidence,3168,Resolve evidence or partition-context gaps before routine deep reading
+G00676,P5,676,low_priority,3421,Jev low-priority route; retain for exclusion audits
+G00679,P4,679,fetch_evidence,4474,Resolve evidence or partition-context gaps before routine deep reading
+G00680,P3,680,deep_read,4177,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00681,P3,681,deep_read,3128,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00684,P3,684,deep_read,5365,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00685,P5,685,low_priority,3405,Jev low-priority route; retain for exclusion audits
+G00688,P5,688,low_priority,3048,Jev low-priority route; retain for exclusion audits
+G00689,P5,689,low_priority,2765,Jev low-priority route; retain for exclusion audits
+G00690,P5,690,low_priority,2873,Jev low-priority route; retain for exclusion audits
+G00692,P5,692,low_priority,3568,Jev low-priority route; retain for exclusion audits
+G00694,P5,694,low_priority,3020,Jev low-priority route; retain for exclusion audits
+G00695,P3,695,deep_read,13967,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00696,P5,696 697,low_priority,4101,Jev low-priority route; retain for exclusion audits
+G00698,P5,698,low_priority,3225,Jev low-priority route; retain for exclusion audits
+G00700,P3,700 701,deep_read,4188,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00702,P3,702,deep_read,29870,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00703,P3,703 724 809,deep_read,9694,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00705,P4,705,fetch_evidence,11409,Resolve evidence or partition-context gaps before routine deep reading
+G00706,P5,706,low_priority,3016,Jev low-priority route; retain for exclusion audits
+G00707,P3,707,deep_read,3082,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00709,P2,709 713,deep_read,12114,Selected editorial reading shortlist
+G00710,P5,710,low_priority,3238,Jev low-priority route; retain for exclusion audits
+G00711,P4,711 840 841 848 985 1042 1043 1047 1201 2141,fetch_evidence,1120540,Resolve evidence or partition-context gaps before routine deep reading
+G00712,covered,712,deep_read,4422,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00714,P4,714 745,fetch_evidence,44190,Resolve evidence or partition-context gaps before routine deep reading
+G00715,P3,715,deep_read,4097,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00716,P4,716,fetch_evidence,3070,Resolve evidence or partition-context gaps before routine deep reading
+G00717,P3,717,deep_read,16448,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00718,P3,718,deep_read,3407,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00719,P4,719,fetch_evidence,2598,Resolve evidence or partition-context gaps before routine deep reading
+G00720,P3,720,deep_read,3205,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00721,P3,721,deep_read,3893,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00722,P3,722,deep_read,3256,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00723,P4,723,fetch_evidence,33474,Resolve evidence or partition-context gaps before routine deep reading
+G00725,P3,725,deep_read,14666,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00726,P5,726,low_priority,3182,Jev low-priority route; retain for exclusion audits
+G00727,P3,727,deep_read,3550,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00728,P5,728,low_priority,3487,Jev low-priority route; retain for exclusion audits
+G00729,P5,729,low_priority,3062,Jev low-priority route; retain for exclusion audits
+G00730,P3,730 733 738,deep_read,7887,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00731,P3,731,deep_read,3307,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00732,P3,732,deep_read,3789,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00734,P3,734,deep_read,3444,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00735,P5,735,low_priority,2704,Jev low-priority route; retain for exclusion audits
+G00736,P5,736,low_priority,3721,Jev low-priority route; retain for exclusion audits
+G00737,P5,737,low_priority,3024,Jev low-priority route; retain for exclusion audits
+G00739,P5,739,low_priority,3577,Jev low-priority route; retain for exclusion audits
+G00740,P5,740,low_priority,2783,Jev low-priority route; retain for exclusion audits
+G00741,P4,741 2399 2517,fetch_evidence,6736,Resolve evidence or partition-context gaps before routine deep reading
+G00742,covered,742,deep_read,5683,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00743,P5,743,low_priority,3473,Jev low-priority route; retain for exclusion audits
+G00744,P3,744,deep_read,4892,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00747,P5,747,low_priority,4099,Jev low-priority route; retain for exclusion audits
+G00748,P3,748,deep_read,4202,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00749,P3,749,deep_read,3773,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00750,P3,750,deep_read,4402,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00751,P5,751,low_priority,8173,Jev low-priority route; retain for exclusion audits
+G00752,P5,752 753,low_priority,6922,Jev low-priority route; retain for exclusion audits
+G00754,P4,754,fetch_evidence,1530377,Resolve evidence or partition-context gaps before routine deep reading
+G00755,P5,755,low_priority,3385,Jev low-priority route; retain for exclusion audits
+G00756,P3,756,deep_read,13880,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00757,P3,757,deep_read,4506,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00758,P4,758,fetch_evidence,2949,Resolve evidence or partition-context gaps before routine deep reading
+G00759,P5,759,low_priority,3475,Jev low-priority route; retain for exclusion audits
+G00760,P4,760,fetch_evidence,3254,Resolve evidence or partition-context gaps before routine deep reading
+G00762,P5,762,low_priority,6245,Jev low-priority route; retain for exclusion audits
+G00763,P3,763,deep_read,4251,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00764,P4,764,fetch_evidence,5726,Resolve evidence or partition-context gaps before routine deep reading
+G00765,P3,765,deep_read,5620,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00766,P3,766,deep_read,9883,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00767,P3,767,deep_read,4413,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00768,P3,768,deep_read,3657,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00769,P5,769,low_priority,4061,Jev low-priority route; retain for exclusion audits
+G00770,P3,770,deep_read,3364,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00771,P3,771,deep_read,5879,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00772,P5,772,low_priority,6399,Jev low-priority route; retain for exclusion audits
+G00773,P5,773,low_priority,4107,Jev low-priority route; retain for exclusion audits
+G00774,P5,774,low_priority,8974,Jev low-priority route; retain for exclusion audits
+G00775,P3,775,deep_read,7437,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00776,P3,776 794 797 804,deep_read,33192,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00779,P5,779,low_priority,15777,Jev low-priority route; retain for exclusion audits
+G00782,P3,782,deep_read,12424,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00784,P5,784,low_priority,2852,Jev low-priority route; retain for exclusion audits
+G00785,P5,785,low_priority,3100,Jev low-priority route; retain for exclusion audits
+G00787,P3,787,deep_read,10006,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00788,P5,788,low_priority,2722,Jev low-priority route; retain for exclusion audits
+G00789,P5,789,low_priority,3142,Jev low-priority route; retain for exclusion audits
+G00790,P3,790 791,deep_read,8349,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00792,covered,792,deep_read,3896,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00793,P4,793,fetch_evidence,55598,Resolve evidence or partition-context gaps before routine deep reading
+G00795,P5,795,low_priority,3341,Jev low-priority route; retain for exclusion audits
+G00796,P4,796,fetch_evidence,4860,Resolve evidence or partition-context gaps before routine deep reading
+G00798,P5,798,low_priority,2805,Jev low-priority route; retain for exclusion audits
+G00800,P3,800,deep_read,4191,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00801,P5,801,low_priority,4337,Jev low-priority route; retain for exclusion audits
+G00802,P4,802,fetch_evidence,4583,Resolve evidence or partition-context gaps before routine deep reading
+G00803,P4,803,fetch_evidence,44216,Resolve evidence or partition-context gaps before routine deep reading
+G00805,P5,805,low_priority,3091,Jev low-priority route; retain for exclusion audits
+G00806,P4,806,fetch_evidence,44902,Resolve evidence or partition-context gaps before routine deep reading
+G00807,P3,807,deep_read,29397,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00808,covered,808 813,deep_read,3967,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00810,P3,810,deep_read,9086,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00811,P3,811,deep_read,9240,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00812,P5,812,low_priority,3671,Jev low-priority route; retain for exclusion audits
+G00814,P3,814,deep_read,3066,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00816,P5,816,low_priority,3084,Jev low-priority route; retain for exclusion audits
+G00817,P3,817,deep_read,3318,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00818,P4,818,fetch_evidence,4384,Resolve evidence or partition-context gaps before routine deep reading
+G00819,P3,819,deep_read,3039,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00820,P3,820,deep_read,5472,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00822,P3,822,deep_read,5338,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00823,P3,823,deep_read,8235,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00824,P4,824,fetch_evidence,30680,Resolve evidence or partition-context gaps before routine deep reading
+G00825,P3,825,deep_read,8573,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00827,P4,827,fetch_evidence,31325,Resolve evidence or partition-context gaps before routine deep reading
+G00828,P3,828,deep_read,67644,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00829,P3,829,deep_read,3458,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00830,P5,830,low_priority,3104,Jev low-priority route; retain for exclusion audits
+G00831,P5,831,low_priority,4300,Jev low-priority route; retain for exclusion audits
+G00832,P3,832 835,deep_read,4755,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00833,P3,833 837,deep_read,4056,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00834,P3,834,deep_read,10110,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00836,P1,836,deep_read,3483,Selected editorial reading shortlist
+G00838,P3,838,deep_read,4069,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00839,P5,839,low_priority,4500,Jev low-priority route; retain for exclusion audits
+G00842,P5,842,low_priority,3233,Jev low-priority route; retain for exclusion audits
+G00843,P4,843,fetch_evidence,3275,Resolve evidence or partition-context gaps before routine deep reading
+G00844,P3,844,deep_read,6040,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00845,P3,845 846,deep_read,7040,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00847,P4,847,fetch_evidence,31998,Resolve evidence or partition-context gaps before routine deep reading
+G00849,covered,849 854,deep_read,6133,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00850,P3,850 855 882,deep_read,10753,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00851,P3,851,deep_read,6645,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00852,P5,852 862,low_priority,5700,Jev low-priority route; retain for exclusion audits
+G00853,P3,853,deep_read,5068,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00856,P5,856,low_priority,3562,Jev low-priority route; retain for exclusion audits
+G00857,P5,857,low_priority,4242,Jev low-priority route; retain for exclusion audits
+G00858,P1,858,deep_read,5850,Selected editorial reading shortlist
+G00859,P4,859 861,fetch_evidence,35321,Resolve evidence or partition-context gaps before routine deep reading
+G00860,P4,860,fetch_evidence,42028,Resolve evidence or partition-context gaps before routine deep reading
+G00864,covered,864 875 877 902 903,deep_read,17756,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00865,P4,865,fetch_evidence,5901,Resolve evidence or partition-context gaps before routine deep reading
+G00867,P3,867,deep_read,3898,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00868,P3,868,deep_read,13054,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00869,P4,869,fetch_evidence,27643,Resolve evidence or partition-context gaps before routine deep reading
+G00872,P3,872,deep_read,3429,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00873,P3,873,deep_read,7911,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00874,P3,874,deep_read,7477,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00876,P5,876,low_priority,5096,Jev low-priority route; retain for exclusion audits
+G00878,P3,878,deep_read,11131,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00879,P4,879,fetch_evidence,3029,Resolve evidence or partition-context gaps before routine deep reading
+G00880,P3,880,deep_read,3419,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00881,P5,881,low_priority,3690,Jev low-priority route; retain for exclusion audits
+G00883,P3,883,deep_read,9851,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00884,P5,884,low_priority,3064,Jev low-priority route; retain for exclusion audits
+G00885,P4,885,fetch_evidence,2794,Resolve evidence or partition-context gaps before routine deep reading
+G00886,P3,886 1968 1970 2021,deep_read,5840,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00887,P3,887,deep_read,7990,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00888,P5,888,low_priority,4096,Jev low-priority route; retain for exclusion audits
+G00889,P3,889,deep_read,6355,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00890,P3,890,deep_read,7283,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00891,P5,891,low_priority,4257,Jev low-priority route; retain for exclusion audits
+G00893,P4,893 894,fetch_evidence,195833,Resolve evidence or partition-context gaps before routine deep reading
+G00895,P5,895,low_priority,2722,Jev low-priority route; retain for exclusion audits
+G00896,P3,896,deep_read,3178,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00897,P5,897,low_priority,2740,Jev low-priority route; retain for exclusion audits
+G00898,P4,898,fetch_evidence,28588,Resolve evidence or partition-context gaps before routine deep reading
+G00899,P4,899,fetch_evidence,2902,Resolve evidence or partition-context gaps before routine deep reading
+G00900,P5,900,low_priority,2690,Jev low-priority route; retain for exclusion audits
+G00901,P5,901,low_priority,3121,Jev low-priority route; retain for exclusion audits
+G00904,P3,904 905 906,deep_read,4946,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00908,P4,908,fetch_evidence,2735,Resolve evidence or partition-context gaps before routine deep reading
+G00909,P5,909,low_priority,2903,Jev low-priority route; retain for exclusion audits
+G00910,P3,910 1232 1235,deep_read,26469,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00911,P3,911,deep_read,4745,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00912,covered,912 919,deep_read,10244,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00913,P3,913,deep_read,7289,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00914,P5,914,low_priority,2977,Jev low-priority route; retain for exclusion audits
+G00915,P3,915,deep_read,17985,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00916,P3,916,deep_read,18059,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00917,P3,917,deep_read,4120,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00918,P3,918,deep_read,8364,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00920,P5,920,low_priority,2616,Jev low-priority route; retain for exclusion audits
+G00921,P3,921,deep_read,12981,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00922,P3,922,deep_read,12044,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00923,P3,923,deep_read,15634,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00924,P3,924,deep_read,9900,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00925,P5,925,low_priority,3184,Jev low-priority route; retain for exclusion audits
+G00926,P5,926,low_priority,3860,Jev low-priority route; retain for exclusion audits
+G00927,P5,927,low_priority,4061,Jev low-priority route; retain for exclusion audits
+G00928,covered,928 1339,deep_read,16510,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G00929,P4,929,fetch_evidence,7364,Resolve evidence or partition-context gaps before routine deep reading
+G00930,P5,930 938,low_priority,4166,Jev low-priority route; retain for exclusion audits
+G00931,P3,931 1016,deep_read,6968,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00932,P4,932,fetch_evidence,3364,Resolve evidence or partition-context gaps before routine deep reading
+G00933,P3,933,deep_read,5480,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00934,P3,934,deep_read,6126,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00935,P3,935,deep_read,4139,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00936,P3,936,deep_read,6887,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00937,P5,937,low_priority,9332,Jev low-priority route; retain for exclusion audits
+G00939,P3,939,deep_read,105109,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00940,P3,940,deep_read,8464,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00941,P3,941 956 1008 1009,deep_read,8127,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00942,P4,942,fetch_evidence,8998,Resolve evidence or partition-context gaps before routine deep reading
+G00943,P5,943,low_priority,3916,Jev low-priority route; retain for exclusion audits
+G00944,P3,944,deep_read,3106,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00945,P4,945,fetch_evidence,42839,Resolve evidence or partition-context gaps before routine deep reading
+G00946,P5,946,low_priority,3285,Jev low-priority route; retain for exclusion audits
+G00947,P3,947,deep_read,4484,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00948,P3,948,deep_read,60428,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00949,P3,949,deep_read,56175,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00950,P3,950,deep_read,12043,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00951,P5,951,low_priority,8017,Jev low-priority route; retain for exclusion audits
+G00952,P5,952,low_priority,3956,Jev low-priority route; retain for exclusion audits
+G00953,P3,953 954 978,deep_read,18542,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00955,P3,955,deep_read,4764,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00957,P3,957 974,deep_read,6388,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00958,P3,958,deep_read,6904,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00959,P5,959,low_priority,4056,Jev low-priority route; retain for exclusion audits
+G00960,P5,960,low_priority,4109,Jev low-priority route; retain for exclusion audits
+G00961,P5,961,low_priority,3181,Jev low-priority route; retain for exclusion audits
+G00962,P5,962,low_priority,2953,Jev low-priority route; retain for exclusion audits
+G00963,P3,963,deep_read,2927,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00964,P3,964 977,deep_read,6218,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00967,P5,967,low_priority,3993,Jev low-priority route; retain for exclusion audits
+G00968,P3,968,deep_read,19319,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00970,P4,970,fetch_evidence,70985,Resolve evidence or partition-context gaps before routine deep reading
+G00971,P5,971,low_priority,5401,Jev low-priority route; retain for exclusion audits
+G00972,P4,972,fetch_evidence,3066,Resolve evidence or partition-context gaps before routine deep reading
+G00973,P5,973,low_priority,3225,Jev low-priority route; retain for exclusion audits
+G00975,P3,975,deep_read,5847,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00976,P4,976,fetch_evidence,2961,Resolve evidence or partition-context gaps before routine deep reading
+G00979,P4,979,fetch_evidence,3427,Resolve evidence or partition-context gaps before routine deep reading
+G00980,P4,980,fetch_evidence,9438,Resolve evidence or partition-context gaps before routine deep reading
+G00981,P4,981,fetch_evidence,3599,Resolve evidence or partition-context gaps before routine deep reading
+G00982,P3,982,deep_read,4074,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00983,P3,983 987 1037,deep_read,38075,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00984,P3,984,deep_read,5732,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00986,P3,986,deep_read,4445,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00988,P3,988,deep_read,3195,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00989,P3,989,deep_read,3378,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00990,P3,990,deep_read,3152,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00991,P3,991,deep_read,3147,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00992,P5,992,low_priority,5014,Jev low-priority route; retain for exclusion audits
+G00993,P3,993,deep_read,12545,"Remaining Jev deep-read candidates; deferred, not rejected"
+G00994,P4,994 1005 1006,fetch_evidence,63703,Resolve evidence or partition-context gaps before routine deep reading
+G00995,P4,995,fetch_evidence,70417,Resolve evidence or partition-context gaps before routine deep reading
+G00996,P5,996,low_priority,3012,Jev low-priority route; retain for exclusion audits
+G00998,P5,998 1065,low_priority,7269,Jev low-priority route; retain for exclusion audits
+G01001,P4,1001,fetch_evidence,7756,Resolve evidence or partition-context gaps before routine deep reading
+G01002,P4,1002,fetch_evidence,5410,Resolve evidence or partition-context gaps before routine deep reading
+G01003,P3,1003 1355,deep_read,5783,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01004,P5,1004,low_priority,2973,Jev low-priority route; retain for exclusion audits
+G01007,P3,1007,deep_read,9773,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01010,P5,1010,low_priority,3151,Jev low-priority route; retain for exclusion audits
+G01012,P5,1012,low_priority,3140,Jev low-priority route; retain for exclusion audits
+G01013,P5,1013,low_priority,5270,Jev low-priority route; retain for exclusion audits
+G01015,P5,1015,low_priority,5300,Jev low-priority route; retain for exclusion audits
+G01017,P5,1017,low_priority,3924,Jev low-priority route; retain for exclusion audits
+G01018,P2,1018 1036,deep_read,4663,Selected editorial reading shortlist
+G01019,P5,1019 1020,low_priority,4181,Jev low-priority route; retain for exclusion audits
+G01021,P5,1021,low_priority,3446,Jev low-priority route; retain for exclusion audits
+G01022,P5,1022,low_priority,2930,Jev low-priority route; retain for exclusion audits
+G01023,P5,1023,low_priority,4546,Jev low-priority route; retain for exclusion audits
+G01024,P3,1024,deep_read,3061,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01025,P3,1025,deep_read,3933,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01026,P5,1026,low_priority,4082,Jev low-priority route; retain for exclusion audits
+G01027,P5,1027,low_priority,2737,Jev low-priority route; retain for exclusion audits
+G01028,P5,1028,low_priority,12765,Jev low-priority route; retain for exclusion audits
+G01029,P3,1029 1034 1068 1279 1304 1332,deep_read,16670,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01030,P5,1030,low_priority,3683,Jev low-priority route; retain for exclusion audits
+G01031,P5,1031,low_priority,6267,Jev low-priority route; retain for exclusion audits
+G01032,P3,1032 1097,deep_read,66404,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01033,P5,1033,low_priority,3214,Jev low-priority route; retain for exclusion audits
+G01035,P3,1035,deep_read,5682,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01038,P3,1038 1040 1049 1050 1051 1052,deep_read,78745,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01039,P5,1039,low_priority,3287,Jev low-priority route; retain for exclusion audits
+G01041,P5,1041,low_priority,2987,Jev low-priority route; retain for exclusion audits
+G01044,covered,1044 1054,deep_read,6351,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01045,P3,1045,deep_read,8164,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01046,P5,1046,low_priority,3333,Jev low-priority route; retain for exclusion audits
+G01048,P3,1048 1087,deep_read,3854,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01053,P4,1053,fetch_evidence,2874,Resolve evidence or partition-context gaps before routine deep reading
+G01055,P5,1055,low_priority,3105,Jev low-priority route; retain for exclusion audits
+G01056,P3,1056,deep_read,7169,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01057,P5,1057,low_priority,3112,Jev low-priority route; retain for exclusion audits
+G01058,P5,1058,low_priority,2937,Jev low-priority route; retain for exclusion audits
+G01059,P5,1059,low_priority,2978,Jev low-priority route; retain for exclusion audits
+G01060,P5,1060,low_priority,10297,Jev low-priority route; retain for exclusion audits
+G01061,P5,1061,low_priority,3567,Jev low-priority route; retain for exclusion audits
+G01062,P4,1062,fetch_evidence,24320,Resolve evidence or partition-context gaps before routine deep reading
+G01063,P3,1063,deep_read,4517,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01064,P3,1064,deep_read,4988,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01066,P3,1066,deep_read,3632,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01067,P4,1067,fetch_evidence,4163,Resolve evidence or partition-context gaps before routine deep reading
+G01069,P5,1069,low_priority,3084,Jev low-priority route; retain for exclusion audits
+G01070,P3,1070 1125 1638,deep_read,29015,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01071,P3,1071,deep_read,17800,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01072,P4,1072,fetch_evidence,60061,Resolve evidence or partition-context gaps before routine deep reading
+G01073,P3,1073,deep_read,4594,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01074,P4,1074,fetch_evidence,49033,Resolve evidence or partition-context gaps before routine deep reading
+G01075,P5,1075,low_priority,3285,Jev low-priority route; retain for exclusion audits
+G01077,P5,1077,low_priority,3322,Jev low-priority route; retain for exclusion audits
+G01078,P4,1078,fetch_evidence,4366,Resolve evidence or partition-context gaps before routine deep reading
+G01079,P3,1079 1081,deep_read,17804,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01080,P2,1080 1094 1095 1135,deep_read,6462,Selected editorial reading shortlist
+G01082,P5,1082,low_priority,6016,Jev low-priority route; retain for exclusion audits
+G01083,P4,1083,fetch_evidence,3156,Resolve evidence or partition-context gaps before routine deep reading
+G01084,P5,1084,low_priority,7457,Jev low-priority route; retain for exclusion audits
+G01085,P5,1085,low_priority,3057,Jev low-priority route; retain for exclusion audits
+G01086,P5,1086,low_priority,2923,Jev low-priority route; retain for exclusion audits
+G01088,P5,1088,low_priority,3302,Jev low-priority route; retain for exclusion audits
+G01089,P3,1089,deep_read,18486,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01090,P3,1090,deep_read,2995,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01091,P5,1091,low_priority,3002,Jev low-priority route; retain for exclusion audits
+G01092,P3,1092 1115,deep_read,4674,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01093,P5,1093,low_priority,3141,Jev low-priority route; retain for exclusion audits
+G01096,P3,1096,deep_read,3064,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01098,P5,1098,low_priority,16463,Jev low-priority route; retain for exclusion audits
+G01099,P5,1099,low_priority,4062,Jev low-priority route; retain for exclusion audits
+G01100,P5,1100,low_priority,4017,Jev low-priority route; retain for exclusion audits
+G01101,P3,1101 1102,deep_read,5659,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01103,P5,1103,low_priority,3457,Jev low-priority route; retain for exclusion audits
+G01104,P3,1104,deep_read,3287,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01105,P3,1105 1388,deep_read,7281,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01106,covered,1106 1107,deep_read,6057,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01108,P3,1108,deep_read,17991,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01109,P3,1109,deep_read,13750,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01110,P5,1110,low_priority,3026,Jev low-priority route; retain for exclusion audits
+G01111,P4,1111,fetch_evidence,2525,Resolve evidence or partition-context gaps before routine deep reading
+G01112,P3,1112,deep_read,4235,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01113,P5,1113,low_priority,4519,Jev low-priority route; retain for exclusion audits
+G01114,P5,1114,low_priority,3328,Jev low-priority route; retain for exclusion audits
+G01116,P4,1116,fetch_evidence,2661,Resolve evidence or partition-context gaps before routine deep reading
+G01117,P3,1117 1513 1680,deep_read,17557,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01118,P5,1118,low_priority,2746,Jev low-priority route; retain for exclusion audits
+G01119,P5,1119,low_priority,12435,Jev low-priority route; retain for exclusion audits
+G01120,P5,1120,low_priority,8761,Jev low-priority route; retain for exclusion audits
+G01121,P5,1121,low_priority,3057,Jev low-priority route; retain for exclusion audits
+G01122,P4,1122 1239,fetch_evidence,30190,Resolve evidence or partition-context gaps before routine deep reading
+G01123,P5,1123,low_priority,2749,Jev low-priority route; retain for exclusion audits
+G01124,P5,1124,low_priority,3021,Jev low-priority route; retain for exclusion audits
+G01126,P3,1126,deep_read,11726,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01127,P5,1127,low_priority,3405,Jev low-priority route; retain for exclusion audits
+G01128,P5,1128,low_priority,6929,Jev low-priority route; retain for exclusion audits
+G01129,P3,1129 1130,deep_read,3942,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01131,P5,1131,low_priority,2643,Jev low-priority route; retain for exclusion audits
+G01132,covered,1132 1141,deep_read,10692,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01133,P5,1133,low_priority,2980,Jev low-priority route; retain for exclusion audits
+G01134,covered,1134 1136,deep_read,3591,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01137,P5,1137,low_priority,2939,Jev low-priority route; retain for exclusion audits
+G01138,P5,1138,low_priority,2997,Jev low-priority route; retain for exclusion audits
+G01139,P4,1139,fetch_evidence,3150,Resolve evidence or partition-context gaps before routine deep reading
+G01140,P3,1140,deep_read,8576,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01142,P3,1142,deep_read,5707,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01143,P5,1143,low_priority,4269,Jev low-priority route; retain for exclusion audits
+G01144,P5,1144,low_priority,2987,Jev low-priority route; retain for exclusion audits
+G01145,P3,1145,deep_read,3068,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01146,P4,1146,fetch_evidence,192368,Resolve evidence or partition-context gaps before routine deep reading
+G01147,P3,1147,deep_read,13481,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01148,P5,1148,low_priority,3098,Jev low-priority route; retain for exclusion audits
+G01149,P5,1149,low_priority,3300,Jev low-priority route; retain for exclusion audits
+G01150,P5,1150,low_priority,3340,Jev low-priority route; retain for exclusion audits
+G01151,P5,1151,low_priority,3292,Jev low-priority route; retain for exclusion audits
+G01152,P5,1152,low_priority,3333,Jev low-priority route; retain for exclusion audits
+G01153,P5,1153,low_priority,2999,Jev low-priority route; retain for exclusion audits
+G01154,P4,1154 1155,fetch_evidence,4558,Resolve evidence or partition-context gaps before routine deep reading
+G01156,P3,1156,deep_read,5981,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01157,P3,1157 1159 1177 1183,deep_read,11334,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01158,P3,1158 1161,deep_read,8547,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01160,P3,1160,deep_read,3133,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01162,P3,1162,deep_read,4725,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01163,P4,1163,fetch_evidence,31762,Resolve evidence or partition-context gaps before routine deep reading
+G01164,P4,1164,fetch_evidence,3150,Resolve evidence or partition-context gaps before routine deep reading
+G01165,P4,1165,fetch_evidence,3636,Resolve evidence or partition-context gaps before routine deep reading
+G01166,P4,1166,fetch_evidence,2762,Resolve evidence or partition-context gaps before routine deep reading
+G01167,P3,1167 1176,deep_read,5193,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01168,P4,1168,fetch_evidence,3127,Resolve evidence or partition-context gaps before routine deep reading
+G01169,P4,1169 1184,fetch_evidence,7289,Resolve evidence or partition-context gaps before routine deep reading
+G01170,P5,1170,low_priority,2674,Jev low-priority route; retain for exclusion audits
+G01171,P4,1171,fetch_evidence,4192,Resolve evidence or partition-context gaps before routine deep reading
+G01172,P5,1172,low_priority,2497,Jev low-priority route; retain for exclusion audits
+G01173,P5,1173 1190,low_priority,12582,Jev low-priority route; retain for exclusion audits
+G01175,P4,1175,fetch_evidence,3340,Resolve evidence or partition-context gaps before routine deep reading
+G01181,P3,1181 1182,deep_read,5735,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01185,P5,1185,low_priority,3250,Jev low-priority route; retain for exclusion audits
+G01186,P5,1186,low_priority,5236,Jev low-priority route; retain for exclusion audits
+G01187,P3,1187 1195,deep_read,7571,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01188,P5,1188,low_priority,2963,Jev low-priority route; retain for exclusion audits
+G01189,P3,1189 1266,deep_read,63257,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01191,P5,1191 1858,low_priority,8291,Jev low-priority route; retain for exclusion audits
+G01192,P4,1192,fetch_evidence,3581,Resolve evidence or partition-context gaps before routine deep reading
+G01193,P3,1193 1241,deep_read,7700,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01194,P4,1194,fetch_evidence,2871,Resolve evidence or partition-context gaps before routine deep reading
+G01196,P4,1196,fetch_evidence,3687,Resolve evidence or partition-context gaps before routine deep reading
+G01197,P5,1197,low_priority,3995,Jev low-priority route; retain for exclusion audits
+G01198,P5,1198,low_priority,3782,Jev low-priority route; retain for exclusion audits
+G01200,P5,1200,low_priority,3078,Jev low-priority route; retain for exclusion audits
+G01202,P3,1202,deep_read,3029,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01203,P3,1203,deep_read,3805,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01204,P4,1204,fetch_evidence,3050,Resolve evidence or partition-context gaps before routine deep reading
+G01205,P3,1205,deep_read,16275,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01206,P3,1206,deep_read,3431,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01207,P5,1207,low_priority,3324,Jev low-priority route; retain for exclusion audits
+G01208,P5,1208,low_priority,5232,Jev low-priority route; retain for exclusion audits
+G01209,P4,1209,fetch_evidence,14788,Resolve evidence or partition-context gaps before routine deep reading
+G01210,P5,1210,low_priority,7473,Jev low-priority route; retain for exclusion audits
+G01211,P5,1211,low_priority,2801,Jev low-priority route; retain for exclusion audits
+G01212,P5,1212,low_priority,3109,Jev low-priority route; retain for exclusion audits
+G01213,P3,1213 1216,deep_read,4820,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01214,P4,1214,fetch_evidence,3701,Resolve evidence or partition-context gaps before routine deep reading
+G01215,P4,1215,fetch_evidence,752650,Resolve evidence or partition-context gaps before routine deep reading
+G01217,P3,1217,deep_read,4618,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01218,P4,1218 1340,fetch_evidence,196521,Resolve evidence or partition-context gaps before routine deep reading
+G01219,P3,1219 1227 1228 1229,deep_read,14170,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01220,P5,1220,low_priority,3556,Jev low-priority route; retain for exclusion audits
+G01221,P5,1221,low_priority,2868,Jev low-priority route; retain for exclusion audits
+G01222,P4,1222,fetch_evidence,123629,Resolve evidence or partition-context gaps before routine deep reading
+G01223,P3,1223,deep_read,4814,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01224,P3,1224 1258,deep_read,4445,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01225,P5,1225,low_priority,3232,Jev low-priority route; retain for exclusion audits
+G01226,P5,1226,low_priority,3364,Jev low-priority route; retain for exclusion audits
+G01230,P5,1230,low_priority,3091,Jev low-priority route; retain for exclusion audits
+G01231,P5,1231,low_priority,3963,Jev low-priority route; retain for exclusion audits
+G01234,covered,1234,deep_read,3530,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01236,P4,1236,fetch_evidence,3845,Resolve evidence or partition-context gaps before routine deep reading
+G01237,P5,1237,low_priority,2897,Jev low-priority route; retain for exclusion audits
+G01238,P5,1238,low_priority,2927,Jev low-priority route; retain for exclusion audits
+G01240,P3,1240,deep_read,5634,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01242,P3,1242,deep_read,3442,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01243,P3,1243,deep_read,9809,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01244,P5,1244,low_priority,2858,Jev low-priority route; retain for exclusion audits
+G01245,P3,1245,deep_read,3320,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01246,P5,1246,low_priority,3031,Jev low-priority route; retain for exclusion audits
+G01247,P3,1247,deep_read,3396,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01248,P4,1248 1252,fetch_evidence,5413,Resolve evidence or partition-context gaps before routine deep reading
+G01249,P5,1249,low_priority,3457,Jev low-priority route; retain for exclusion audits
+G01253,P4,1253 1255,fetch_evidence,4710,Resolve evidence or partition-context gaps before routine deep reading
+G01254,P5,1254,low_priority,3580,Jev low-priority route; retain for exclusion audits
+G01256,P3,1256,deep_read,11996,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01257,P5,1257,low_priority,3664,Jev low-priority route; retain for exclusion audits
+G01259,P5,1259,low_priority,3979,Jev low-priority route; retain for exclusion audits
+G01260,P4,1260,fetch_evidence,2552,Resolve evidence or partition-context gaps before routine deep reading
+G01261,P5,1261,low_priority,4174,Jev low-priority route; retain for exclusion audits
+G01262,P3,1262,deep_read,3354,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01263,P5,1263 1265,low_priority,5071,Jev low-priority route; retain for exclusion audits
+G01264,P3,1264,deep_read,7003,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01267,P4,1267,fetch_evidence,4714,Resolve evidence or partition-context gaps before routine deep reading
+G01268,P3,1268,deep_read,3869,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01269,P5,1269,low_priority,4763,Jev low-priority route; retain for exclusion audits
+G01270,P3,1270,deep_read,4904,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01271,P3,1271,deep_read,4213,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01272,P5,1272,low_priority,3915,Jev low-priority route; retain for exclusion audits
+G01273,P4,1273,fetch_evidence,4878,Resolve evidence or partition-context gaps before routine deep reading
+G01274,P5,1274,low_priority,3947,Jev low-priority route; retain for exclusion audits
+G01275,P3,1275,deep_read,3066,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01276,P5,1276,low_priority,3074,Jev low-priority route; retain for exclusion audits
+G01277,P3,1277,deep_read,5292,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01278,P3,1278 1293,deep_read,4314,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01280,P3,1280 1284 1464,deep_read,7263,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01281,P4,1281,fetch_evidence,3192,Resolve evidence or partition-context gaps before routine deep reading
+G01282,P3,1282 1283,deep_read,4305,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01285,P5,1285,low_priority,5573,Jev low-priority route; retain for exclusion audits
+G01286,P4,1286,fetch_evidence,6861,Resolve evidence or partition-context gaps before routine deep reading
+G01287,P3,1287,deep_read,4884,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01288,P5,1288,low_priority,3397,Jev low-priority route; retain for exclusion audits
+G01289,P3,1289,deep_read,3941,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01290,P5,1290,low_priority,3322,Jev low-priority route; retain for exclusion audits
+G01291,P5,1291,low_priority,5378,Jev low-priority route; retain for exclusion audits
+G01292,P4,1292,fetch_evidence,159973,Resolve evidence or partition-context gaps before routine deep reading
+G01294,P5,1294,low_priority,3346,Jev low-priority route; retain for exclusion audits
+G01295,P4,1295 1322,fetch_evidence,3540,Resolve evidence or partition-context gaps before routine deep reading
+G01296,P5,1296,low_priority,3003,Jev low-priority route; retain for exclusion audits
+G01297,P3,1297 1310,deep_read,5626,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01298,P5,1298,low_priority,12709,Jev low-priority route; retain for exclusion audits
+G01299,P5,1299,low_priority,3772,Jev low-priority route; retain for exclusion audits
+G01300,P3,1300,deep_read,5801,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01301,P5,1301,low_priority,5665,Jev low-priority route; retain for exclusion audits
+G01302,P4,1302,fetch_evidence,3642,Resolve evidence or partition-context gaps before routine deep reading
+G01303,P4,1303,fetch_evidence,88983,Resolve evidence or partition-context gaps before routine deep reading
+G01305,P4,1305,fetch_evidence,3442,Resolve evidence or partition-context gaps before routine deep reading
+G01306,P5,1306,low_priority,2969,Jev low-priority route; retain for exclusion audits
+G01307,P3,1307,deep_read,3809,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01308,P5,1308,low_priority,3730,Jev low-priority route; retain for exclusion audits
+G01309,covered,1309 1313 1319,deep_read,17570,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01311,P3,1311,deep_read,3798,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01312,P5,1312,low_priority,3196,Jev low-priority route; retain for exclusion audits
+G01315,P5,1315,low_priority,2608,Jev low-priority route; retain for exclusion audits
+G01316,P4,1316,fetch_evidence,47512,Resolve evidence or partition-context gaps before routine deep reading
+G01317,P3,1317,deep_read,3654,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01318,P4,1318,fetch_evidence,57691,Resolve evidence or partition-context gaps before routine deep reading
+G01320,P4,1320,fetch_evidence,83361,Resolve evidence or partition-context gaps before routine deep reading
+G01321,P5,1321,low_priority,2842,Jev low-priority route; retain for exclusion audits
+G01323,P5,1323,low_priority,3199,Jev low-priority route; retain for exclusion audits
+G01325,P4,1325,fetch_evidence,37355,Resolve evidence or partition-context gaps before routine deep reading
+G01327,P3,1327,deep_read,3905,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01328,P5,1328,low_priority,3583,Jev low-priority route; retain for exclusion audits
+G01329,P3,1329,deep_read,8447,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01330,P5,1330,low_priority,2960,Jev low-priority route; retain for exclusion audits
+G01331,P3,1331,deep_read,19992,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01333,P3,1333 1334,deep_read,4109,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01335,P3,1335 1336,deep_read,6164,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01337,covered,1337 2439 2442 2481 2482,deep_read,10395,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01338,P3,1338,deep_read,10118,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01341,P3,1341,deep_read,7048,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01342,P3,1342,deep_read,3844,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01343,P4,1343,fetch_evidence,3620,Resolve evidence or partition-context gaps before routine deep reading
+G01344,P5,1344,low_priority,3971,Jev low-priority route; retain for exclusion audits
+G01345,P3,1345,deep_read,6338,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01346,P3,1346,deep_read,3008,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01347,P3,1347,deep_read,4569,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01348,P5,1348,low_priority,3768,Jev low-priority route; retain for exclusion audits
+G01349,P5,1349,low_priority,4652,Jev low-priority route; retain for exclusion audits
+G01350,P3,1350,deep_read,172288,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01351,P4,1351,fetch_evidence,4025,Resolve evidence or partition-context gaps before routine deep reading
+G01352,P4,1352 1360,fetch_evidence,47179,Resolve evidence or partition-context gaps before routine deep reading
+G01353,P4,1353,fetch_evidence,2737,Resolve evidence or partition-context gaps before routine deep reading
+G01354,P4,1354,fetch_evidence,124892,Resolve evidence or partition-context gaps before routine deep reading
+G01356,P4,1356,fetch_evidence,101536,Resolve evidence or partition-context gaps before routine deep reading
+G01357,P3,1357 1416 1435 1437 1451 1452,deep_read,159564,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01358,P5,1358,low_priority,4371,Jev low-priority route; retain for exclusion audits
+G01359,P5,1359,low_priority,3511,Jev low-priority route; retain for exclusion audits
+G01361,P5,1361,low_priority,6547,Jev low-priority route; retain for exclusion audits
+G01362,P5,1362 1363,low_priority,6489,Jev low-priority route; retain for exclusion audits
+G01364,P5,1364 2348 2488,low_priority,5025,Jev low-priority route; retain for exclusion audits
+G01365,P5,1365 1366,low_priority,5212,Jev low-priority route; retain for exclusion audits
+G01367,P3,1367,deep_read,3962,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01368,P3,1368,deep_read,3753,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01369,P4,1369,fetch_evidence,3200,Resolve evidence or partition-context gaps before routine deep reading
+G01370,P3,1370,deep_read,3922,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01371,P5,1371,low_priority,4206,Jev low-priority route; retain for exclusion audits
+G01372,P3,1372,deep_read,13811,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01373,P5,1373,low_priority,2948,Jev low-priority route; retain for exclusion audits
+G01374,P4,1374,fetch_evidence,13244,Resolve evidence or partition-context gaps before routine deep reading
+G01375,P3,1375,deep_read,3663,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01376,P3,1376,deep_read,10736,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01377,P3,1377,deep_read,4575,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01378,P5,1378,low_priority,4315,Jev low-priority route; retain for exclusion audits
+G01379,P3,1379 1380,deep_read,3529,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01381,P4,1381,fetch_evidence,9207,Resolve evidence or partition-context gaps before routine deep reading
+G01382,P4,1382,fetch_evidence,4243,Resolve evidence or partition-context gaps before routine deep reading
+G01383,P3,1383,deep_read,4921,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01384,P5,1384,low_priority,3181,Jev low-priority route; retain for exclusion audits
+G01385,P5,1385 1386,low_priority,10691,Jev low-priority route; retain for exclusion audits
+G01387,P3,1387,deep_read,3108,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01389,P4,1389,fetch_evidence,24260,Resolve evidence or partition-context gaps before routine deep reading
+G01390,P3,1390 1392 1394 1399,deep_read,8237,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01391,P5,1391,low_priority,4014,Jev low-priority route; retain for exclusion audits
+G01393,P5,1393,low_priority,3061,Jev low-priority route; retain for exclusion audits
+G01395,P4,1395,fetch_evidence,3455,Resolve evidence or partition-context gaps before routine deep reading
+G01396,P3,1396,deep_read,3275,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01397,P3,1397,deep_read,4757,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01398,P5,1398,low_priority,3054,Jev low-priority route; retain for exclusion audits
+G01400,P5,1400,low_priority,3647,Jev low-priority route; retain for exclusion audits
+G01401,P5,1401,low_priority,3141,Jev low-priority route; retain for exclusion audits
+G01402,P4,1402,fetch_evidence,3037,Resolve evidence or partition-context gaps before routine deep reading
+G01403,P4,1403,fetch_evidence,100625,Resolve evidence or partition-context gaps before routine deep reading
+G01404,P5,1404,low_priority,3372,Jev low-priority route; retain for exclusion audits
+G01405,P5,1405,low_priority,3299,Jev low-priority route; retain for exclusion audits
+G01406,P3,1406,deep_read,12996,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01407,P5,1407,low_priority,3193,Jev low-priority route; retain for exclusion audits
+G01408,P4,1408,fetch_evidence,133462,Resolve evidence or partition-context gaps before routine deep reading
+G01409,P4,1409,fetch_evidence,27895,Resolve evidence or partition-context gaps before routine deep reading
+G01410,P5,1410,low_priority,5126,Jev low-priority route; retain for exclusion audits
+G01411,P5,1411,low_priority,3126,Jev low-priority route; retain for exclusion audits
+G01412,P3,1412,deep_read,6710,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01413,P3,1413,deep_read,5033,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01414,P3,1414 1455,deep_read,5608,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01415,P5,1415,low_priority,4384,Jev low-priority route; retain for exclusion audits
+G01417,P3,1417,deep_read,6217,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01418,P3,1418,deep_read,33763,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01419,P3,1419 2044 2047,deep_read,5498,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01420,P3,1420,deep_read,8393,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01421,P2,1421,deep_read,7767,Selected editorial reading shortlist
+G01422,P4,1422 1470 1476 1483 1484 1493 1529 1530 1532,fetch_evidence,217715,Resolve evidence or partition-context gaps before routine deep reading
+G01423,P3,1423 1512,deep_read,8020,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01424,P5,1424,low_priority,3027,Jev low-priority route; retain for exclusion audits
+G01425,P5,1425 1426,low_priority,5498,Jev low-priority route; retain for exclusion audits
+G01427,P5,1427,low_priority,5933,Jev low-priority route; retain for exclusion audits
+G01428,P3,1428,deep_read,11872,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01429,P3,1429,deep_read,3941,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01430,P5,1430,low_priority,4615,Jev low-priority route; retain for exclusion audits
+G01431,P5,1431,low_priority,2819,Jev low-priority route; retain for exclusion audits
+G01432,P5,1432,low_priority,2882,Jev low-priority route; retain for exclusion audits
+G01433,P3,1433 1471 1474 1489 1500 1506 1507,deep_read,45915,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01434,P5,1434,low_priority,7547,Jev low-priority route; retain for exclusion audits
+G01436,P5,1436,low_priority,2621,Jev low-priority route; retain for exclusion audits
+G01438,P5,1438,low_priority,2570,Jev low-priority route; retain for exclusion audits
+G01439,P5,1439,low_priority,3234,Jev low-priority route; retain for exclusion audits
+G01440,P3,1440 1449,deep_read,9771,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01441,P3,1441 1443,deep_read,3992,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01442,P5,1442,low_priority,3217,Jev low-priority route; retain for exclusion audits
+G01444,P3,1444 1446,deep_read,5106,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01445,P4,1445 1448,fetch_evidence,145490,Resolve evidence or partition-context gaps before routine deep reading
+G01447,P5,1447,low_priority,4527,Jev low-priority route; retain for exclusion audits
+G01450,P5,1450,low_priority,2877,Jev low-priority route; retain for exclusion audits
+G01453,P5,1453,low_priority,3350,Jev low-priority route; retain for exclusion audits
+G01454,P5,1454,low_priority,3398,Jev low-priority route; retain for exclusion audits
+G01456,P4,1456,fetch_evidence,4011,Resolve evidence or partition-context gaps before routine deep reading
+G01457,P5,1457 1458,low_priority,3805,Jev low-priority route; retain for exclusion audits
+G01459,P5,1459,low_priority,3305,Jev low-priority route; retain for exclusion audits
+G01460,P3,1460 1475 1478 1582 1600 1641,deep_read,150001,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01461,P5,1461,low_priority,3519,Jev low-priority route; retain for exclusion audits
+G01462,P1,1462 1469,deep_read,13184,Selected editorial reading shortlist
+G01463,P4,1463,fetch_evidence,31408,Resolve evidence or partition-context gaps before routine deep reading
+G01465,P3,1465,deep_read,4113,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01466,P5,1466,low_priority,3490,Jev low-priority route; retain for exclusion audits
+G01467,P3,1467,deep_read,10095,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01468,P3,1468,deep_read,5848,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01472,covered,1472 1813,deep_read,7600,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01473,P3,1473,deep_read,3097,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01477,P4,1477,fetch_evidence,156595,Resolve evidence or partition-context gaps before routine deep reading
+G01479,P3,1479 2186 2499 2500,deep_read,34283,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01480,P4,1480,fetch_evidence,93746,Resolve evidence or partition-context gaps before routine deep reading
+G01481,P5,1481 1501,low_priority,5943,Jev low-priority route; retain for exclusion audits
+G01482,P3,1482 1485 1488,deep_read,152035,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01486,P3,1486,deep_read,89416,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01487,P5,1487,low_priority,4152,Jev low-priority route; retain for exclusion audits
+G01490,P3,1490,deep_read,3136,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01491,P4,1491,fetch_evidence,3463,Resolve evidence or partition-context gaps before routine deep reading
+G01492,P5,1492,low_priority,3856,Jev low-priority route; retain for exclusion audits
+G01494,P5,1494,low_priority,3551,Jev low-priority route; retain for exclusion audits
+G01495,P4,1495,fetch_evidence,43070,Resolve evidence or partition-context gaps before routine deep reading
+G01496,P3,1496,deep_read,2989,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01497,P3,1497 2136,deep_read,4022,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01498,P5,1498,low_priority,4666,Jev low-priority route; retain for exclusion audits
+G01499,P3,1499,deep_read,3237,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01502,P4,1502,fetch_evidence,110782,Resolve evidence or partition-context gaps before routine deep reading
+G01503,P5,1503,low_priority,3134,Jev low-priority route; retain for exclusion audits
+G01504,P5,1504,low_priority,2902,Jev low-priority route; retain for exclusion audits
+G01505,P3,1505,deep_read,5301,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01508,P5,1508,low_priority,2588,Jev low-priority route; retain for exclusion audits
+G01509,P5,1509,low_priority,3147,Jev low-priority route; retain for exclusion audits
+G01510,P5,1510,low_priority,4284,Jev low-priority route; retain for exclusion audits
+G01511,P5,1511,low_priority,3252,Jev low-priority route; retain for exclusion audits
+G01514,P3,1514 1643,deep_read,5788,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01515,P3,1515,deep_read,10532,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01516,P5,1516,low_priority,2937,Jev low-priority route; retain for exclusion audits
+G01517,P5,1517 1518 1523,low_priority,5739,Jev low-priority route; retain for exclusion audits
+G01519,P5,1519,low_priority,3014,Jev low-priority route; retain for exclusion audits
+G01520,P5,1520,low_priority,2782,Jev low-priority route; retain for exclusion audits
+G01521,P4,1521,fetch_evidence,3566,Resolve evidence or partition-context gaps before routine deep reading
+G01522,P3,1522,deep_read,3111,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01524,P3,1524,deep_read,22832,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01525,P3,1525,deep_read,3746,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01526,P5,1526 1527,low_priority,4480,Jev low-priority route; retain for exclusion audits
+G01528,P3,1528,deep_read,4468,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01531,P4,1531,fetch_evidence,3574,Resolve evidence or partition-context gaps before routine deep reading
+G01533,P5,1533,low_priority,3064,Jev low-priority route; retain for exclusion audits
+G01534,P3,1534,deep_read,15580,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01535,P3,1535,deep_read,7395,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01536,P5,1536,low_priority,3091,Jev low-priority route; retain for exclusion audits
+G01537,P5,1537,low_priority,3401,Jev low-priority route; retain for exclusion audits
+G01538,P3,1538,deep_read,9689,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01539,P4,1539,fetch_evidence,36318,Resolve evidence or partition-context gaps before routine deep reading
+G01540,P5,1540,low_priority,3466,Jev low-priority route; retain for exclusion audits
+G01541,P3,1541,deep_read,4047,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01542,P5,1542,low_priority,3151,Jev low-priority route; retain for exclusion audits
+G01543,P5,1543,low_priority,6143,Jev low-priority route; retain for exclusion audits
+G01544,P3,1544,deep_read,3990,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01545,P3,1545,deep_read,10022,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01546,P3,1546,deep_read,4005,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01547,P3,1547,deep_read,4713,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01548,P4,1548,fetch_evidence,2816,Resolve evidence or partition-context gaps before routine deep reading
+G01549,P4,1549,fetch_evidence,4583,Resolve evidence or partition-context gaps before routine deep reading
+G01550,P3,1550,deep_read,4990,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01551,P4,1551,fetch_evidence,135993,Resolve evidence or partition-context gaps before routine deep reading
+G01552,P4,1552,fetch_evidence,3681,Resolve evidence or partition-context gaps before routine deep reading
+G01553,P5,1553 1554,low_priority,4112,Jev low-priority route; retain for exclusion audits
+G01555,P5,1555,low_priority,4096,Jev low-priority route; retain for exclusion audits
+G01556,P3,1556,deep_read,16967,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01557,P3,1557 1672,deep_read,5861,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01558,P3,1558,deep_read,5585,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01559,P5,1559,low_priority,9366,Jev low-priority route; retain for exclusion audits
+G01560,P4,1560,fetch_evidence,4982,Resolve evidence or partition-context gaps before routine deep reading
+G01561,P3,1561,deep_read,6593,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01562,P3,1562,deep_read,3958,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01563,P4,1563 1577,fetch_evidence,4429,Resolve evidence or partition-context gaps before routine deep reading
+G01564,P3,1564 1696 1697 1700,deep_read,10367,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01565,P5,1565,low_priority,2701,Jev low-priority route; retain for exclusion audits
+G01566,P4,1566 1569 1650 1705 1778 1788,fetch_evidence,89980,Resolve evidence or partition-context gaps before routine deep reading
+G01567,P4,1567,fetch_evidence,3141,Resolve evidence or partition-context gaps before routine deep reading
+G01568,P3,1568 1570 1685 1689,deep_read,12195,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01571,P4,1571 1588,fetch_evidence,3596,Resolve evidence or partition-context gaps before routine deep reading
+G01572,P5,1572,low_priority,18709,Jev low-priority route; retain for exclusion audits
+G01573,P3,1573,deep_read,3128,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01574,P3,1574,deep_read,3498,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01575,P4,1575,fetch_evidence,7068,Resolve evidence or partition-context gaps before routine deep reading
+G01576,P3,1576 1658 1660 1662,deep_read,24486,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01578,P3,1578,deep_read,5242,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01579,P3,1579 1659 1695 1702 1719 1720 1734 1735 1736 1737 2193 2195 2214,deep_read,96848,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01580,P4,1580,fetch_evidence,3073,Resolve evidence or partition-context gaps before routine deep reading
+G01581,P3,1581,deep_read,8741,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01583,P3,1583,deep_read,8288,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01584,P3,1584,deep_read,38400,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01585,P3,1585,deep_read,43077,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01586,P4,1586,fetch_evidence,3585,Resolve evidence or partition-context gaps before routine deep reading
+G01587,P3,1587 1595,deep_read,7892,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01589,P5,1589,low_priority,12755,Jev low-priority route; retain for exclusion audits
+G01590,P5,1590,low_priority,3069,Jev low-priority route; retain for exclusion audits
+G01591,P5,1591,low_priority,2991,Jev low-priority route; retain for exclusion audits
+G01592,P4,1592,fetch_evidence,30183,Resolve evidence or partition-context gaps before routine deep reading
+G01593,P5,1593,low_priority,3006,Jev low-priority route; retain for exclusion audits
+G01594,P4,1594,fetch_evidence,3559,Resolve evidence or partition-context gaps before routine deep reading
+G01596,P4,1596,fetch_evidence,148880,Resolve evidence or partition-context gaps before routine deep reading
+G01597,P5,1597,low_priority,3001,Jev low-priority route; retain for exclusion audits
+G01598,P4,1598,fetch_evidence,3172,Resolve evidence or partition-context gaps before routine deep reading
+G01599,P5,1599,low_priority,3258,Jev low-priority route; retain for exclusion audits
+G01601,P4,1601,fetch_evidence,2653,Resolve evidence or partition-context gaps before routine deep reading
+G01602,P4,1602,fetch_evidence,41126,Resolve evidence or partition-context gaps before routine deep reading
+G01603,P5,1603,low_priority,4758,Jev low-priority route; retain for exclusion audits
+G01604,P4,1604,fetch_evidence,9513,Resolve evidence or partition-context gaps before routine deep reading
+G01605,P3,1605,deep_read,71092,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01606,P5,1606,low_priority,4673,Jev low-priority route; retain for exclusion audits
+G01607,P3,1607,deep_read,3704,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01608,P5,1608,low_priority,2909,Jev low-priority route; retain for exclusion audits
+G01609,P5,1609,low_priority,6237,Jev low-priority route; retain for exclusion audits
+G01610,P5,1610,low_priority,4399,Jev low-priority route; retain for exclusion audits
+G01611,P3,1611,deep_read,10827,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01612,P5,1612,low_priority,3058,Jev low-priority route; retain for exclusion audits
+G01613,P3,1613,deep_read,10668,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01614,P3,1614,deep_read,3225,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01615,P5,1615,low_priority,3129,Jev low-priority route; retain for exclusion audits
+G01616,P5,1616,low_priority,2988,Jev low-priority route; retain for exclusion audits
+G01617,P3,1617,deep_read,106772,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01618,P4,1618,fetch_evidence,13367,Resolve evidence or partition-context gaps before routine deep reading
+G01619,P4,1619,fetch_evidence,3089,Resolve evidence or partition-context gaps before routine deep reading
+G01620,P4,1620,fetch_evidence,3101,Resolve evidence or partition-context gaps before routine deep reading
+G01621,P5,1621,low_priority,3235,Jev low-priority route; retain for exclusion audits
+G01622,P5,1622,low_priority,3129,Jev low-priority route; retain for exclusion audits
+G01623,P4,1623,fetch_evidence,18061,Resolve evidence or partition-context gaps before routine deep reading
+G01624,P3,1624,deep_read,3820,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01625,P5,1625,low_priority,2991,Jev low-priority route; retain for exclusion audits
+G01626,P5,1626,low_priority,3938,Jev low-priority route; retain for exclusion audits
+G01627,P5,1627,low_priority,3425,Jev low-priority route; retain for exclusion audits
+G01628,P5,1628,low_priority,4707,Jev low-priority route; retain for exclusion audits
+G01629,P5,1629,low_priority,3034,Jev low-priority route; retain for exclusion audits
+G01630,P5,1630,low_priority,7204,Jev low-priority route; retain for exclusion audits
+G01631,P5,1631,low_priority,11869,Jev low-priority route; retain for exclusion audits
+G01632,P4,1632,fetch_evidence,12759,Resolve evidence or partition-context gaps before routine deep reading
+G01633,P3,1633,deep_read,3366,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01634,P3,1634,deep_read,5115,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01635,P3,1635,deep_read,5394,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01636,P3,1636,deep_read,45892,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01637,P3,1637,deep_read,9834,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01639,P5,1639,low_priority,3866,Jev low-priority route; retain for exclusion audits
+G01640,P3,1640,deep_read,13805,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01642,P5,1642,low_priority,5193,Jev low-priority route; retain for exclusion audits
+G01644,P5,1644,low_priority,3114,Jev low-priority route; retain for exclusion audits
+G01645,P3,1645 1725,deep_read,11944,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01646,P3,1646,deep_read,3958,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01647,P3,1647,deep_read,253996,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01648,P5,1648,low_priority,2621,Jev low-priority route; retain for exclusion audits
+G01649,P3,1649 1654 1731 1732 1760 1761 1808 1811 1853 1882 1901 1904 1905 1907 1910 1911 1912 1916 1923 1924 1928 1929 1930 1935 1936 1939 1943,deep_read,166953,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01651,P3,1651,deep_read,4160,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01652,P5,1652,low_priority,4425,Jev low-priority route; retain for exclusion audits
+G01653,P3,1653,deep_read,4160,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01655,P5,1655,low_priority,3708,Jev low-priority route; retain for exclusion audits
+G01656,P3,1656 1766 1767 1800 1803,deep_read,15800,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01657,P3,1657,deep_read,62252,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01661,P5,1661,low_priority,2960,Jev low-priority route; retain for exclusion audits
+G01663,P3,1663 1721 1779,deep_read,10612,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01664,P3,1664 1670,deep_read,8378,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01665,P5,1665,low_priority,2987,Jev low-priority route; retain for exclusion audits
+G01666,P5,1666,low_priority,3092,Jev low-priority route; retain for exclusion audits
+G01667,P3,1667,deep_read,6394,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01668,P4,1668,fetch_evidence,352357,Resolve evidence or partition-context gaps before routine deep reading
+G01669,P4,1669,fetch_evidence,5096,Resolve evidence or partition-context gaps before routine deep reading
+G01671,P5,1671,low_priority,3680,Jev low-priority route; retain for exclusion audits
+G01673,P5,1673,low_priority,3547,Jev low-priority route; retain for exclusion audits
+G01674,P3,1674,deep_read,3933,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01675,P3,1675,deep_read,7600,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01676,P5,1676,low_priority,5243,Jev low-priority route; retain for exclusion audits
+G01677,P5,1677,low_priority,3084,Jev low-priority route; retain for exclusion audits
+G01678,P5,1678,low_priority,4417,Jev low-priority route; retain for exclusion audits
+G01679,P3,1679,deep_read,4064,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01681,P5,1681,low_priority,2970,Jev low-priority route; retain for exclusion audits
+G01682,P4,1682,fetch_evidence,26143,Resolve evidence or partition-context gaps before routine deep reading
+G01683,P5,1683,low_priority,3411,Jev low-priority route; retain for exclusion audits
+G01684,P5,1684,low_priority,2967,Jev low-priority route; retain for exclusion audits
+G01686,P5,1686,low_priority,2749,Jev low-priority route; retain for exclusion audits
+G01687,P3,1687 1716,deep_read,7845,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01688,P4,1688,fetch_evidence,26782,Resolve evidence or partition-context gaps before routine deep reading
+G01690,P3,1690,deep_read,4369,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01691,P3,1691 1699 1773 2024 2338,deep_read,8339,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01692,P3,1692 1706,deep_read,159298,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01693,P5,1693 1771,low_priority,4029,Jev low-priority route; retain for exclusion audits
+G01694,P3,1694,deep_read,3678,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01698,P5,1698,low_priority,3898,Jev low-priority route; retain for exclusion audits
+G01701,P3,1701 1763 1769 1801 1840 1846 1850 1855 1863 1872,deep_read,80010,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01703,P3,1703 1776 1787,deep_read,19228,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01704,P3,1704 1715 1717 1730,deep_read,13310,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01707,P5,1707,low_priority,2795,Jev low-priority route; retain for exclusion audits
+G01708,P5,1708,low_priority,2974,Jev low-priority route; retain for exclusion audits
+G01709,P3,1709,deep_read,2851,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01710,P5,1710,low_priority,3285,Jev low-priority route; retain for exclusion audits
+G01711,P4,1711,fetch_evidence,2925,Resolve evidence or partition-context gaps before routine deep reading
+G01712,P3,1712,deep_read,4308,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01713,P3,1713,deep_read,3118,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01714,P3,1714,deep_read,4598,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01718,P3,1718 1750,deep_read,11245,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01722,P3,1722,deep_read,3088,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01723,P5,1723,low_priority,2776,Jev low-priority route; retain for exclusion audits
+G01724,P3,1724,deep_read,15970,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01726,P5,1726,low_priority,3356,Jev low-priority route; retain for exclusion audits
+G01727,P3,1727,deep_read,3433,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01728,P3,1728 1729,deep_read,7259,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01733,P4,1733 1805 1980 1986,fetch_evidence,58817,Resolve evidence or partition-context gaps before routine deep reading
+G01738,P3,1738,deep_read,2830,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01739,P3,1739 1768,deep_read,4127,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01740,P3,1740 1780,deep_read,4965,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01741,P3,1741 1947,deep_read,18685,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01742,P3,1742 1817 1818,deep_read,8763,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01743,covered,1743 1744,deep_read,4701,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01745,P3,1745 1753,deep_read,6420,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01746,P5,1746,low_priority,4471,Jev low-priority route; retain for exclusion audits
+G01747,P2,1747 1754,deep_read,13054,Selected editorial reading shortlist
+G01748,P3,1748,deep_read,4539,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01749,P4,1749,fetch_evidence,118160,Resolve evidence or partition-context gaps before routine deep reading
+G01751,P5,1751,low_priority,3194,Jev low-priority route; retain for exclusion audits
+G01752,P3,1752 1807,deep_read,26007,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01755,P3,1755 1873,deep_read,5040,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01756,P3,1756 1762 1881 1895,deep_read,30057,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01757,P4,1757,fetch_evidence,2902,Resolve evidence or partition-context gaps before routine deep reading
+G01758,P3,1758 1844,deep_read,17880,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01759,P3,1759 1879,deep_read,11218,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01764,P3,1764,deep_read,3232,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01765,P3,1765 1824 1825 1908 2017 2051 2053,deep_read,11714,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01770,P3,1770,deep_read,4039,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01772,P3,1772 1816 1856 2459 2468,deep_read,110976,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01774,P3,1774,deep_read,23642,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01775,P3,1775 1887,deep_read,10195,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01777,P3,1777 1790,deep_read,71319,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01781,P5,1781,low_priority,4435,Jev low-priority route; retain for exclusion audits
+G01782,P5,1782,low_priority,3061,Jev low-priority route; retain for exclusion audits
+G01783,P5,1783,low_priority,3151,Jev low-priority route; retain for exclusion audits
+G01784,P5,1784,low_priority,2709,Jev low-priority route; retain for exclusion audits
+G01785,P5,1785,low_priority,3437,Jev low-priority route; retain for exclusion audits
+G01786,P5,1786,low_priority,3597,Jev low-priority route; retain for exclusion audits
+G01789,P3,1789 1823 1848 1857 1876,deep_read,18377,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01791,P5,1791,low_priority,3053,Jev low-priority route; retain for exclusion audits
+G01792,P5,1792,low_priority,4752,Jev low-priority route; retain for exclusion audits
+G01793,P3,1793,deep_read,8690,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01794,P4,1794,fetch_evidence,43635,Resolve evidence or partition-context gaps before routine deep reading
+G01795,P4,1795,fetch_evidence,3121,Resolve evidence or partition-context gaps before routine deep reading
+G01796,P5,1796,low_priority,3228,Jev low-priority route; retain for exclusion audits
+G01797,P3,1797,deep_read,3459,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01798,P5,1798,low_priority,3039,Jev low-priority route; retain for exclusion audits
+G01799,P3,1799 1917,deep_read,4399,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01802,P4,1802,fetch_evidence,2851,Resolve evidence or partition-context gaps before routine deep reading
+G01804,P5,1804,low_priority,3190,Jev low-priority route; retain for exclusion audits
+G01806,P5,1806,low_priority,2662,Jev low-priority route; retain for exclusion audits
+G01809,P3,1809,deep_read,3841,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01810,P4,1810,fetch_evidence,3712,Resolve evidence or partition-context gaps before routine deep reading
+G01812,P3,1812,deep_read,4735,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01814,P3,1814,deep_read,3443,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01815,P3,1815,deep_read,3634,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01819,P5,1819,low_priority,3992,Jev low-priority route; retain for exclusion audits
+G01820,P3,1820 1821,deep_read,8213,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01822,P3,1822,deep_read,6199,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01826,P3,1826 1854,deep_read,7360,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01827,P3,1827 1865,deep_read,16060,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01828,P3,1828,deep_read,2942,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01829,P3,1829,deep_read,3561,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01830,P3,1830,deep_read,3190,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01831,P5,1831 1832,low_priority,6873,Jev low-priority route; retain for exclusion audits
+G01833,P3,1833 1861 1864,deep_read,16026,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01834,P3,1834,deep_read,4754,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01835,P2,1835,deep_read,9712,Selected editorial reading shortlist
+G01836,P5,1836,low_priority,2594,Jev low-priority route; retain for exclusion audits
+G01837,P3,1837 1839,deep_read,3852,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01838,P4,1838,fetch_evidence,3404,Resolve evidence or partition-context gaps before routine deep reading
+G01841,P5,1841,low_priority,2736,Jev low-priority route; retain for exclusion audits
+G01842,P5,1842,low_priority,4048,Jev low-priority route; retain for exclusion audits
+G01843,P5,1843,low_priority,3191,Jev low-priority route; retain for exclusion audits
+G01845,P5,1845,low_priority,3850,Jev low-priority route; retain for exclusion audits
+G01847,P4,1847,fetch_evidence,2697,Resolve evidence or partition-context gaps before routine deep reading
+G01849,P5,1849,low_priority,6258,Jev low-priority route; retain for exclusion audits
+G01851,P4,1851,fetch_evidence,2673,Resolve evidence or partition-context gaps before routine deep reading
+G01852,P4,1852,fetch_evidence,2613,Resolve evidence or partition-context gaps before routine deep reading
+G01859,P3,1859 1890,deep_read,11990,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01860,P4,1860,fetch_evidence,4094,Resolve evidence or partition-context gaps before routine deep reading
+G01862,P3,1862,deep_read,3719,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01866,P3,1866,deep_read,3245,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01867,P5,1867,low_priority,2674,Jev low-priority route; retain for exclusion audits
+G01868,P3,1868,deep_read,4848,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01869,P3,1869,deep_read,3148,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01870,P3,1870,deep_read,17292,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01871,P3,1871,deep_read,3306,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01874,P4,1874,fetch_evidence,3447,Resolve evidence or partition-context gaps before routine deep reading
+G01875,P3,1875,deep_read,3764,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01877,P3,1877,deep_read,5851,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01878,P3,1878,deep_read,4843,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01880,P3,1880,deep_read,4664,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01883,covered,1883,deep_read,3031,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G01884,P3,1884,deep_read,8017,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01885,P5,1885,low_priority,8149,Jev low-priority route; retain for exclusion audits
+G01886,P3,1886,deep_read,7409,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01888,P5,1888,low_priority,2996,Jev low-priority route; retain for exclusion audits
+G01889,P5,1889,low_priority,3002,Jev low-priority route; retain for exclusion audits
+G01891,P5,1891,low_priority,4544,Jev low-priority route; retain for exclusion audits
+G01892,P5,1892,low_priority,2654,Jev low-priority route; retain for exclusion audits
+G01893,P5,1893 1899,low_priority,3546,Jev low-priority route; retain for exclusion audits
+G01894,P3,1894,deep_read,6706,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01896,P3,1896,deep_read,3383,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01897,P5,1897,low_priority,3093,Jev low-priority route; retain for exclusion audits
+G01898,P4,1898,fetch_evidence,97375,Resolve evidence or partition-context gaps before routine deep reading
+G01900,P3,1900,deep_read,3311,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01902,P4,1902,fetch_evidence,2860,Resolve evidence or partition-context gaps before routine deep reading
+G01903,P4,1903,fetch_evidence,2656,Resolve evidence or partition-context gaps before routine deep reading
+G01906,P3,1906,deep_read,3055,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01909,P3,1909,deep_read,7337,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01915,P3,1915,deep_read,4519,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01918,P3,1918,deep_read,3271,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01919,P3,1919 2014 2015,deep_read,19515,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01920,P3,1920 1957,deep_read,4640,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01921,P3,1921,deep_read,3211,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01922,P3,1922,deep_read,6762,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01925,P4,1925,fetch_evidence,2917,Resolve evidence or partition-context gaps before routine deep reading
+G01926,P4,1926,fetch_evidence,2731,Resolve evidence or partition-context gaps before routine deep reading
+G01927,P5,1927,low_priority,2766,Jev low-priority route; retain for exclusion audits
+G01931,P4,1931,fetch_evidence,3693,Resolve evidence or partition-context gaps before routine deep reading
+G01932,P5,1932,low_priority,2851,Jev low-priority route; retain for exclusion audits
+G01933,P5,1933,low_priority,2864,Jev low-priority route; retain for exclusion audits
+G01934,P3,1934,deep_read,7488,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01937,P3,1937,deep_read,3348,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01938,P5,1938,low_priority,3129,Jev low-priority route; retain for exclusion audits
+G01940,P4,1940,fetch_evidence,3365,Resolve evidence or partition-context gaps before routine deep reading
+G01941,P5,1941,low_priority,2802,Jev low-priority route; retain for exclusion audits
+G01942,P3,1942,deep_read,3061,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01944,P3,1944 2052,deep_read,18359,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01945,P4,1945,fetch_evidence,11347,Resolve evidence or partition-context gaps before routine deep reading
+G01946,P4,1946,fetch_evidence,2794,Resolve evidence or partition-context gaps before routine deep reading
+G01948,P2,1948,deep_read,2983,Selected editorial reading shortlist
+G01949,P5,1949,low_priority,5690,Jev low-priority route; retain for exclusion audits
+G01950,P3,1950,deep_read,3910,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01951,P4,1951,fetch_evidence,7658,Resolve evidence or partition-context gaps before routine deep reading
+G01952,P3,1952,deep_read,4509,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01953,P4,1953,fetch_evidence,3409,Resolve evidence or partition-context gaps before routine deep reading
+G01954,P4,1954,fetch_evidence,29717,Resolve evidence or partition-context gaps before routine deep reading
+G01955,P4,1955,fetch_evidence,3224,Resolve evidence or partition-context gaps before routine deep reading
+G01956,P4,1956,fetch_evidence,3845,Resolve evidence or partition-context gaps before routine deep reading
+G01958,P4,1958,fetch_evidence,3501,Resolve evidence or partition-context gaps before routine deep reading
+G01959,P4,1959,fetch_evidence,3113,Resolve evidence or partition-context gaps before routine deep reading
+G01960,P5,1960,low_priority,3329,Jev low-priority route; retain for exclusion audits
+G01961,P5,1961,low_priority,5011,Jev low-priority route; retain for exclusion audits
+G01962,P4,1962,fetch_evidence,782203,Resolve evidence or partition-context gaps before routine deep reading
+G01963,P4,1963,fetch_evidence,2634,Resolve evidence or partition-context gaps before routine deep reading
+G01964,P4,1964,fetch_evidence,3891,Resolve evidence or partition-context gaps before routine deep reading
+G01965,P5,1965,low_priority,2754,Jev low-priority route; retain for exclusion audits
+G01966,P5,1966,low_priority,3480,Jev low-priority route; retain for exclusion audits
+G01967,P3,1967,deep_read,7767,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01969,P4,1969,fetch_evidence,157520,Resolve evidence or partition-context gaps before routine deep reading
+G01971,P5,1971,low_priority,3202,Jev low-priority route; retain for exclusion audits
+G01972,P5,1972,low_priority,2753,Jev low-priority route; retain for exclusion audits
+G01973,P3,1973 1974 2312 2403,deep_read,42968,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01975,P3,1975,deep_read,3937,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01976,P5,1976,low_priority,3211,Jev low-priority route; retain for exclusion audits
+G01977,P5,1977,low_priority,3383,Jev low-priority route; retain for exclusion audits
+G01978,P5,1978,low_priority,4277,Jev low-priority route; retain for exclusion audits
+G01979,P5,1979,low_priority,2871,Jev low-priority route; retain for exclusion audits
+G01981,P4,1981,fetch_evidence,14895202,Resolve evidence or partition-context gaps before routine deep reading
+G01982,P3,1982,deep_read,3522,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01983,P3,1983,deep_read,3008,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01984,P5,1984,low_priority,2909,Jev low-priority route; retain for exclusion audits
+G01985,P5,1985,low_priority,3331,Jev low-priority route; retain for exclusion audits
+G01987,P5,1987,low_priority,3822,Jev low-priority route; retain for exclusion audits
+G01988,P3,1988,deep_read,3031,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01989,P3,1989,deep_read,18371,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01990,P5,1990,low_priority,3710,Jev low-priority route; retain for exclusion audits
+G01991,P3,1991,deep_read,3557,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01992,P3,1992,deep_read,3084,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01993,P5,1993,low_priority,15566,Jev low-priority route; retain for exclusion audits
+G01994,P3,1994,deep_read,4434,"Remaining Jev deep-read candidates; deferred, not rejected"
+G01995,P5,1995,low_priority,3938,Jev low-priority route; retain for exclusion audits
+G01996,P5,1996,low_priority,3472,Jev low-priority route; retain for exclusion audits
+G01997,P5,1997,low_priority,4347,Jev low-priority route; retain for exclusion audits
+G01998,P4,1998,fetch_evidence,3608,Resolve evidence or partition-context gaps before routine deep reading
+G01999,P5,1999,low_priority,2974,Jev low-priority route; retain for exclusion audits
+G02000,P5,2000,low_priority,3897,Jev low-priority route; retain for exclusion audits
+G02001,P5,2001,low_priority,2916,Jev low-priority route; retain for exclusion audits
+G02002,P4,2002,fetch_evidence,3244,Resolve evidence or partition-context gaps before routine deep reading
+G02003,P5,2003,low_priority,2678,Jev low-priority route; retain for exclusion audits
+G02004,P5,2004,low_priority,3504,Jev low-priority route; retain for exclusion audits
+G02005,P4,2005,fetch_evidence,2800,Resolve evidence or partition-context gaps before routine deep reading
+G02006,P3,2006 2007,deep_read,5126,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02008,P4,2008,fetch_evidence,7031,Resolve evidence or partition-context gaps before routine deep reading
+G02009,P3,2009,deep_read,3016,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02010,P5,2010,low_priority,2650,Jev low-priority route; retain for exclusion audits
+G02011,P3,2011 2025 2037,deep_read,12704,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02012,P5,2012,low_priority,7028,Jev low-priority route; retain for exclusion audits
+G02013,P5,2013,low_priority,3215,Jev low-priority route; retain for exclusion audits
+G02016,P3,2016,deep_read,3034,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02018,P3,2018,deep_read,3447,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02019,P4,2019 2020,fetch_evidence,3795,Resolve evidence or partition-context gaps before routine deep reading
+G02022,P3,2022,deep_read,3084,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02023,P3,2023 2347,deep_read,46374,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02026,P4,2026,fetch_evidence,3540,Resolve evidence or partition-context gaps before routine deep reading
+G02027,P4,2027,fetch_evidence,4470,Resolve evidence or partition-context gaps before routine deep reading
+G02028,P3,2028,deep_read,3373,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02029,P5,2029,low_priority,3173,Jev low-priority route; retain for exclusion audits
+G02030,P3,2030,deep_read,24729,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02031,P3,2031,deep_read,4345,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02032,P5,2032,low_priority,3250,Jev low-priority route; retain for exclusion audits
+G02033,P5,2033,low_priority,3038,Jev low-priority route; retain for exclusion audits
+G02034,P5,2034,low_priority,3029,Jev low-priority route; retain for exclusion audits
+G02035,P5,2035,low_priority,3876,Jev low-priority route; retain for exclusion audits
+G02036,P5,2036,low_priority,3033,Jev low-priority route; retain for exclusion audits
+G02038,P5,2038,low_priority,3083,Jev low-priority route; retain for exclusion audits
+G02039,P3,2039,deep_read,6964,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02040,P5,2040,low_priority,3345,Jev low-priority route; retain for exclusion audits
+G02041,P5,2041,low_priority,2637,Jev low-priority route; retain for exclusion audits
+G02042,P3,2042,deep_read,6248,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02043,P5,2043,low_priority,3014,Jev low-priority route; retain for exclusion audits
+G02045,P5,2045,low_priority,3594,Jev low-priority route; retain for exclusion audits
+G02046,P4,2046,fetch_evidence,4377,Resolve evidence or partition-context gaps before routine deep reading
+G02048,P5,2048,low_priority,3161,Jev low-priority route; retain for exclusion audits
+G02049,P4,2049,fetch_evidence,4031,Resolve evidence or partition-context gaps before routine deep reading
+G02050,P3,2050,deep_read,3856,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02054,P3,2054 2056,deep_read,6109,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02055,P4,2055,fetch_evidence,4479,Resolve evidence or partition-context gaps before routine deep reading
+G02057,P4,2057,fetch_evidence,2715,Resolve evidence or partition-context gaps before routine deep reading
+G02058,P5,2058 2079,low_priority,4260,Jev low-priority route; retain for exclusion audits
+G02059,P4,2059,fetch_evidence,122622,Resolve evidence or partition-context gaps before routine deep reading
+G02060,P4,2060,fetch_evidence,7938,Resolve evidence or partition-context gaps before routine deep reading
+G02061,P4,2061,fetch_evidence,7406,Resolve evidence or partition-context gaps before routine deep reading
+G02062,P3,2062,deep_read,4425,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02063,P5,2063,low_priority,4874,Jev low-priority route; retain for exclusion audits
+G02064,P5,2064,low_priority,3300,Jev low-priority route; retain for exclusion audits
+G02065,P4,2065,fetch_evidence,3506,Resolve evidence or partition-context gaps before routine deep reading
+G02066,P5,2066,low_priority,3511,Jev low-priority route; retain for exclusion audits
+G02067,P3,2067,deep_read,10376,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02068,P5,2068,low_priority,3287,Jev low-priority route; retain for exclusion audits
+G02069,P4,2069,fetch_evidence,2707,Resolve evidence or partition-context gaps before routine deep reading
+G02070,P5,2070,low_priority,2596,Jev low-priority route; retain for exclusion audits
+G02072,P4,2072,fetch_evidence,2959,Resolve evidence or partition-context gaps before routine deep reading
+G02073,P5,2073,low_priority,3423,Jev low-priority route; retain for exclusion audits
+G02074,P3,2074,deep_read,3381,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02075,P3,2075,deep_read,10165,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02076,P5,2076,low_priority,3556,Jev low-priority route; retain for exclusion audits
+G02077,P5,2077,low_priority,2817,Jev low-priority route; retain for exclusion audits
+G02078,P4,2078,fetch_evidence,61244,Resolve evidence or partition-context gaps before routine deep reading
+G02080,P3,2080 2081,deep_read,5420,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02083,P5,2083,low_priority,3003,Jev low-priority route; retain for exclusion audits
+G02084,P5,2084,low_priority,2623,Jev low-priority route; retain for exclusion audits
+G02085,P4,2085,fetch_evidence,4958,Resolve evidence or partition-context gaps before routine deep reading
+G02086,P3,2086,deep_read,8170,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02087,P5,2087,low_priority,3308,Jev low-priority route; retain for exclusion audits
+G02088,P5,2088,low_priority,2989,Jev low-priority route; retain for exclusion audits
+G02089,P5,2089,low_priority,3193,Jev low-priority route; retain for exclusion audits
+G02090,P5,2090,low_priority,3330,Jev low-priority route; retain for exclusion audits
+G02091,P3,2091 2093,deep_read,9964,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02092,P3,2092,deep_read,11511,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02094,P3,2094 2255,deep_read,6115,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02095,P3,2095 2096 2108 2127,deep_read,18589,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02097,P5,2097,low_priority,3451,Jev low-priority route; retain for exclusion audits
+G02098,P5,2098,low_priority,3104,Jev low-priority route; retain for exclusion audits
+G02099,P4,2099,fetch_evidence,2669,Resolve evidence or partition-context gaps before routine deep reading
+G02100,P4,2100,fetch_evidence,3948,Resolve evidence or partition-context gaps before routine deep reading
+G02101,P3,2101 2102 2105,deep_read,10078,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02103,P4,2103,fetch_evidence,36031,Resolve evidence or partition-context gaps before routine deep reading
+G02104,P5,2104,low_priority,3803,Jev low-priority route; retain for exclusion audits
+G02106,P5,2106,low_priority,3242,Jev low-priority route; retain for exclusion audits
+G02107,P4,2107,fetch_evidence,4210,Resolve evidence or partition-context gaps before routine deep reading
+G02109,P5,2109,low_priority,10176,Jev low-priority route; retain for exclusion audits
+G02110,P4,2110,fetch_evidence,2543,Resolve evidence or partition-context gaps before routine deep reading
+G02111,P5,2111,low_priority,3318,Jev low-priority route; retain for exclusion audits
+G02112,P5,2112,low_priority,3141,Jev low-priority route; retain for exclusion audits
+G02113,P5,2113,low_priority,3632,Jev low-priority route; retain for exclusion audits
+G02114,P5,2114,low_priority,2518,Jev low-priority route; retain for exclusion audits
+G02115,P5,2115,low_priority,2917,Jev low-priority route; retain for exclusion audits
+G02116,P4,2116,fetch_evidence,14153,Resolve evidence or partition-context gaps before routine deep reading
+G02117,P3,2117 2173 2174 2182 2184,deep_read,32602,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02118,P5,2118,low_priority,3687,Jev low-priority route; retain for exclusion audits
+G02119,P5,2119,low_priority,3757,Jev low-priority route; retain for exclusion audits
+G02120,P3,2120,deep_read,3887,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02121,P5,2121,low_priority,3298,Jev low-priority route; retain for exclusion audits
+G02122,P5,2122,low_priority,3218,Jev low-priority route; retain for exclusion audits
+G02123,P5,2123,low_priority,4292,Jev low-priority route; retain for exclusion audits
+G02124,P3,2124,deep_read,4409,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02125,P4,2125,fetch_evidence,3145,Resolve evidence or partition-context gaps before routine deep reading
+G02126,P5,2126,low_priority,5871,Jev low-priority route; retain for exclusion audits
+G02128,P4,2128,fetch_evidence,2770,Resolve evidence or partition-context gaps before routine deep reading
+G02129,P3,2129 2131 2133 2134,deep_read,19256,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02130,P3,2130,deep_read,36185,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02132,P5,2132 2137,low_priority,4369,Jev low-priority route; retain for exclusion audits
+G02135,P3,2135,deep_read,5457,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02138,P5,2138,low_priority,3693,Jev low-priority route; retain for exclusion audits
+G02139,P5,2139,low_priority,2988,Jev low-priority route; retain for exclusion audits
+G02140,P5,2140,low_priority,3606,Jev low-priority route; retain for exclusion audits
+G02142,P1,2142,deep_read,3791,Selected editorial reading shortlist
+G02143,P4,2143,fetch_evidence,4403,Resolve evidence or partition-context gaps before routine deep reading
+G02144,P1,2144 2166 2213,deep_read,12051,Selected editorial reading shortlist
+G02145,P4,2145,fetch_evidence,60477,Resolve evidence or partition-context gaps before routine deep reading
+G02146,P5,2146,low_priority,2930,Jev low-priority route; retain for exclusion audits
+G02147,P3,2147,deep_read,13704,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02148,P5,2148,low_priority,3305,Jev low-priority route; retain for exclusion audits
+G02149,P5,2149,low_priority,3238,Jev low-priority route; retain for exclusion audits
+G02150,P4,2150,fetch_evidence,3474,Resolve evidence or partition-context gaps before routine deep reading
+G02151,P5,2151,low_priority,3118,Jev low-priority route; retain for exclusion audits
+G02152,P4,2152,fetch_evidence,3329,Resolve evidence or partition-context gaps before routine deep reading
+G02153,P3,2153 2157,deep_read,4632,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02154,P5,2154,low_priority,2925,Jev low-priority route; retain for exclusion audits
+G02155,P5,2155,low_priority,2884,Jev low-priority route; retain for exclusion audits
+G02156,P4,2156,fetch_evidence,160097,Resolve evidence or partition-context gaps before routine deep reading
+G02158,P5,2158,low_priority,3436,Jev low-priority route; retain for exclusion audits
+G02159,P4,2159,fetch_evidence,3387,Resolve evidence or partition-context gaps before routine deep reading
+G02160,P5,2160,low_priority,2780,Jev low-priority route; retain for exclusion audits
+G02161,P4,2161,fetch_evidence,2814,Resolve evidence or partition-context gaps before routine deep reading
+G02162,P5,2162,low_priority,2522,Jev low-priority route; retain for exclusion audits
+G02163,P4,2163,fetch_evidence,2688,Resolve evidence or partition-context gaps before routine deep reading
+G02164,P5,2164,low_priority,4912,Jev low-priority route; retain for exclusion audits
+G02165,P3,2165,deep_read,4179,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02167,P3,2167,deep_read,3302,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02168,P4,2168,fetch_evidence,2849,Resolve evidence or partition-context gaps before routine deep reading
+G02169,P2,2169,deep_read,3668,Selected editorial reading shortlist
+G02170,P3,2170,deep_read,271847,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02171,P5,2171,low_priority,4062,Jev low-priority route; retain for exclusion audits
+G02172,P4,2172,fetch_evidence,2541,Resolve evidence or partition-context gaps before routine deep reading
+G02175,P3,2175 2185,deep_read,18476,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02176,P5,2176,low_priority,3008,Jev low-priority route; retain for exclusion audits
+G02177,P3,2177,deep_read,5756,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02178,P1,2178,deep_read,3249,Selected editorial reading shortlist
+G02179,P5,2179,low_priority,3206,Jev low-priority route; retain for exclusion audits
+G02180,P3,2180,deep_read,3775,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02181,P5,2181,low_priority,3624,Jev low-priority route; retain for exclusion audits
+G02183,P3,2183 2187,deep_read,35167,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02188,P3,2188 2192,deep_read,5751,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02189,P3,2189,deep_read,2931,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02190,P3,2190,deep_read,4776,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02191,P5,2191,low_priority,3539,Jev low-priority route; retain for exclusion audits
+G02194,P4,2194,fetch_evidence,4996,Resolve evidence or partition-context gaps before routine deep reading
+G02196,P4,2196,fetch_evidence,3969,Resolve evidence or partition-context gaps before routine deep reading
+G02197,P3,2197,deep_read,11749,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02198,P4,2198,fetch_evidence,4038,Resolve evidence or partition-context gaps before routine deep reading
+G02199,P4,2199,fetch_evidence,3777,Resolve evidence or partition-context gaps before routine deep reading
+G02200,P5,2200,low_priority,2860,Jev low-priority route; retain for exclusion audits
+G02201,P4,2201,fetch_evidence,2648,Resolve evidence or partition-context gaps before routine deep reading
+G02202,P4,2202,fetch_evidence,3308,Resolve evidence or partition-context gaps before routine deep reading
+G02203,P5,2203,low_priority,3575,Jev low-priority route; retain for exclusion audits
+G02204,P5,2204,low_priority,3235,Jev low-priority route; retain for exclusion audits
+G02205,P3,2205 2209,deep_read,15296,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02206,P3,2206,deep_read,3106,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02207,P5,2207,low_priority,3008,Jev low-priority route; retain for exclusion audits
+G02208,P5,2208,low_priority,2871,Jev low-priority route; retain for exclusion audits
+G02210,P4,2210,fetch_evidence,3246,Resolve evidence or partition-context gaps before routine deep reading
+G02211,P5,2211,low_priority,3019,Jev low-priority route; retain for exclusion audits
+G02212,P3,2212 2215 2216,deep_read,5035,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02217,P3,2217 2266,deep_read,13902,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02218,P5,2218,low_priority,3459,Jev low-priority route; retain for exclusion audits
+G02219,P5,2219,low_priority,6311,Jev low-priority route; retain for exclusion audits
+G02220,P4,2220,fetch_evidence,16272908,Resolve evidence or partition-context gaps before routine deep reading
+G02221,P4,2221,fetch_evidence,50463,Resolve evidence or partition-context gaps before routine deep reading
+G02222,P3,2222,deep_read,3743,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02223,P5,2223,low_priority,4673,Jev low-priority route; retain for exclusion audits
+G02224,P3,2224,deep_read,3400,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02225,P5,2225,low_priority,7528,Jev low-priority route; retain for exclusion audits
+G02226,P3,2226,deep_read,6416,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02227,P5,2227,low_priority,3108,Jev low-priority route; retain for exclusion audits
+G02228,P3,2228,deep_read,6262,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02229,P3,2229,deep_read,3371,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02230,P3,2230 2239 2241 2250,deep_read,6474,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02231,P3,2231,deep_read,3543,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02232,P3,2232 2233 2262 2279,deep_read,24160,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02234,P5,2234,low_priority,3094,Jev low-priority route; retain for exclusion audits
+G02235,P5,2235,low_priority,2968,Jev low-priority route; retain for exclusion audits
+G02236,P3,2236 2240 2261,deep_read,8662,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02237,P3,2237,deep_read,4965,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02238,P5,2238,low_priority,6867,Jev low-priority route; retain for exclusion audits
+G02242,P3,2242 2465,deep_read,8545,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02243,P3,2243,deep_read,3593,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02244,P3,2244,deep_read,3284,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02245,P4,2245,fetch_evidence,109781,Resolve evidence or partition-context gaps before routine deep reading
+G02246,P3,2246,deep_read,2820,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02247,P5,2247,low_priority,3046,Jev low-priority route; retain for exclusion audits
+G02248,P5,2248,low_priority,6774,Jev low-priority route; retain for exclusion audits
+G02249,P3,2249 2251,deep_read,4823,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02252,covered,2252 2446,deep_read,6462,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G02253,P4,2253,fetch_evidence,3550,Resolve evidence or partition-context gaps before routine deep reading
+G02254,P3,2254,deep_read,3877,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02256,P5,2256,low_priority,3170,Jev low-priority route; retain for exclusion audits
+G02257,P5,2257,low_priority,4580,Jev low-priority route; retain for exclusion audits
+G02258,P3,2258,deep_read,6484,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02259,P5,2259,low_priority,3180,Jev low-priority route; retain for exclusion audits
+G02260,P3,2260 2454,deep_read,6752,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02263,P4,2263,fetch_evidence,6407,Resolve evidence or partition-context gaps before routine deep reading
+G02264,P4,2264,fetch_evidence,3517,Resolve evidence or partition-context gaps before routine deep reading
+G02265,P4,2265,fetch_evidence,3783,Resolve evidence or partition-context gaps before routine deep reading
+G02267,P5,2267,low_priority,6776,Jev low-priority route; retain for exclusion audits
+G02268,P3,2268 2269,deep_read,3965,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02270,P3,2270,deep_read,4960,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02271,P5,2271,low_priority,3076,Jev low-priority route; retain for exclusion audits
+G02272,P5,2272,low_priority,3282,Jev low-priority route; retain for exclusion audits
+G02273,P3,2273,deep_read,5592,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02274,P4,2274,fetch_evidence,24827,Resolve evidence or partition-context gaps before routine deep reading
+G02275,P3,2275,deep_read,3456,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02276,P5,2276,low_priority,7673,Jev low-priority route; retain for exclusion audits
+G02277,P4,2277,fetch_evidence,8555,Resolve evidence or partition-context gaps before routine deep reading
+G02278,P3,2278,deep_read,4403,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02280,P4,2280,fetch_evidence,163388,Resolve evidence or partition-context gaps before routine deep reading
+G02282,P3,2282,deep_read,3826,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02283,P5,2283,low_priority,3711,Jev low-priority route; retain for exclusion audits
+G02284,P3,2284,deep_read,4050,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02285,P3,2285,deep_read,11291,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02286,P3,2286,deep_read,13725,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02287,P5,2287,low_priority,4407,Jev low-priority route; retain for exclusion audits
+G02288,P3,2288 2289 2324 2326 2398 2444 2445,deep_read,1764957,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02290,P4,2290,fetch_evidence,29065,Resolve evidence or partition-context gaps before routine deep reading
+G02291,P5,2291,low_priority,2558,Jev low-priority route; retain for exclusion audits
+G02292,P5,2292,low_priority,4643,Jev low-priority route; retain for exclusion audits
+G02293,P3,2293,deep_read,9298,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02294,P3,2294 2296,deep_read,6273,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02295,P5,2295,low_priority,3256,Jev low-priority route; retain for exclusion audits
+G02297,P3,2297,deep_read,13359,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02298,P5,2298,low_priority,9764,Jev low-priority route; retain for exclusion audits
+G02299,P5,2299,low_priority,4584,Jev low-priority route; retain for exclusion audits
+G02300,P3,2300,deep_read,3668,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02301,P3,2301,deep_read,4803,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02302,P3,2302,deep_read,4121,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02303,P4,2303,fetch_evidence,50886,Resolve evidence or partition-context gaps before routine deep reading
+G02304,P5,2304,low_priority,3023,Jev low-priority route; retain for exclusion audits
+G02305,P5,2305,low_priority,2671,Jev low-priority route; retain for exclusion audits
+G02306,P5,2306,low_priority,4043,Jev low-priority route; retain for exclusion audits
+G02307,P5,2307,low_priority,3137,Jev low-priority route; retain for exclusion audits
+G02308,P5,2308,low_priority,2669,Jev low-priority route; retain for exclusion audits
+G02309,P4,2309 2320 2321,fetch_evidence,259582,Resolve evidence or partition-context gaps before routine deep reading
+G02310,P5,2310,low_priority,3355,Jev low-priority route; retain for exclusion audits
+G02311,P3,2311,deep_read,4203,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02313,P3,2313,deep_read,3197,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02314,P3,2314,deep_read,4084,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02315,P5,2315,low_priority,2813,Jev low-priority route; retain for exclusion audits
+G02316,P5,2316 2317,low_priority,3943,Jev low-priority route; retain for exclusion audits
+G02318,P4,2318,fetch_evidence,389684,Resolve evidence or partition-context gaps before routine deep reading
+G02319,P3,2319,deep_read,4644,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02322,P3,2322,deep_read,10407,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02323,P3,2323,deep_read,3603,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02325,P5,2325,low_priority,5862,Jev low-priority route; retain for exclusion audits
+G02327,P3,2327,deep_read,6438,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02328,P3,2328,deep_read,14076,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02329,P4,2329,fetch_evidence,4224,Resolve evidence or partition-context gaps before routine deep reading
+G02330,P3,2330,deep_read,3813,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02331,P3,2331,deep_read,3560,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02332,P3,2332,deep_read,3862,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02333,P4,2333,fetch_evidence,3077,Resolve evidence or partition-context gaps before routine deep reading
+G02334,P3,2334 2336,deep_read,8055,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02335,P4,2335,fetch_evidence,3231,Resolve evidence or partition-context gaps before routine deep reading
+G02337,P3,2337,deep_read,3382,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02339,P4,2339,fetch_evidence,402093,Resolve evidence or partition-context gaps before routine deep reading
+G02340,P5,2340,low_priority,3058,Jev low-priority route; retain for exclusion audits
+G02341,P3,2341,deep_read,3856,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02342,P3,2342,deep_read,4602,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02343,P5,2343,low_priority,3070,Jev low-priority route; retain for exclusion audits
+G02344,P3,2344,deep_read,4004,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02345,P3,2345 2355 2356 2375,deep_read,27902,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02346,P3,2346,deep_read,4032,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02349,P5,2349,low_priority,3147,Jev low-priority route; retain for exclusion audits
+G02350,P3,2350 2353,deep_read,5806,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02351,P4,2351,fetch_evidence,2507,Resolve evidence or partition-context gaps before routine deep reading
+G02352,P4,2352,fetch_evidence,2775,Resolve evidence or partition-context gaps before routine deep reading
+G02354,P3,2354,deep_read,5933,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02357,P3,2357,deep_read,7555,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02358,P5,2358,low_priority,3130,Jev low-priority route; retain for exclusion audits
+G02359,P5,2359,low_priority,3105,Jev low-priority route; retain for exclusion audits
+G02360,P3,2360,deep_read,2841,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02361,P5,2361,low_priority,6261,Jev low-priority route; retain for exclusion audits
+G02362,P5,2362,low_priority,3232,Jev low-priority route; retain for exclusion audits
+G02363,P3,2363,deep_read,8475,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02364,P3,2364,deep_read,26382,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02365,P4,2365,fetch_evidence,10195,Resolve evidence or partition-context gaps before routine deep reading
+G02366,P5,2366,low_priority,3078,Jev low-priority route; retain for exclusion audits
+G02367,P3,2367,deep_read,5609,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02368,P5,2368,low_priority,3931,Jev low-priority route; retain for exclusion audits
+G02369,P5,2369,low_priority,3098,Jev low-priority route; retain for exclusion audits
+G02370,P3,2370 2371,deep_read,4526,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02372,P5,2372,low_priority,3785,Jev low-priority route; retain for exclusion audits
+G02373,P4,2373,fetch_evidence,3763,Resolve evidence or partition-context gaps before routine deep reading
+G02374,P1,2374 2461 2497 2498,deep_read,27442,Selected editorial reading shortlist
+G02376,P3,2376,deep_read,18333,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02377,P5,2377,low_priority,4029,Jev low-priority route; retain for exclusion audits
+G02378,P5,2378,low_priority,4118,Jev low-priority route; retain for exclusion audits
+G02379,P3,2379,deep_read,4904,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02380,P4,2380,fetch_evidence,3021,Resolve evidence or partition-context gaps before routine deep reading
+G02381,P3,2381,deep_read,3447,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02382,P4,2382,fetch_evidence,3192,Resolve evidence or partition-context gaps before routine deep reading
+G02383,P4,2383,fetch_evidence,3594,Resolve evidence or partition-context gaps before routine deep reading
+G02384,P4,2384,fetch_evidence,3533,Resolve evidence or partition-context gaps before routine deep reading
+G02385,P3,2385,deep_read,3756,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02386,P3,2386,deep_read,3517,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02387,P3,2387,deep_read,3301,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02388,P3,2388,deep_read,3922,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02389,P4,2389,fetch_evidence,3739,Resolve evidence or partition-context gaps before routine deep reading
+G02390,P3,2390,deep_read,3518,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02391,P3,2391,deep_read,3716,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02392,P4,2392,fetch_evidence,3018,Resolve evidence or partition-context gaps before routine deep reading
+G02393,P3,2393,deep_read,3757,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02394,P3,2394,deep_read,3260,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02395,P3,2395,deep_read,3217,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02396,P3,2396 2397,deep_read,5269,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02401,P5,2401,low_priority,2951,Jev low-priority route; retain for exclusion audits
+G02413,P5,2413,low_priority,2697,Jev low-priority route; retain for exclusion audits
+G02437,P4,2437,fetch_evidence,278639,Resolve evidence or partition-context gaps before routine deep reading
+G02438,P5,2438,low_priority,3279,Jev low-priority route; retain for exclusion audits
+G02440,P3,2440,deep_read,4327,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02441,P3,2441,deep_read,4548,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02443,P3,2443,deep_read,4260,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02447,P3,2447 2449,deep_read,4131,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02448,P5,2448,low_priority,3296,Jev low-priority route; retain for exclusion audits
+G02450,P5,2450,low_priority,3467,Jev low-priority route; retain for exclusion audits
+G02451,P5,2451,low_priority,3237,Jev low-priority route; retain for exclusion audits
+G02452,P3,2452,deep_read,4069,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02453,P3,2453,deep_read,3494,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02455,P3,2455 2456 2464 2466 2467,deep_read,193201,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02457,P4,2457,fetch_evidence,23819,Resolve evidence or partition-context gaps before routine deep reading
+G02458,P4,2458,fetch_evidence,3985,Resolve evidence or partition-context gaps before routine deep reading
+G02460,P5,2460,low_priority,18777,Jev low-priority route; retain for exclusion audits
+G02462,P5,2462,low_priority,4710,Jev low-priority route; retain for exclusion audits
+G02463,P5,2463,low_priority,4540,Jev low-priority route; retain for exclusion audits
+G02469,P3,2469 2470,deep_read,4168,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02471,P5,2471,low_priority,3403,Jev low-priority route; retain for exclusion audits
+G02472,P5,2472,low_priority,2520,Jev low-priority route; retain for exclusion audits
+G02473,P3,2473,deep_read,3820,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02474,P3,2474,deep_read,3367,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02475,P3,2475 2477 2478 2479 2480 2486,deep_read,402749,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02476,P3,2476 2489,deep_read,5522,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02483,P3,2483,deep_read,4990,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02484,P3,2484,deep_read,180156,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02485,P5,2485,low_priority,3571,Jev low-priority route; retain for exclusion audits
+G02487,P3,2487,deep_read,7654,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02490,P2,2490,deep_read,3276,Selected editorial reading shortlist
+G02491,P3,2491 2495,deep_read,4967,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02492,P5,2492,low_priority,3442,Jev low-priority route; retain for exclusion audits
+G02493,P3,2493,deep_read,3767,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02494,P5,2494,low_priority,5420,Jev low-priority route; retain for exclusion audits
+G02496,P3,2496,deep_read,3867,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02501,covered,2501,fetch_evidence,4348,Contains a source in the previous 30-record pilot; group may still contain unreviewed material
+G02502,P3,2502,deep_read,7640,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02503,P3,2503,deep_read,4547,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02504,P5,2504,low_priority,4751,Jev low-priority route; retain for exclusion audits
+G02505,P3,2505,deep_read,3443,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02506,P3,2506,deep_read,3495,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02507,P5,2507,low_priority,4987,Jev low-priority route; retain for exclusion audits
+G02508,P3,2508,deep_read,3543,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02509,P3,2509,deep_read,3270,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02510,P3,2510,deep_read,3827,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02511,P3,2511,deep_read,5129,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02512,P3,2512,deep_read,5177,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02513,P3,2513,deep_read,5668,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02514,P1,2514,deep_read,7307,Selected editorial reading shortlist
+G02515,P3,2515,deep_read,4813,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02516,P3,2516,deep_read,4202,"Remaining Jev deep-read candidates; deferred, not rejected"
+G02518,P3,2518,deep_read,10672,"Remaining Jev deep-read candidates; deferred, not rejected"
