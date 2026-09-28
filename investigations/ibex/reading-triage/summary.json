@@ -1,0 +1,54 @@
+{
+  "source_index_records": 2481,
+  "evaluated_records": 2481,
+  "missing_records": [],
+  "recorded_failed_attempts": [
+    {
+      "number": 747,
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "automatic_retry": false
+    },
+    {
+      "number": 1790,
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "automatic_retry": false
+    },
+    {
+      "number": 1016,
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "automatic_retry": false
+    }
+  ],
+  "route_counts": {
+    "fetch_evidence": 1796,
+    "deep_read": 552,
+    "low_priority": 133
+  },
+  "category_counts": {
+    "rtl": 625,
+    "feature": 72,
+    "tooling": 785,
+    "verification_interface": 136,
+    "verification": 780,
+    "unclear": 34,
+    "integration": 49
+  },
+  "previous_pilot_routes": {
+    "deep_read": 13,
+    "fetch_evidence": 17
+  },
+  "previous_pilot_low_priority": [],
+  "input_tokens": 3398951,
+  "output_tokens": 531549,
+  "input_list_price_usd": 0.142755942,
+  "notes": [
+    "Not deduplicated: issue and fixing PR can describe one event.",
+    "No code/comments supplied. Routes are research priorities, not findings.",
+    "Low priority is retained for exclusion audits, not discarded.",
+    "Scores are not bug probabilities; no recall or Codex savings measured.",
+    "Usage sums successful cached responses only; failed HTTP attempts without usage are excluded."
+  ]
+}

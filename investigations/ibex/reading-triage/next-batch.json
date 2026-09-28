@@ -1,0 +1,487 @@
+{
+  "selection": "25 deep_read in RTL/verification/verification-interface/integration/unclear; round-robin categories, descending score then ascending number; plus 5 low_priority audit records selected by ascending SHA256(ibex-audit-2026-09-28:NUMBER). Exclude original 30 pilot PRs.",
+  "status": "Proposed queue only; no new source-level reading or reproduction performed",
+  "deduplication": "Not yet deduplicated; link issues to fixing PRs before reading",
+  "records": [
+    {
+      "number": 340,
+      "url": "https://github.com/lowRISC/ibex/issues/340",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "rtl",
+      "reason": "transaction",
+      "review_priority": 0.8,
+      "model": "jev-1.13.0",
+      "input_sha256": "3a39a886c11e27f2d67c53ec7ca3d068337747f397f50fd0177908d1ef624247",
+      "usage": {
+        "input_tokens": 1807,
+        "output_tokens": 209
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2187,
+      "url": "https://github.com/lowRISC/ibex/issues/2187",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification",
+      "reason": "reported_mismatch",
+      "review_priority": 0.78,
+      "model": "jev-1.13.0",
+      "input_sha256": "85125f46ef3f4099e75806bb8dd63e01b6ef6756c12791d9e1b0a82f51e96b33",
+      "usage": {
+        "input_tokens": 6172,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2476,
+      "url": "https://github.com/lowRISC/ibex/issues/2476",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification_interface",
+      "reason": "reported_mismatch",
+      "review_priority": 0.81,
+      "model": "jev-1.13.0",
+      "input_sha256": "7063667fd7d3ec87095885e0e6056edd3269d8ca786872cf88beb90f3c01b757",
+      "usage": {
+        "input_tokens": 3055,
+        "output_tokens": 214
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2311,
+      "url": "https://github.com/lowRISC/ibex/issues/2311",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "integration",
+      "reason": "reported_mismatch",
+      "review_priority": 0.72,
+      "model": "jev-1.13.0",
+      "input_sha256": "228b26875ec8fa41f9fa340a4cdc38dfad991732b1c65212e351a2f5f5ac4d1e",
+      "usage": {
+        "input_tokens": 2190,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 574,
+      "url": "https://github.com/lowRISC/ibex/issues/574",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "rtl",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.8,
+      "model": "jev-1.13.0",
+      "input_sha256": "967ee7d5ecc67ed1f9041b774072ec786598c8e416b97f4b94f707bb24572e8e",
+      "usage": {
+        "input_tokens": 2676,
+        "output_tokens": 212
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2511,
+      "url": "https://github.com/lowRISC/ibex/pull/2511",
+      "kind": "pr",
+      "route": "deep_read",
+      "category": "verification",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.76,
+      "model": "jev-1.13.0",
+      "input_sha256": "365acbebbdd7d0e7b4915322e658df5eb7efe68c60b4aad7bf56f97fad9c4019",
+      "usage": {
+        "input_tokens": 1807,
+        "output_tokens": 212
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2231,
+      "url": "https://github.com/lowRISC/ibex/issues/2231",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification_interface",
+      "reason": "reported_mismatch",
+      "review_priority": 0.74,
+      "model": "jev-1.13.0",
+      "input_sha256": "a5bd5fdb3fca7d609175c6c8d109d3b1063e7c998bbbd117cb6cad84f98cb5c4",
+      "usage": {
+        "input_tokens": 2170,
+        "output_tokens": 214
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 757,
+      "url": "https://github.com/lowRISC/ibex/issues/757",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "integration",
+      "reason": "routine_or_capability",
+      "review_priority": 0.66,
+      "model": "jev-1.13.0",
+      "input_sha256": "ec184a67219007e5cc2a60795c499349b45d60000453e16df9c63c18bed605b3",
+      "usage": {
+        "input_tokens": 1712,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2452,
+      "url": "https://github.com/lowRISC/ibex/issues/2452",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "rtl",
+      "reason": "reported_mismatch",
+      "review_priority": 0.79,
+      "model": "jev-1.13.0",
+      "input_sha256": "6020593b1687e8a31b8159e21de8d0e40202677f7fd5f2d2335a0966527d7550",
+      "usage": {
+        "input_tokens": 2378,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2314,
+      "url": "https://github.com/lowRISC/ibex/issues/2314",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification",
+      "reason": "reported_mismatch",
+      "review_priority": 0.75,
+      "model": "jev-1.13.0",
+      "input_sha256": "31d6a2d843bbc659c32c7c72ca227aabf570fad5a717f4d3318825026cd034d6",
+      "usage": {
+        "input_tokens": 2478,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2015,
+      "url": "https://github.com/lowRISC/ibex/issues/2015",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification_interface",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.73,
+      "model": "jev-1.13.0",
+      "input_sha256": "231a47ad9dfe5ce5a86bd5ad29efdb0c245793c5bf72a846b74d798782aef43c",
+      "usage": {
+        "input_tokens": 1682,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2360,
+      "url": "https://github.com/lowRISC/ibex/issues/2360",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "integration",
+      "reason": "reported_mismatch",
+      "review_priority": 0.66,
+      "model": "jev-1.13.0",
+      "input_sha256": "57bf49056250f07fae818b545efff65ca756a547ed680e8a6dfa0968a67909a3",
+      "usage": {
+        "input_tokens": 1452,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2473,
+      "url": "https://github.com/lowRISC/ibex/issues/2473",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "rtl",
+      "reason": "permission_or_state",
+      "review_priority": 0.79,
+      "model": "jev-1.13.0",
+      "input_sha256": "93f7a7b656ba430d9786a76bcf893cd7e742ce7a5bcf20ae88d487138e6a3923",
+      "usage": {
+        "input_tokens": 2148,
+        "output_tokens": 211
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2461,
+      "url": "https://github.com/lowRISC/ibex/issues/2461",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.75,
+      "model": "jev-1.13.0",
+      "input_sha256": "7818da39e3ae77ce37454afed049fb2c05492d884968480351e8931380f1391d",
+      "usage": {
+        "input_tokens": 2871,
+        "output_tokens": 212
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2094,
+      "url": "https://github.com/lowRISC/ibex/issues/2094",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification_interface",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.73,
+      "model": "jev-1.13.0",
+      "input_sha256": "3bb8599d5f61fcf953c8057e4f91f5c3f1afb485e92cbb28f27a3a2fea21cc0e",
+      "usage": {
+        "input_tokens": 2151,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2323,
+      "url": "https://github.com/lowRISC/ibex/issues/2323",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "integration",
+      "reason": "reported_mismatch",
+      "review_priority": 0.65,
+      "model": "jev-1.13.0",
+      "input_sha256": "ed4d34f53d917b69c75d58a5d544c44bae02f9783e3f7c8052e95fb38d641a56",
+      "usage": {
+        "input_tokens": 2182,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2487,
+      "url": "https://github.com/lowRISC/ibex/pull/2487",
+      "kind": "pr",
+      "route": "deep_read",
+      "category": "rtl",
+      "reason": "permission_or_state",
+      "review_priority": 0.78,
+      "model": "jev-1.13.0",
+      "input_sha256": "e4e212023ae1c33c612e346ca9628ce10c8eff9501148cc7a1200f660f4e1b66",
+      "usage": {
+        "input_tokens": 3505,
+        "output_tokens": 211
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2512,
+      "url": "https://github.com/lowRISC/ibex/pull/2512",
+      "kind": "pr",
+      "route": "deep_read",
+      "category": "verification",
+      "reason": "reported_mismatch",
+      "review_priority": 0.75,
+      "model": "jev-1.13.0",
+      "input_sha256": "64d550029e888656ded8e05f9e2bd064f05ca2608780a44349242c359a0bdfa9",
+      "usage": {
+        "input_tokens": 1629,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2518,
+      "url": "https://github.com/lowRISC/ibex/pull/2518",
+      "kind": "pr",
+      "route": "deep_read",
+      "category": "verification_interface",
+      "reason": "reported_mismatch",
+      "review_priority": 0.73,
+      "model": "jev-1.13.0",
+      "input_sha256": "02b8b098e0b0534dd1fccd1ac0b47d1700cfa58e1f7f5be913a9e573f0370313",
+      "usage": {
+        "input_tokens": 1656,
+        "output_tokens": 214
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 114,
+      "url": "https://github.com/lowRISC/ibex/issues/114",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "integration",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.64,
+      "model": "jev-1.13.0",
+      "input_sha256": "3e6ce593cd0a35d3620b820df019cc6d6fe5981dbe71985a013daa0b074927de",
+      "usage": {
+        "input_tokens": 1466,
+        "output_tokens": 212
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 849,
+      "url": "https://github.com/lowRISC/ibex/issues/849",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "rtl",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.77,
+      "model": "jev-1.13.0",
+      "input_sha256": "925381ec525f5dbc14510ae91e22fbe6ca0d2fb51eb951abf55878e45169d4cf",
+      "usage": {
+        "input_tokens": 1621,
+        "output_tokens": 212
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2515,
+      "url": "https://github.com/lowRISC/ibex/pull/2515",
+      "kind": "pr",
+      "route": "deep_read",
+      "category": "verification",
+      "reason": "reported_mismatch",
+      "review_priority": 0.75,
+      "model": "jev-1.13.0",
+      "input_sha256": "b63b36b2c8534e2dfc3b23fdec0e179e408fa502e3790e2261edbb3965d0013a",
+      "usage": {
+        "input_tokens": 1696,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 808,
+      "url": "https://github.com/lowRISC/ibex/issues/808",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "verification_interface",
+      "reason": "reported_mismatch",
+      "review_priority": 0.71,
+      "model": "jev-1.13.0",
+      "input_sha256": "4e0b5ee438a082785315e376fecea3cb33419b0724fd1287c2687cdc0a164dc2",
+      "usage": {
+        "input_tokens": 1688,
+        "output_tokens": 214
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 2135,
+      "url": "https://github.com/lowRISC/ibex/issues/2135",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "integration",
+      "reason": "reported_mismatch",
+      "review_priority": 0.62,
+      "model": "jev-1.13.0",
+      "input_sha256": "21b2181971a4c7462777cf78b99777079b4243947cb6459c797dc59c377f012e",
+      "usage": {
+        "input_tokens": 2911,
+        "output_tokens": 213
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 864,
+      "url": "https://github.com/lowRISC/ibex/issues/864",
+      "kind": "issue",
+      "route": "deep_read",
+      "category": "rtl",
+      "reason": "boundary_or_ordering",
+      "review_priority": 0.76,
+      "model": "jev-1.13.0",
+      "input_sha256": "e3401d0ddd89b87d7bc72cce87b9aac69e0cd7b2f622b8d1b562ba4ef3ffbb96",
+      "usage": {
+        "input_tokens": 1971,
+        "output_tokens": 212
+      },
+      "queue_purpose": "deep_read"
+    },
+    {
+      "number": 1085,
+      "url": "https://github.com/lowRISC/ibex/issues/1085",
+      "kind": "issue",
+      "route": "low_priority",
+      "category": "tooling",
+      "reason": "routine_or_capability",
+      "review_priority": 0.4,
+      "model": "jev-1.13.0",
+      "input_sha256": "0f95079adf320912af05695841c9bbaa2ee45ebdb5335d7473c640b0c5eb9d93",
+      "usage": {
+        "input_tokens": 1334,
+        "output_tokens": 214
+      },
+      "queue_purpose": "exclusion_audit"
+    },
+    {
+      "number": 1019,
+      "url": "https://github.com/lowRISC/ibex/issues/1019",
+      "kind": "issue",
+      "route": "low_priority",
+      "category": "tooling",
+      "reason": "routine_or_capability",
+      "review_priority": 0.45,
+      "model": "jev-1.13.0",
+      "input_sha256": "672b3034f74b6b4b43a2e98a5f39c176128e016286d93fe41c84fd368fa0e962",
+      "usage": {
+        "input_tokens": 1212,
+        "output_tokens": 214
+      },
+      "queue_purpose": "exclusion_audit"
+    },
+    {
+      "number": 72,
+      "url": "https://github.com/lowRISC/ibex/issues/72",
+      "kind": "issue",
+      "route": "low_priority",
+      "category": "integration",
+      "reason": "routine_or_capability",
+      "review_priority": 0.39,
+      "model": "jev-1.13.0",
+      "input_sha256": "04a376629bddda86aa8dd647eeadc03651f8a8098bcb2a9f28f401d8c30784cb",
+      "usage": {
+        "input_tokens": 1318,
+        "output_tokens": 213
+      },
+      "queue_purpose": "exclusion_audit"
+    },
+    {
+      "number": 1683,
+      "url": "https://github.com/lowRISC/ibex/issues/1683",
+      "kind": "issue",
+      "route": "low_priority",
+      "category": "verification",
+      "reason": "routine_or_capability",
+      "review_priority": 0.46,
+      "model": "jev-1.13.0",
+      "input_sha256": "601aea6706d5e8f35fa7d11602da35827572c1963ac24758b07c0fa5dcb725d9",
+      "usage": {
+        "input_tokens": 1194,
+        "output_tokens": 213
+      },
+      "queue_purpose": "exclusion_audit"
+    },
+    {
+      "number": 1841,
+      "url": "https://github.com/lowRISC/ibex/issues/1841",
+      "kind": "issue",
+      "route": "low_priority",
+      "category": "tooling",
+      "reason": "routine_or_capability",
+      "review_priority": 0.38,
+      "model": "jev-1.13.0",
+      "input_sha256": "6113f2d11428507077571eda770cb242dc12046562b8b1f098a8f4857cd0e8da",
+      "usage": {
+        "input_tokens": 1193,
+        "output_tokens": 214
+      },
+      "queue_purpose": "exclusion_audit"
+    }
+  ]
+}

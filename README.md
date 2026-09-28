@@ -13,11 +13,13 @@ This repository contains a discovery catalog and a bounded Ibex pilot. Checklist
 - Snapshot date: **2026-09-28**. GitHub public HEAD references and issue/PR totals were retrieved. No claim of exhaustive worldwide coverage.
 - **70 repository investigation issues** are linked from the [research roadmap](https://github.com/adachi6k/riscv-review-atlas/issues/1) and [investigation index](docs/investigation-index.md).
 - **Ibex pilot:** 30 historical PRs collected, 24 candidate properties extracted from 28 PRs, two broad changes deferred; 60 Jev evaluations measured. No independent RTL reproduction has been run.
+- **Jev reading triage:** all 2,481 indexed Ibex issue/PR records routed from title/body; 552 deep-read leads, 1,796 evidence-fetch leads and 133 low-priority records. This is not a source-level review.
 - Exhaustive deep history review remains incomplete. See the [pilot report and token budget](investigations/ibex/README.md).
 
 ## Explore
 
 - [Ibex pilot](investigations/ibex/README.md): checklist candidates, evidence, Jev comparison and bounded continuation plan.
+- [Jev-directed reading queue](investigations/ibex/reading-triage/README.md): whole-index routing before detailed evidence review.
 
 - [Repository catalog](docs/repository-catalog.md): categorized sources, counts, and history links.
 - [Investigation index](docs/investigation-index.md): one task per repository and the overall roadmap.
