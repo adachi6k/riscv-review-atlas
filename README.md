@@ -19,7 +19,7 @@ This repository contains a discovery catalog and bounded Ibex/CV32E40P investiga
 
 ## Explore
 
-- [VexRiscv next-core selection](investigations/vexriscv/README.md): five reports screened; three functional reading groups selected with explicit exclusions. No Jev calls or reproduction in this pass.
+- [VexRiscv next-core selection](investigations/vexriscv/README.md): three functional groups source-reviewed; three candidate entries with exact fix/contract evidence and explicit exclusions. No Jev calls or reproduction in this pass.
 - [CV32E40P bounded investigation](investigations/cv32e40p/README.md): nine seed groups reviewed, five candidate properties, one bounded zero-count component reproduction and a source-reviewed CSR-flush extension.
 
 - [Assessment with comments and diffs](investigations/ibex/full-evidence/README.md): comments and diffs supplied before Jev selects the reading queue, with measured usage and provenance.

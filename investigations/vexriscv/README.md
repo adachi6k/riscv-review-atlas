@@ -21,7 +21,7 @@ A fresh VexRiscv REST index contains **499 issue/PR records: 380 issues and 119 
 
 Bodies and all retrieved issue-conversation comments were read for #191, #318, #86, #158 and #165. PR metadata/final diffs were additionally cached for #86 and #158; detailed source adjudication remains pending. Timelines, inline reviews, attachments, complete commit history and recursive linked repositories were not collected. [sources.json](sources.json) records revisions and hashes; raw content stays in the ignored local cache.
 
-## Next three reading groups
+## Three selected reading groups
 
 | Order | Source | Evidence so far | Next question |
 |---:|---|---|---|
@@ -29,7 +29,7 @@ Bodies and all retrieved issue-conversation comments were read for #191, #318, #
 | 2 | [#318](https://github.com/SpinalHDL/VexRiscv/issues/318), with [#158](https://github.com/SpinalHDL/VexRiscv/pull/158) as context | Discussion identifies write responses sent by the testbench in a configuration that does not expect them; reporter says correcting the driver resolves the symptom | Trace write-response eligibility and response ownership in the selected cache/bridge configuration; separate integration contract from core RTL |
 | 3 | [#86](https://github.com/SpinalHDL/VexRiscv/pull/86) | Merged short-pipeline elaboration changes; discussion narrows the reporter's configuration to instruction cache only | Read each changed plugin and its stage assumptions; find evidence for functional coverage separately from successful elaboration |
 
-No new checklist entries or confirmed bugs are counted yet. #191's change predates this review and is not a new discovery. #318 must not be summarized as a proven store-to-load forwarding defect. The #86 author explicitly expresses uncertainty about hazards; a buildable generated design is not sufficient functional evidence.
+Follow-up: the selected sources now have a [bounded source review](deep-read.md) and [three candidate entries](checklist.md). None is independently reproduced. #191's change predates this review and is not a new discovery. #318 must not be summarized as a proven store-to-load forwarding defect. The #86 author explicitly expresses uncertainty about hazards; a buildable generated design is not sufficient functional evidence.
 
 ## Screening prevented misleading entries
 

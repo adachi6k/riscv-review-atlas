@@ -1,0 +1,124 @@
+[
+  {
+    "id": "VEX-001",
+    "title": "Preserve beat-size meaning across a cache-to-bus bridge",
+    "property": "A bridge must encode each outgoing beat size according to the bus width and supported transfer policy, while representing the overall transfer length separately.",
+    "applicability": "Cache refill/burst adapter to AXI. The historical bridge uses full-width beats. Narrow-transfer adapters must use their own contract rather than copying the constant-size implementation.",
+    "mechanism": "#191 reports a 32-bit interface emitting size 5 instead of size 2. Commit 3028c193 explicitly names #191 and replaces max(internal command size, log2(memory bytes)) with log2(memory bytes); burst length remains a separate assignment. This supports a size-domain confusion mechanism.",
+    "review_locations": "DataCacheMemBus.toAxi4Shared: internal size/beat-count interpretation, outgoing command size/length, byte enables and data width.",
+    "stimulus": "For supported configurations, vary cache-line length independently of memory bus width; exercise refill and supported writes with normal ordered responses and backpressure. Include single-beat and multi-beat transfers.",
+    "observation_and_oracle": "An independent transaction scoreboard computes legal bytes per beat from the bus contract and total transferred bytes from accepted beats/byte enables. Check command fields and actual transfer counts, not just final load data.",
+    "verification_record": "Not run: source review only. No generator elaboration, RTL simulation or before/after execution performed.",
+    "evidence_state": [
+      "source-reviewed",
+      "fix-linked"
+    ],
+    "lineage_and_duplicates": "New specific property relative to the public Ibex/CV32E40P entries. CV32E40P-005 addresses split-address ownership, not bus size translation.",
+    "limitations": "No independent reproduction or current-HEAD defect claim. No statement that every AXI transfer must be full bus width. The upstream issue provides two revisions; exact introduction has not been bisected.",
+    "source_evidence": [
+      {
+        "url": "https://github.com/SpinalHDL/VexRiscv/issues/191",
+        "reported_revision": "a4c86130cc4fec7d86052ab9deab90b29c307a1d"
+      },
+      {
+        "url": "https://github.com/SpinalHDL/VexRiscv/commit/3028c19389ae5a6589c561db5c65ab573a6af913",
+        "sha": "3028c19389ae5a6589c561db5c65ab573a6af913",
+        "parents": [
+          "66bcd7fca7f7902f5a4fd586f3578543cd04d1ca"
+        ],
+        "diff_sha256": "d7e4a71af960ae6f6e036348ab3ed4ace6ea9c7156ee765d5f38524926b56d3d"
+      },
+      {
+        "label": "fix191",
+        "revision": "3028c19389ae5a6589c561db5c65ab573a6af913",
+        "path": "src/main/scala/vexriscv/ip/DataCache.scala",
+        "url": "https://github.com/SpinalHDL/VexRiscv/blob/3028c19389ae5a6589c561db5c65ab573a6af913/src/main/scala/vexriscv/ip/DataCache.scala",
+        "sha256": "de74393444189c28d02c37a9c49588e48b08728db6f0d5bc7ecd20931602258c"
+      }
+    ]
+  },
+  {
+    "id": "VEX-002",
+    "title": "Match response production to the configured request contract",
+    "property": "Core, adapter, testbench and reference checker must agree which accepted commands produce responses and which operation owns each response.",
+    "applicability": "Interfaces whose write-response behavior depends on cache/coherency configuration, or bridges translating between acknowledged external writes and a read-response-only core interface.",
+    "mechanism": "#318 identifies a testbench emitting write responses in a non-exclusive cache configuration that expects none; the reporter says correcting the driver resolves the symptom. Pinned current DataCache defines withWriteResponse from withExclusive and its BMB bridge filters write responses when disabled. #158 is an unmerged proposal: historical DBusSimplePlugin waits/checks response faults for reads, not ordinary writes.",
+    "review_locations": "Configuration flags, response context/tags, bridge filtering, pending-operation ownership, simulator bus driver and error-checker assumptions.",
+    "stimulus": "Run ordinary store-then-load sequences using the documented response policy in each supported configuration. On an acknowledged external bus, verify the bridge consumes write acknowledgements without forwarding them as load data when the core does not expect write responses.",
+    "observation_and_oracle": "Independent command ledger derives expected response count/type from the interface contract. Check returned load data against a byte-addressed memory model and count correctly translated responses. An unsupported store-fault mode must not be reported as a failed promised feature.",
+    "verification_record": "Not run: source review only. No generator elaboration, RTL simulation or before/after execution performed.",
+    "evidence_state": [
+      "source-reviewed"
+    ],
+    "lineage_and_duplicates": "Extends existing response-ownership and checker-contract themes rather than counting #318 and #158 as two RTL bugs. No shared implementation lineage with Ibex is asserted.",
+    "limitations": "No illegal-response or modified-RTL experiment performed. Current pinned context corroborates a contract; it does not pin the unreported historical SHA of #318. Do not infer identical response policy for every bridge or optional atomic mode.",
+    "source_evidence": [
+      {
+        "url": "https://github.com/SpinalHDL/VexRiscv/issues/318#issuecomment-1450684467"
+      },
+      {
+        "url": "https://github.com/SpinalHDL/VexRiscv/issues/318#issuecomment-1450756276"
+      },
+      {
+        "url": "https://github.com/SpinalHDL/VexRiscv/pull/158",
+        "merged": false,
+        "base_sha": "d2855fcfca5410c6986b0c3e816cbb867e9b22b9",
+        "head_sha": "0e2177ce495a60c9d0f8e21823832382e9bcff63"
+      },
+      {
+        "label": "current",
+        "revision": "baf7dc82f855eddaf5b0a20a6802c526f127e38a",
+        "path": "src/main/scala/vexriscv/ip/DataCache.scala",
+        "url": "https://github.com/SpinalHDL/VexRiscv/blob/baf7dc82f855eddaf5b0a20a6802c526f127e38a/src/main/scala/vexriscv/ip/DataCache.scala",
+        "sha256": "8d0603b0fc7549186c4dd5b2cfa2b3a20627a8bc40ff7fb2ca507418decd892b"
+      },
+      {
+        "label": "simple158",
+        "revision": "d2855fcfca5410c6986b0c3e816cbb867e9b22b9",
+        "path": "src/main/scala/vexriscv/plugin/DBusSimplePlugin.scala",
+        "url": "https://github.com/SpinalHDL/VexRiscv/blob/d2855fcfca5410c6986b0c3e816cbb867e9b22b9/src/main/scala/vexriscv/plugin/DBusSimplePlugin.scala",
+        "sha256": "864a76e0d3040def5bcf204ab2c2858a7655b7565aa6622daf3d174a968f8bbe"
+      }
+    ]
+  },
+  {
+    "id": "VEX-003",
+    "title": "Keep result and control ownership coherent when pipeline stages are removed",
+    "property": "Every supported generated pipeline topology must attach results, hazards, stalls, flushes and exceptions to stages that exist and preserve the architectural dependencies of those operations.",
+    "applicability": "Configurable pipeline with optional memory/writeback stages and plugin-specific requirements. Unsupported combinations should be rejected explicitly; fixed-topology cores need only the corresponding shared invariant.",
+    "mechanism": "#86 changes last-stage hazard handling, multiplier result placement, iterative-unit flush attachment, and cache stage mappings. The cache can merge execute/memory timing when writeback is absent, with early-mux/hit restrictions. This is a collection of related topology adaptations, not a single independently reproduced runtime defect.",
+    "review_locations": "HazardSimplePlugin runtime bypass qualification; MulSimplePlugin injection/final stage; MulDivIterativePlugin flush stage; DBusCachedPlugin management/MMU/exception stages; cache tag/data/request alignment.",
+    "stimulus": "Enumerate supported topologies explicitly; generate each with exact plugin settings and run dependent MUL/DIV consumers, load/store sequences, normal stalls and applicable flush/exception cases. Record actual generated stage/plugin manifests before functional runs.",
+    "observation_and_oracle": "Check elaboration separately from execution. Use independently computed arithmetic/memory signatures and one-time completion, then show each required topology was actually generated and exercised. A random generator containing an option declaration is not evidence that the option was sampled.",
+    "verification_record": "Not run: source review only. No generator elaboration, RTL simulation or before/after execution performed.",
+    "evidence_state": [
+      "source-reviewed",
+      "fix-linked"
+    ],
+    "lineage_and_duplicates": "Related to CV32E40P-003/004 dependency questions, but extends them to topology-dependent ownership. Configuration reachability also extends IBEX-022. Do not count every modified plugin as a separate bug.",
+    "limitations": "No generator/toolchain run or functional reproduction. The reporter narrowed their tested setup to instruction cache only. A candidate-list reachability concern in the merged test generator is documented in deep-read.md; no current regression failure is claimed.",
+    "source_evidence": [
+      {
+        "url": "https://github.com/SpinalHDL/VexRiscv/pull/86",
+        "merged": true,
+        "base_sha": "fe385da850d7bcff8f6a416fe44cd21a7ac82a45",
+        "head_sha": "49944643d222fc72b800bb2fa1880f6ef91618c6",
+        "merge_commit_sha": "49944643d222fc72b800bb2fa1880f6ef91618c6"
+      },
+      {
+        "label": "short86",
+        "revision": "49944643d222fc72b800bb2fa1880f6ef91618c6",
+        "path": "src/test/scala/vexriscv/TestIndividualFeatures.scala",
+        "url": "https://github.com/SpinalHDL/VexRiscv/blob/49944643d222fc72b800bb2fa1880f6ef91618c6/src/test/scala/vexriscv/TestIndividualFeatures.scala",
+        "sha256": "31f7800f69eed9bd6810b75dab966a0f1daec0401e96fc0b41e09bba5d880bb3"
+      },
+      {
+        "label": "hazard86",
+        "revision": "49944643d222fc72b800bb2fa1880f6ef91618c6",
+        "path": "src/main/scala/vexriscv/plugin/HazardSimplePlugin.scala",
+        "url": "https://github.com/SpinalHDL/VexRiscv/blob/49944643d222fc72b800bb2fa1880f6ef91618c6/src/main/scala/vexriscv/plugin/HazardSimplePlugin.scala",
+        "sha256": "21643d45aa6bd87a2ac2dab84c6a95f00889c1fbeb733b358716519dcb4029bb"
+      }
+    ]
+  }
+]
