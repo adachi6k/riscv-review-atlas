@@ -1,0 +1,100 @@
+[
+  {
+    "rank": 1,
+    "members": [
+      195
+    ],
+    "topic": "Hardware-loop state during interrupt cancellation",
+    "reading_question": "Inspect the interrupt/id-ready write gate and determine whether it adds a property or specializes existing cancellation rules.",
+    "part_count": 2,
+    "route_counts": {
+      "deep_read": 2
+    },
+    "novelty_counts": {
+      "not_applicable": 1,
+      "new_candidate": 1
+    },
+    "status": "selected_for_deep_read_not_validated"
+  },
+  {
+    "rank": 2,
+    "members": [
+      880,
+      881
+    ],
+    "topic": "Zero hardware-loop count",
+    "reading_question": "Check decrement eligibility and zero-count semantics before deriving a counter-underflow property.",
+    "part_count": 8,
+    "route_counts": {
+      "deep_read": 6,
+      "fetch_evidence": 2
+    },
+    "novelty_counts": {
+      "not_applicable": 6,
+      "unclear": 1,
+      "new_candidate": 1
+    },
+    "status": "selected_for_deep_read_not_validated"
+  },
+  {
+    "rank": 3,
+    "members": [
+      888,
+      889,
+      897
+    ],
+    "topic": "Cancelled loop update and shared writeback",
+    "reading_question": "Separate the cancelled cv.end report from the ALU/FPU forwarding report; a shared multi-fix PR does not make them one root cause.",
+    "part_count": 8,
+    "route_counts": {
+      "deep_read": 6,
+      "fetch_evidence": 2
+    },
+    "novelty_counts": {
+      "new_candidate": 4,
+      "not_applicable": 4
+    },
+    "status": "selected_for_deep_read_not_validated"
+  },
+  {
+    "rank": 4,
+    "members": [
+      730,
+      841
+    ],
+    "topic": "Custom-instruction operand hazards",
+    "reading_question": "Inspect operand availability for XPULP consumers of multi-cycle FPU/Zfinx results, with explicit configuration tags.",
+    "part_count": 11,
+    "route_counts": {
+      "deep_read": 6,
+      "fetch_evidence": 5
+    },
+    "novelty_counts": {
+      "not_applicable": 7,
+      "unclear": 2,
+      "new_candidate": 2
+    },
+    "status": "selected_for_deep_read_not_validated"
+  },
+  {
+    "rank": 5,
+    "members": [
+      723,
+      824,
+      860
+    ],
+    "topic": "Split memory accesses under FPU contention",
+    "reading_question": "Trace address ownership across split accesses and delayed writeback; distinguish the applicable extension and misalignment policies.",
+    "part_count": 15,
+    "route_counts": {
+      "deep_read": 10,
+      "fetch_evidence": 5
+    },
+    "novelty_counts": {
+      "not_applicable": 5,
+      "unclear": 3,
+      "new_candidate": 7
+    },
+    "status": "selected_for_deep_read_not_validated"
+  }
+]

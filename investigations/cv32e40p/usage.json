@@ -1,0 +1,9 @@
+{
+  "model": "jev-1.13.0",
+  "seed_records": 10,
+  "collected_records": 15,
+  "groups": 9,
+  "successful_parts": 53,
+  "input_tokens": 556338,
+  "output_tokens": 29146
+}

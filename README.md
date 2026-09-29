@@ -19,6 +19,8 @@ This repository contains a discovery catalog and a bounded Ibex pilot. Checklist
 
 ## Explore
 
+- [CV32E40P bounded investigation](investigations/cv32e40p/README.md): 15 source records with comments/diffs evaluated by Jev; five reading groups selected, not yet validated.
+
 - [Assessment with comments and diffs](investigations/ibex/full-evidence/README.md): comments and diffs supplied before Jev selects the reading queue, with measured usage and provenance.
 
 - [Ibex pilot](investigations/ibex/README.md): checklist candidates, evidence, Jev comparison and bounded continuation plan.

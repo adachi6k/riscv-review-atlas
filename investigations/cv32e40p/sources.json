@@ -1,0 +1,465 @@
+{
+  "date": "2026-09-29",
+  "head": "6033d2b1be3295ec774d17ac4cf226faacfdeb08",
+  "index_records": 1052,
+  "issues": 504,
+  "prs": 548,
+  "records": [
+    {
+      "number": 195,
+      "url": "https://github.com/openhwfoundation/cv32e40p/pull/195",
+      "title": "Hwloop we gated fix",
+      "state": "closed",
+      "kind": "PR",
+      "merged": true,
+      "head_sha": "eb07d277b462f227dae482dec987a34181d3f1a6",
+      "updated_at": "2019-11-28T14:42:05Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "998405167eaf2fdf9063a2d5a5574bbe51ed939641a2aa4c9f5458a2236f9552",
+          "bytes": 9240
+        },
+        "pull.json": {
+          "sha256": "fd5328f46439fe517e3a21d878a2f350ad4e6a3119f95ca4555d9e18e2edd042",
+          "bytes": 20131
+        },
+        "record.json": {
+          "sha256": "c904e928ea30ebc61c1ddf0bd98d7045988f65e9fc035b1bd23b8485c48cda5c",
+          "bytes": 6432
+        },
+        "change.diff": {
+          "sha256": "f1c5c0bf3c0079379821051d985e6d5af4e4b36eadd5154377c432947d9baebd",
+          "bytes": 3787
+        },
+        "comments.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        },
+        "reviews.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        },
+        "inline.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        }
+      }
+    },
+    {
+      "number": 466,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/466",
+      "title": "Instruction after stalled load retires out of order",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2020-09-01T17:53:09Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "1464a826fd10006083073e3deffe9f0ab7f8c8339d53ea0f23a1f62364cd16e9",
+          "bytes": 23648
+        },
+        "record.json": {
+          "sha256": "87c0cf9e1c455d1f58d9bfed20b05f0c2e4138b45112e4b89bb55eff2c245c35",
+          "bytes": 6025
+        },
+        "comments.json": {
+          "sha256": "90a40f520aacfdb7793361d5ef88f39cdb38a64bbab7325905c589fdf462e1e8",
+          "bytes": 4116
+        }
+      }
+    },
+    {
+      "number": 723,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/723",
+      "title": "Wrong data memory access of misaligned memory instructions caused by multicycle F instructions",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2023-10-26T10:59:21Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "5b202fe6aa9920fdde4ed9df15b2844d35bffef6debfe39a6201d259de449d83",
+          "bytes": 48384
+        },
+        "record.json": {
+          "sha256": "606ef9ac0d94f97f1716633fae17fad807f20968f1b65646c053277ee4e5d94f",
+          "bytes": 7585
+        },
+        "comments.json": {
+          "sha256": "c3248c51e167337c7c5421a74484b38cefc2ee4a42b6a61831025660aad81947",
+          "bytes": 1704
+        }
+      }
+    },
+    {
+      "number": 730,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/730",
+      "title": "Custom Xpulp instructions update register file wrongly | Forwarding issue",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2023-10-26T11:00:45Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "fd77c70550a6187387df8aa7f8bec0445d64125c0bf56b98b56751e866ef8d0b",
+          "bytes": 27565
+        },
+        "record.json": {
+          "sha256": "f7e49b2da5747f04038a108e5697e969c8fb5dafa46971de2d3abf36d2b8147a",
+          "bytes": 7888
+        },
+        "comments.json": {
+          "sha256": "38fb57a8101698c87b137af64e7b5150e8a8b8ae1ee7f2dcfc0a4a286c8507e9",
+          "bytes": 5338
+        }
+      }
+    },
+    {
+      "number": 824,
+      "url": "https://github.com/openhwfoundation/cv32e40p/pull/824",
+      "title": "RTL bug correction and updates",
+      "state": "closed",
+      "kind": "PR",
+      "merged": true,
+      "head_sha": "00bb726c53ed45ab6ff9674bb9f71693141e6b22",
+      "updated_at": "2023-06-27T13:47:15Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "b5394ff43512999cfbab0d4f5acca5c2100b9a159375b53d30dbaeb4740fde83",
+          "bytes": 34231
+        },
+        "pull.json": {
+          "sha256": "e1841bcf995837196cb2782f302b61ff0eb75578865ab3cfe45b2670a6d87d76",
+          "bytes": 19108
+        },
+        "record.json": {
+          "sha256": "79933ecc543c061f455023e8aa20e5c4570a7e8c8c5050ee11d5d82dc7638407",
+          "bytes": 4588
+        },
+        "change.diff": {
+          "sha256": "3ef4fc52346c987ae39d912d87a5c835d0907f1a76716d84967353ab69495064",
+          "bytes": 6531
+        },
+        "comments.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        },
+        "reviews.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        },
+        "inline.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        }
+      }
+    },
+    {
+      "number": 841,
+      "url": "https://github.com/openhwfoundation/cv32e40p/pull/841",
+      "title": "3 RTL Issues corrections",
+      "state": "closed",
+      "kind": "PR",
+      "merged": true,
+      "head_sha": "0491837ebe928770ef46d57efecb73f43839c9b8",
+      "updated_at": "2023-08-03T13:42:17Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "749b622289eb22f0f2f907a12f4d7207c2d85a6d4eb77f7743509ac4d450024b",
+          "bytes": 75406
+        },
+        "pull.json": {
+          "sha256": "b95d524408ec20b2603af9c68cbf393c4c79a8bcdeb60cd627142df3dc866d34",
+          "bytes": 21068
+        },
+        "record.json": {
+          "sha256": "1f875562e7ecf51ec73221c7846c12af544063cb22887236da9911f0eec96c44",
+          "bytes": 4535
+        },
+        "change.diff": {
+          "sha256": "1aad84de6f7c5be86627c883724796d52adf9393dc579b06ca2c9391097a9975",
+          "bytes": 7294
+        },
+        "comments.json": {
+          "sha256": "13c775d07d7b84fbdfb028d37078ae7684994057042aa638999e4d6ce4c35a13",
+          "bytes": 21976
+        },
+        "reviews.json": {
+          "sha256": "6036ecdd49ec05cefd79e722c049beebcbb7217a2f53526a3888248de1fe3628",
+          "bytes": 19286
+        },
+        "inline.json": {
+          "sha256": "58c885e91b92766b520c56105738d97719423ca907c8b3e17e2b74b457049c0b",
+          "bytes": 34853
+        }
+      }
+    },
+    {
+      "number": 860,
+      "url": "https://github.com/openhwfoundation/cv32e40p/pull/860",
+      "title": "Some Core RTL bug fixes and CVFPU 0.8.1 vendorization",
+      "state": "closed",
+      "kind": "PR",
+      "merged": true,
+      "head_sha": "f3a904fe5293f93cd4f0488af1a4ad21df281982",
+      "updated_at": "2023-08-30T14:34:49Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "236aebb6c5e0b495ad591252e23a7a4579863bc157fb094d2f9b734952f058cf",
+          "bytes": 141535
+        },
+        "pull.json": {
+          "sha256": "97ef873a3501306dd4b6822e4371add2e3532065eb1145b8d110842c7d0987e5",
+          "bytes": 19128
+        },
+        "record.json": {
+          "sha256": "409832acd6a58d2bd37de0952d71703338be23b69c724583b26811bf8bc09559",
+          "bytes": 5602
+        },
+        "change.diff": {
+          "sha256": "6e017686aef1a7a2078acd0c4dab614223b35ead1d753d143b27ba6038ba733b",
+          "bytes": 31937
+        },
+        "comments.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        },
+        "reviews.json": {
+          "sha256": "b9eedf3f8ad2dbe65e8090b7b3f39c14747d55b7ce32f053734dfe5d76ad1563",
+          "bytes": 1664
+        },
+        "inline.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        }
+      }
+    },
+    {
+      "number": 880,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/880",
+      "title": "For pulp hwloops with hwloop count programmed to 0, count decrements at the end of loop to set lpcount to 0xFFFF_FFFF",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2023-10-26T11:02:44Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "e38e4f00c76b832fc7c7efdfd7c3eb2ee1c9dcd660cf9f8b3a348cfd2e0dadd7",
+          "bytes": 20644
+        },
+        "record.json": {
+          "sha256": "28d3cb92676c94b9d9eba95cdd34625468f6ff3e90215937d2c041159137613e",
+          "bytes": 8362
+        },
+        "comments.json": {
+          "sha256": "fc743e1280a77dad547975d70931a955f6855a3dff32ac4bff6b8e16758868f0",
+          "bytes": 1704
+        }
+      }
+    },
+    {
+      "number": 881,
+      "url": "https://github.com/openhwfoundation/cv32e40p/pull/881",
+      "title": "5 RTL issues corrections + 1 former correction improvement",
+      "state": "closed",
+      "kind": "PR",
+      "merged": true,
+      "head_sha": "767fb0fd85d981d548ae942eb748b847a29b71f4",
+      "updated_at": "2023-10-04T07:04:09Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "32cbfe402f5954cb1af54416d1b40214c65628a1a9e4d2b73e16b4b021d9b377",
+          "bytes": 91007
+        },
+        "pull.json": {
+          "sha256": "9306e5e123063e13147e0e41637d0bc8c1bfa0c07da499062b9ef612a3a5b392",
+          "bytes": 18119
+        },
+        "record.json": {
+          "sha256": "9d52bc85e85793530bb795ec65711f98e647d7df39c8437fb8355b97c709c4a8",
+          "bytes": 4617
+        },
+        "change.diff": {
+          "sha256": "44570e1cbb1fa893032a85f1f6c57aac8d34965646c424d318f6fac0900abd8d",
+          "bytes": 6514
+        },
+        "comments.json": {
+          "sha256": "9efa368ab55cdadbf5dfa6a28340ab844f88d4c729fe72b954c676194dd834f4",
+          "bytes": 5334
+        },
+        "reviews.json": {
+          "sha256": "5f6ad7393b345f0b5e50818dc18f4d4a812183992d5515627c9827183470e824",
+          "bytes": 1664
+        },
+        "inline.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        }
+      }
+    },
+    {
+      "number": 888,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/888",
+      "title": "HWloop end CSR updated by a cancelled cv.end instruction",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2023-10-26T10:39:40Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "7c61a328c4c2877f3b06e63df3a032dffd011ee89d5dc09a9851125fc25c4986",
+          "bytes": 20545
+        },
+        "record.json": {
+          "sha256": "a53a6d40f39d206deedbebb482e41bdb0ba595723a9fd6e86f3b25a5f6e8b0d4",
+          "bytes": 6981
+        },
+        "comments.json": {
+          "sha256": "0776d0f1bf0a9210113ce3e1505d6670d7da33826d723ff8d4fb42cb0358e2c7",
+          "bytes": 1706
+        }
+      }
+    },
+    {
+      "number": 889,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/889",
+      "title": "Violation of ALU operand forwarding if preceded by FPU multicycle instruction",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2023-10-26T11:03:27Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "c2394b03f60d726472084aae87111de7b942b3120bcedfca565f20d08fd135b2",
+          "bytes": 22056
+        },
+        "record.json": {
+          "sha256": "ea7075ce3fd2ef1c5862095db345a151cc03a46583bbc020ae8946808a3281d8",
+          "bytes": 7480
+        },
+        "comments.json": {
+          "sha256": "a75df298288ef72e1fc53532d50c7e70a3d4f9f3859ec98ac5738052679460de",
+          "bytes": 1706
+        }
+      }
+    },
+    {
+      "number": 897,
+      "url": "https://github.com/openhwfoundation/cv32e40p/pull/897",
+      "title": "4 bug corrections",
+      "state": "closed",
+      "kind": "PR",
+      "merged": true,
+      "head_sha": "e6f280007d37052222c4295d8af2618186d9abfd",
+      "updated_at": "2023-11-09T11:26:06Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "fc2468aa17006640a9ef231352bde04211ac6e0fbd7c49c2e3930cd837c18296",
+          "bytes": 71590
+        },
+        "pull.json": {
+          "sha256": "d9c9609ac9e42488237673bdeb8f226377dfa4b16ff4a27fa2b5fa57200fe7c0",
+          "bytes": 18019
+        },
+        "record.json": {
+          "sha256": "b9402e97111c776f88da0864c8852a484bf9116c93148c7b7c44ed1ab8451d26",
+          "bytes": 4516
+        },
+        "change.diff": {
+          "sha256": "c3a1e276586b6929278dfd5dfce42a7705d97af2d799ffc52887c6f15146beca",
+          "bytes": 10156
+        },
+        "comments.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        },
+        "reviews.json": {
+          "sha256": "14d4733b336b25f47a4c41e99d49fd304ade24b8d4a8db234da75e3b3ebd6511",
+          "bytes": 1664
+        },
+        "inline.json": {
+          "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05",
+          "bytes": 4
+        }
+      }
+    },
+    {
+      "number": 920,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/920",
+      "title": "Why aren't post-increment loads with RD==RS1 treated as illegal?",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2023-12-18T09:33:13Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "2cd93a1fdde8c999e2509c11074da8d0db30e34c87b74d414276bb7b16d435eb",
+          "bytes": 32226
+        },
+        "record.json": {
+          "sha256": "cca8d667539f33cbf9959fc07c980d44d95c6dbb6dd8c69e87131c81951a3857",
+          "bytes": 5699
+        },
+        "comments.json": {
+          "sha256": "a7335cbdfb211cc293bad4af6a486819b7f778f01b56545ac131f2b904bcb743",
+          "bytes": 13218
+        }
+      }
+    },
+    {
+      "number": 975,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/975",
+      "title": "HWLoop count not updated when last instruction is a CSR access with pipeline flush",
+      "state": "closed",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2024-05-27T10:27:57Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "85d73e64454754e8876945d024a3b952e070ad72bd803bf145e2a8a8694e1e54",
+          "bytes": 23863
+        },
+        "record.json": {
+          "sha256": "88be3d03a30cc347506ad3220c4c5edc71c0175ffd6650d59aabc1bf7ea73d53",
+          "bytes": 8995
+        },
+        "comments.json": {
+          "sha256": "d7b075f6449a224892c7800a484d89166efd44b3faeceb54d70fe1d81b184a41",
+          "bytes": 1706
+        }
+      }
+    },
+    {
+      "number": 1064,
+      "url": "https://github.com/openhwfoundation/cv32e40p/issues/1064",
+      "title": "Incorrect execution of \"ret\" on a stalled instruction fetch in CV32E40P",
+      "state": "open",
+      "kind": "Issue",
+      "merged": null,
+      "head_sha": null,
+      "updated_at": "2026-06-18T16:44:51Z",
+      "files": {
+        "timeline.json": {
+          "sha256": "eb4835da1e54100a375c998788e19410f646574567d842b51a31350ea2f6e338",
+          "bytes": 14151
+        },
+        "record.json": {
+          "sha256": "a6617617215664284d4b743947c77b9686dc82b979c67e890797f0fe6eeeadd8",
+          "bytes": 6325
+        },
+        "comments.json": {
+          "sha256": "3b784db0369ebde035c86da854d386b361ac6eac3c2d10e21ca385d2a18acb02",
+          "bytes": 4413
+        }
+      }
+    }
+  ]
+}
