@@ -1,0 +1,12 @@
+{
+  "affected": {
+    "rtl/include/cv32e40p_pkg.sv": "3fee39d262ef44bff6ee00b591fe08830e5e35cdd1b9e5eb9eb06da6f6525805",
+    "rtl/cv32e40p_controller.sv": "9f2acb8ce91a4b85342b6b85b94b0b464a408eef4a9e5b7024e26933e14e5471",
+    "rtl/cv32e40p_hwloop_regs.sv": "c2a0787c07bcd6c198b6338c4c6ee372b4bce96ec4a4def467ff0ae03da4e43a"
+  },
+  "fixed": {
+    "rtl/include/cv32e40p_pkg.sv": "3fee39d262ef44bff6ee00b591fe08830e5e35cdd1b9e5eb9eb06da6f6525805",
+    "rtl/cv32e40p_controller.sv": "530e83327eb182268e44074986d9303a356de2209313a86a049904a79f99fbb8",
+    "rtl/cv32e40p_hwloop_regs.sv": "c2a0787c07bcd6c198b6338c4c6ee372b4bce96ec4a4def467ff0ae03da4e43a"
+  }
+}

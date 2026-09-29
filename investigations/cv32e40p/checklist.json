@@ -79,14 +79,15 @@
     "review_locations": "Loop-end comparators, decrement qualification, stall/redirect paths, both loop banks.",
     "stimulus": "Configure counts 0, 1 and 2; execute the loop end with distinct signatures and compare state. Add stalls and nested-loop configurations only within documented restrictions.",
     "observation_and_oracle": "Check count and PC against a small independent loop model, and prove the loop-end event was reached. Zero must not wrap; count one must still complete normally. A disabled decrement for all counts must fail the controls.",
-    "verification_record": "Not run: proposed stimulus and oracle only. Cached source bodies, discussions and relevant final PR diffs reviewed; no RTL simulation or formal run performed.",
+    "verification_record": "Bounded component reproduction: unmodified upstream controller and hardware-loop registers at reported affected SHA and #881 merge SHA; initial counts 0/1/2 with 0/2 stalled cycles, 12 cases total. Affected zero-count cases underflow; fixed zero-count cases and all positive-count controls pass. See zero-count/README.md and results.json. No full-core or original randomized-test replay.",
     "upstream_verification_evidence": "#880 includes DUT/reference CSR mismatch, core-v-verif revision 117ad5b120922d48e63edc0a91a81ebbd6616b5b, randomized-test command and seed 1; closure names #881. Test and attachments were not rerun/read.",
     "evidence_state": [
       "source-reviewed",
-      "fix-linked"
+      "fix-linked",
+      "independently-reproduced-component"
     ],
     "lineage_and_duplicates": "New relative to the 24 Ibex entries. IBEX-017/018 concern retirement/performance counters, not hardware-loop architectural semantics.",
-    "limitations": "Only the reported zero-count mismatch and matching fix were reviewed. Broader stall/nesting coverage and the target manual contract require validation. No claim of an unfixed defect at snapshot HEAD."
+    "limitations": "Only the reported zero-count mismatch and matching fix were reviewed. Broader stall/nesting coverage and the target manual contract require validation. No claim of an unfixed defect at snapshot HEAD. Component reproduction covers inner bank 0 under active outer bank 1; external PC sequencing, no fetch/ID integration or current-master test."
   },
   {
     "id": "CV32E40P-003",

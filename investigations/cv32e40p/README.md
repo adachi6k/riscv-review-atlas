@@ -18,7 +18,7 @@ Pinned `jev-1.13.0` assessed the collected evidence against the existing **24 pu
 
 Five groups contain at least one `new_candidate` part. They form the next reading queue below. Partial answers also include unclear/not-applicable/fetch-evidence labels; a positive fragment does not establish whole-group novelty or correctness. `closest_existing=none` is a model result, not proof of no overlap. The remaining four groups are retained for later review/context collection.
 
-Ordering below is editorial: a small focused change first, then more complex multi-fix groups. It is **not a Jev severity score** or a ranking across all 1,052 records. The initial queue has now received a bounded Codex-assisted source review: see [review decisions](deep-read.md) and the [five candidate checklist entries](checklist.md). Independent RTL reproduction has not been performed.
+Ordering below is editorial: a small focused change first, then more complex multi-fix groups. It is **not a Jev severity score** or a ranking across all 1,052 records. The initial queue has now received a bounded Codex-assisted source review: see [review decisions](deep-read.md) and the [five candidate checklist entries](checklist.md). CV32E40P-002 subsequently received a bounded [component reproduction](zero-count/README.md).
 
 ## Five selected reading groups
 
@@ -42,7 +42,7 @@ Ordering below is editorial: a small focused change first, then more complex mul
 
 ## Review outcome and next execution boundary
 
-The five groups yielded five entries after splitting #888/#889 and combining #195/#888: four new candidates relative to the public Ibex checklist, plus one cancellation-property extension. All are source-reviewed and fix-linked; none is independently reproduced. See [decisions and deferred evidence](deep-read.md), [checklist](checklist.md), and [structured checklist](checklist.json). The other four retrieval groups remain unadjudicated.
+The five groups yielded five entries after splitting #888/#889 and combining #195/#888: four new candidates relative to the public Ibex checklist, plus one cancellation-property extension. All are source-reviewed and fix-linked; CV32E40P-002 additionally has a bounded [controller-plus-register reproduction](zero-count/README.md). The other four remain untested. See [decisions and deferred evidence](deep-read.md), [checklist](checklist.md), and [structured checklist](checklist.json). The other four retrieval groups remain unadjudicated.
 
 Next, map feature applicability and select a bounded directed reproduction with an independent oracle. Hardware-loop/FPU-specific questions should not be forced onto targets without those mechanisms. Preserve the #824-to-#860 replacement-fix history when investigating split accesses.
 

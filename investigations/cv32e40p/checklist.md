@@ -1,6 +1,6 @@
 # CV32E40P source-reviewed candidate checklist
 
-Snapshot: 2026-09-29. Five retrieval groups yield **five candidate entries: four new relative to the public Ibex checklist and one extension**. This is an editorial mechanism comparison, not a model score or a count of newly discovered bugs. None is independently reproduced. See [review decisions](deep-read.md).
+Snapshot: 2026-09-29. Five retrieval groups yield **five candidate entries: four new relative to the public Ibex checklist and one extension**. This is an editorial mechanism comparison, not a model score or a count of newly discovered bugs. CV32E40P-002 now has a bounded [component reproduction](zero-count/README.md); the other four have not been independently reproduced. See [review decisions](deep-read.md).
 
 ## CV32E40P-001: Cancelled hardware-loop instructions leave loop state unchanged
 
@@ -34,7 +34,7 @@ Snapshot: 2026-09-29. Five retrieval groups yield **five candidate entries: four
 
 ## CV32E40P-002: A zero hardware-loop count must not underflow
 
-**Disposition:** new_candidate. **Evidence:** source-reviewed, fix-linked.
+**Disposition:** new_candidate. **Evidence:** source-reviewed, fix-linked, independently-reproduced-component.
 
 **Property:** At a loop-end event, an already-zero loop counter stays zero; an eligible final iteration with count one reaches zero exactly once.
 
@@ -50,7 +50,7 @@ Snapshot: 2026-09-29. Five retrieval groups yield **five candidate entries: four
 
 **Upstream verification evidence:** #880 includes DUT/reference CSR mismatch, core-v-verif revision 117ad5b120922d48e63edc0a91a81ebbd6616b5b, randomized-test command and seed 1; closure names #881. Test and attachments were not rerun/read.
 
-**Verification record:** Not run: proposed stimulus and oracle only. Cached source bodies, discussions and relevant final PR diffs reviewed; no RTL simulation or formal run performed.
+**Verification record:** Bounded component reproduction: unmodified upstream controller and hardware-loop registers at reported affected SHA and #881 merge SHA; initial counts 0/1/2 with 0/2 stalled cycles, 12 cases total. Affected zero-count cases underflow; fixed zero-count cases and all positive-count controls pass. See zero-count/README.md and results.json. No full-core or original randomized-test replay.
 
 **Lineage and duplicates:** New relative to the 24 Ibex entries. IBEX-017/018 concern retirement/performance counters, not hardware-loop architectural semantics.
 

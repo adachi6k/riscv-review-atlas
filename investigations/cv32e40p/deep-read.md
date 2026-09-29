@@ -1,5 +1,7 @@
 # CV32E40P: decisions from five retrieval groups
 
+Follow-up: CV32E40P-002 now has a [bounded controller-plus-register reproduction](zero-count/README.md): the affected zero-count cases fail and the fixed cases pass. The source-review record below describes the earlier phase; its no-reproduction statements apply to that phase.
+
 Date: 2026-09-29. Investigation [#3](https://github.com/adachi6k/riscv-review-atlas/issues/3).
 
 ## Outcome
