@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-29",
+  "decisions": [
+    {
+      "issue": 1064,
+      "disposition": "unresolved_functional_lead"
+    },
+    {
+      "issue": 975,
+      "disposition": "extend_CV32E40P-002_source_review_only"
+    },
+    {
+      "issue": 466,
+      "disposition": "by_design_checker_contract_guidance"
+    },
+    {
+      "issue": 920,
+      "disposition": "specification_choice_not_confirmed_defect"
+    }
+  ],
+  "supplemental_source": {
+    "url": "https://github.com/openhwfoundation/cv32e40p/pull/977",
+    "base_sha": "b11c5f3d49a0c11ad76afd65995e7e15c379f723",
+    "head_sha": "ad7efbf0aee56be9cde52e55994685751412fc6d",
+    "merge_commit_sha": "58cb2f1ab1eb5026b247a2f05ab4e624e6438494",
+    "merged": true,
+    "diff_sha256": "e412f2c7a941894123f21346b841fcdb776697256ec6e24f29fd6aa056dea8ad"
+  },
+  "additional_jev_requests": 0
+}

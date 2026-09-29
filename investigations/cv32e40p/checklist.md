@@ -61,6 +61,8 @@ Snapshot: 2026-09-29. Five retrieval groups yield **five candidate entries: four
 - [Upstream report](https://github.com/openhwfoundation/cv32e40p/issues/880): reported affected revision `c520546c0cc3f64ef064d52dfdc91abbba63f181`.
 - [merged source change](https://github.com/openhwfoundation/cv32e40p/pull/881): base `8a6f74b421ab7a6256b80a369234e8ff51dafd4e`, PR head `767fb0fd85d981d548ae942eb748b847a29b71f4`, merge `7df7d2dfe036da981279e89703bb5e774e4712dc`.
 
+**Additional source-reviewed case (#975/#977):** A loop-end CSR access that flushes the pipeline must still apply its eligible count update exactly once. This is a different mechanism from zero underflow. It has not been independently reproduced; see [remaining-group review](remaining-four.md).
+
 ## CV32E40P-003: JALR observes the latest producer despite shared writeback contention
 
 **Disposition:** new_candidate. **Evidence:** source-reviewed, fix-linked.

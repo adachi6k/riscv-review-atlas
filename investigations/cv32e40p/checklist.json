@@ -87,7 +87,31 @@
       "independently-reproduced-component"
     ],
     "lineage_and_duplicates": "New relative to the 24 Ibex entries. IBEX-017/018 concern retirement/performance counters, not hardware-loop architectural semantics.",
-    "limitations": "Only the reported zero-count mismatch and matching fix were reviewed. Broader stall/nesting coverage and the target manual contract require validation. No claim of an unfixed defect at snapshot HEAD. Component reproduction covers inner bank 0 under active outer bank 1; external PC sequencing, no fetch/ID integration or current-master test."
+    "limitations": "Only the reported zero-count mismatch and matching fix were reviewed. Broader stall/nesting coverage and the target manual contract require validation. No claim of an unfixed defect at snapshot HEAD. Component reproduction covers inner bank 0 under active outer bank 1; external PC sequencing, no fetch/ID integration or current-master test.",
+    "additional_cases": [
+      {
+        "source_issues": [
+          975
+        ],
+        "source_prs": [
+          977
+        ],
+        "property": "A loop-end CSR access that flushes the pipeline still applies its eligible loop-count update exactly once.",
+        "evidence_state": [
+          "source-reviewed",
+          "fix-linked"
+        ],
+        "verification_record": "Not run; zero-count component reproduction does not exercise this ID-stage CSR-flush wiring.",
+        "source_evidence": {
+          "url": "https://github.com/openhwfoundation/cv32e40p/pull/977",
+          "base_sha": "b11c5f3d49a0c11ad76afd65995e7e15c379f723",
+          "head_sha": "ad7efbf0aee56be9cde52e55994685751412fc6d",
+          "merge_commit_sha": "58cb2f1ab1eb5026b247a2f05ab4e624e6438494",
+          "merged": true,
+          "diff_sha256": "e412f2c7a941894123f21346b841fcdb776697256ec6e24f29fd6aa056dea8ad"
+        }
+      }
+    ]
   },
   {
     "id": "CV32E40P-003",
