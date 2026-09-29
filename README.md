@@ -6,7 +6,7 @@ The goal is to turn issues, discussions, fixing commits, and regression tests in
 
 ## Current status
 
-This repository contains a discovery catalog and a bounded Ibex pilot. Checklist entries are evidence-backed candidates, not independently validated findings or a collection of confirmed vulnerabilities.
+This repository contains a discovery catalog and bounded Ibex/CV32E40P investigations. Evidence states distinguish source-reviewed candidates from the one bounded CV32E40P component reproduction; no whole-core validation is implied.
 
 - **67 GitHub repositories:** 44 core candidates, 7 lineage/integration-history repositories, and 16 related verification, reference-model, or system projects.
 - **3 additional GitLab candidates:** public project metadata checked; bulk history access still needs validation.
@@ -19,7 +19,8 @@ This repository contains a discovery catalog and a bounded Ibex pilot. Checklist
 
 ## Explore
 
-- [CV32E40P bounded investigation](investigations/cv32e40p/README.md): 15 source records with comments/diffs evaluated by Jev; five reading groups selected, not yet validated.
+- [VexRiscv next-core selection](investigations/vexriscv/README.md): five reports screened; three functional reading groups selected with explicit exclusions. No Jev calls or reproduction in this pass.
+- [CV32E40P bounded investigation](investigations/cv32e40p/README.md): nine seed groups reviewed, five candidate properties, one bounded zero-count component reproduction and a source-reviewed CSR-flush extension.
 
 - [Assessment with comments and diffs](investigations/ibex/full-evidence/README.md): comments and diffs supplied before Jev selects the reading queue, with measured usage and provenance.
 
