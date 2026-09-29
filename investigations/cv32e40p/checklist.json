@@ -1,0 +1,220 @@
+[
+  {
+    "id": "CV32E40P-001",
+    "title": "Cancelled hardware-loop instructions leave loop state unchanged",
+    "classification": "extension",
+    "property": "An instruction cancelled by interrupt or debug entry must not update hardware-loop state; saved resume state and loop state must describe the same execution boundary.",
+    "applicability": "Hardware-loop extension and interrupt/debug cancellation of a loop setup instruction. #888 reports XPULP=1, cluster=0, FPU=0, Zfinx=0. Historical parameter names must be mapped to the target revision.",
+    "source_issues": [
+      888
+    ],
+    "source_prs": [
+      195,
+      897
+    ],
+    "source_evidence": [
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/issues/888",
+        "reported_affected_sha": "ebdbbb7aabdf20fa127a6c7e9c641f89d2b62f8a",
+        "role": "upstream report"
+      },
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/pull/195",
+        "base_sha": "aa13a06b4ca5bacdc59a92fd7aff75adb140cd7f",
+        "head_sha": "eb07d277b462f227dae482dec987a34181d3f1a6",
+        "merge_commit_sha": "ab9d13a4ecf289bbe488ce3f5dc7e4c65220b6bc",
+        "diff_sha256": "f1c5c0bf3c0079379821051d985e6d5af4e4b36eadd5154377c432947d9baebd",
+        "role": "merged source change"
+      },
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/pull/897",
+        "base_sha": "3023e88a8ce07c6854267031637403ea6a8061bb",
+        "head_sha": "e6f280007d37052222c4295d8af2618186d9abfd",
+        "merge_commit_sha": "688a28a5815d21e0ed939270827da26781b77076",
+        "diff_sha256": "c3a1e276586b6929278dfd5dfce42a7705d97af2d799ffc52887c6f15146beca",
+        "role": "merged source change"
+      }
+    ],
+    "mechanism": "#195 masks loop write enables on interrupt entry and requires ID readiness before selecting instruction-originated loop updates. #888 reports cv.end updating the end CSR despite trigger cancellation. #897 deasserts is_decoding_o on debug entry for COREV_PULP in two controller paths. The issue closure links that change to #888; the full downstream gate cone has not been independently proven.",
+    "review_locations": "Controller cancellation decisions, loop write enables and data/source muxes, CSR update path, saved PC.",
+    "stimulus": "Arrange an interrupt at a loop setup instruction, then separately an instruction-address debug trigger on cv.end. Sweep the cancellation boundary; include an uncancelled control and resume/re-execution. Cover start/end/count state and both supported loops as proposed extensions.",
+    "observation_and_oracle": "Observe accepted cancellation, saved PC, and every loop CSR before/after. An independent execution-boundary model requires no cancelled instruction effect and exactly one effect when it later executes. Distinguish legitimate concurrent CSR writes.",
+    "verification_record": "Not run: proposed stimulus and oracle only. Cached source bodies, discussions and relevant final PR diffs reviewed; no RTL simulation or formal run performed.",
+    "upstream_verification_evidence": "#888 supplies a timed sequence, configuration, affected revision and OneSpin 2023.3_1 attribution; closure names #897. #195 supplies no replayable regression in the collected PR evidence.",
+    "evidence_state": [
+      "source-reviewed",
+      "fix-linked"
+    ],
+    "lineage_and_duplicates": "Extension of the execution-boundary theme in IBEX-001/012/013, not an identical Ibex fix. Merge #195 and #888 into one property with separate interrupt/debug evidence; do not count two new properties or infer identical root causes. Historical RI5CY/PULP ancestry is relevant.",
+    "limitations": "#195 explicitly frames the update suppression as verification consistency and does not establish harmful functional behavior. #888 screenshot not inspected. Generalized stimuli beyond cv.end/interrupt gating are proposals. No claim of an unfixed defect at snapshot HEAD."
+  },
+  {
+    "id": "CV32E40P-002",
+    "title": "A zero hardware-loop count must not underflow",
+    "classification": "new_candidate",
+    "property": "At a loop-end event, an already-zero loop counter stays zero; an eligible final iteration with count one reaches zero exactly once.",
+    "applicability": "Hardware-loop extension with the reported zero-count semantics. Requires an independently specified loop-end convention and legal setup sequence; not a rule for all unsigned counters.",
+    "source_issues": [
+      880
+    ],
+    "source_prs": [
+      881
+    ],
+    "source_evidence": [
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/issues/880",
+        "reported_affected_sha": "c520546c0cc3f64ef064d52dfdc91abbba63f181",
+        "role": "upstream report"
+      },
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/pull/881",
+        "base_sha": "8a6f74b421ab7a6256b80a369234e8ff51dafd4e",
+        "head_sha": "767fb0fd85d981d548ae942eb748b847a29b71f4",
+        "merge_commit_sha": "7df7d2dfe036da981279e89703bb5e774e4712dc",
+        "diff_sha256": "44570e1cbb1fa893032a85f1f6c57aac8d34965646c424d318f6fac0900abd8d",
+        "role": "merged source change"
+      }
+    ],
+    "mechanism": "#880 reports lpcount0 changing from zero to 0xffffffff while the reference stays zero. #881 adds nonzero qualification to both loop decrement enables in the affected controller path.",
+    "review_locations": "Loop-end comparators, decrement qualification, stall/redirect paths, both loop banks.",
+    "stimulus": "Configure counts 0, 1 and 2; execute the loop end with distinct signatures and compare state. Add stalls and nested-loop configurations only within documented restrictions.",
+    "observation_and_oracle": "Check count and PC against a small independent loop model, and prove the loop-end event was reached. Zero must not wrap; count one must still complete normally. A disabled decrement for all counts must fail the controls.",
+    "verification_record": "Not run: proposed stimulus and oracle only. Cached source bodies, discussions and relevant final PR diffs reviewed; no RTL simulation or formal run performed.",
+    "upstream_verification_evidence": "#880 includes DUT/reference CSR mismatch, core-v-verif revision 117ad5b120922d48e63edc0a91a81ebbd6616b5b, randomized-test command and seed 1; closure names #881. Test and attachments were not rerun/read.",
+    "evidence_state": [
+      "source-reviewed",
+      "fix-linked"
+    ],
+    "lineage_and_duplicates": "New relative to the 24 Ibex entries. IBEX-017/018 concern retirement/performance counters, not hardware-loop architectural semantics.",
+    "limitations": "Only the reported zero-count mismatch and matching fix were reviewed. Broader stall/nesting coverage and the target manual contract require validation. No claim of an unfixed defect at snapshot HEAD."
+  },
+  {
+    "id": "CV32E40P-003",
+    "title": "JALR observes the latest producer despite shared writeback contention",
+    "classification": "new_candidate",
+    "property": "A control-transfer operand must reflect its architecturally preceding producer even when an unrelated long-latency result competes for the writeback path.",
+    "applicability": "In-order design with a long-latency FPU/APU sharing writeback resources and an early JALR operand path. Reported configuration is pulp_fpu_zfinx_1cyclat; applicability outside it must be checked.",
+    "source_issues": [
+      889
+    ],
+    "source_prs": [
+      897
+    ],
+    "source_evidence": [
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/issues/889",
+        "reported_affected_sha": "7df7d2dfe036da981279e89703bb5e774e4712dc",
+        "role": "upstream report"
+      },
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/pull/897",
+        "base_sha": "3023e88a8ce07c6854267031637403ea6a8061bb",
+        "head_sha": "e6f280007d37052222c4295d8af2618186d9abfd",
+        "merge_commit_sha": "688a28a5815d21e0ed939270827da26781b77076",
+        "diff_sha256": "c3a1e276586b6929278dfd5dfce42a7705d97af2d799ffc52887c6f15146beca",
+        "role": "merged source change"
+      }
+    ],
+    "mechanism": "#889 reports fdiv writeback delaying an addi result, followed by JALR using the old x16 despite a trace showing its new value. #897 routes the decoded control-transfer type to EX and extends APU-result buffering/valid suppression for JALR with an integer ALU write and no APU read dependency.",
+    "review_locations": "Writeback arbitration, buffered APU result lifetime, JALR dependency/stall logic and actual target operand.",
+    "stimulus": "Overlap a long-latency FP completion with addi updating a JALR source. Sweep completion timing. Compare with no-contention control and a separate case where JALR depends on the FP producer.",
+    "observation_and_oracle": "Use distinct old/new executable targets with independent signatures and expected JALR target calculation. Observe actual redirect/fetch and retirement, not just trace register values; also check both producers eventually commit once.",
+    "verification_record": "Not run: proposed stimulus and oracle only. Cached source bodies, discussions and relevant final PR diffs reviewed; no RTL simulation or formal run performed.",
+    "upstream_verification_evidence": "#889 provides an ISS PC mismatch, core-v-verif revision 02ee75284e34acf908dda5344f642a7cb3b0ac0c and randomized-test seed 1567674295. Closure names #897; no replay performed.",
+    "evidence_state": [
+      "source-reviewed",
+      "fix-linked"
+    ],
+    "lineage_and_duplicates": "New relative to the 24 Ibex entries. Separate from CV32E40P-004: arbitration can hide an integer producer even if FP dependencies are known. Sharing PR #897 with cancellation does not make this the same defect.",
+    "limitations": "Waveform screenshots not inspected; exact cycle behavior is an upstream report corroborated by a targeted diff, not independent reproduction. Other #897 changes are excluded. No claim of an unfixed defect at snapshot HEAD."
+  },
+  {
+    "id": "CV32E40P-004",
+    "title": "Custom operand routing participates in long-latency dependency checks",
+    "classification": "new_candidate",
+    "property": "Every actual source-register dependency of a custom instruction must be represented in hazard detection, including alternate operand-mux paths, before the consumer executes.",
+    "applicability": "XPULP custom arithmetic plus multi-cycle FPU with Zfinx integer-register sharing. #730 reports XPULP=1, cluster=1, FPU=1, Zfinx=1.",
+    "source_issues": [
+      730
+    ],
+    "source_prs": [
+      841
+    ],
+    "source_evidence": [
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/issues/730",
+        "reported_affected_sha": null,
+        "role": "upstream report"
+      },
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/pull/841",
+        "base_sha": "25907a07dc1e4557141e2bca957f35ce28cf6dad",
+        "head_sha": "0491837ebe928770ef46d57efecb73f43839c9b8",
+        "merge_commit_sha": "c02a42b6e846b9c71b9726bfefbafbc0a4e127e3",
+        "diff_sha256": "1aad84de6f7c5be86627c883724796d52adf9393dc579b06ca2c9391097a9975",
+        "role": "merged source change"
+      }
+    ],
+    "mechanism": "#730 reports fdiv.s producing x5 after cv.addunr has already consumed its stale value. #841 adds OP_A_REGC_OR_FWD to the APU dependency mapping and changes the corresponding operand-C valid qualification. Physical source mapping must be traced through the target decoder; signal suffixes alone are insufficient.",
+    "review_locations": "Custom decode source mapping, operand mux controls, APU read-register vectors and valid bits, producer completion/stall logic.",
+    "stimulus": "Use the reported fdiv.s x5 -> cv.addunr consuming x5 pattern with old/new values chosen to produce different outputs. Enumerate actual source routes for ADD/SUB variants and include independent-source controls.",
+    "observation_and_oracle": "Independently decode the instruction sources and compute its arithmetic result from the completed producer value. Observe producer availability and consumer acceptance to prove the intended overlap.",
+    "verification_record": "Not run: proposed stimulus and oracle only. Cached source bodies, discussions and relevant final PR diffs reviewed; no RTL simulation or formal run performed.",
+    "upstream_verification_evidence": "#730 attributes its trace to OneSpin 2022.3_1 and provides a VCD attachment not inspected here. Discussion first mentions commit 6cfb7438ba62fb433823c85d04e2e001d56e5b81 with verification still ongoing, and later explicitly resolves via #841. No formal results replayed.",
+    "evidence_state": [
+      "source-reviewed",
+      "fix-linked"
+    ],
+    "lineage_and_duplicates": "New relative to the 24 Ibex entries. Related to CV32E40P-003 by shared resources, but this property concerns complete dependency declaration rather than contested writeback of a different producer.",
+    "limitations": "#730 leaves the affected git hash as TBU. A historical failing revision cannot be assigned from the PR base alone. Broader variants and cluster-off applicability remain proposed checks. No claim of an unfixed defect at snapshot HEAD."
+  },
+  {
+    "id": "CV32E40P-005",
+    "title": "Split memory accesses retain their address owner across FP completion",
+    "classification": "new_candidate",
+    "property": "Every beat of a split memory operation must derive its address from that operation, without contamination by another execution-unit result; deferred results must remain intact until accepted.",
+    "applicability": "Implemented split misaligned accesses overlapping multi-cycle FP/APU completion. #723 reports XPULP=0, cluster=0, FPU=1, Zfinx=1. Trap-on-misalignment targets need a different property.",
+    "source_issues": [
+      723
+    ],
+    "source_prs": [
+      824,
+      860
+    ],
+    "source_evidence": [
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/issues/723",
+        "reported_affected_sha": "d0d1c25374e3770c4335568ef16e84404cedbdea",
+        "role": "upstream report"
+      },
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/pull/824",
+        "base_sha": "d011f05092839e7c9ec1af380aebcfc129ab6582",
+        "head_sha": "00bb726c53ed45ab6ff9674bb9f71693141e6b22",
+        "merge_commit_sha": "b883519a4cd784453f8c3253e10eec7cdc8509c9",
+        "diff_sha256": "3ef4fc52346c987ae39d912d87a5c835d0907f1a76716d84967353ab69495064",
+        "role": "superseded fix"
+      },
+      {
+        "url": "https://github.com/openhwfoundation/cv32e40p/pull/860",
+        "base_sha": "c36466bd930e9204fdf63d1b2f33535196a03060",
+        "head_sha": "f3a904fe5293f93cd4f0488af1a4ad21df281982",
+        "merge_commit_sha": "9470ac13a5ceaa400a0734a38ae2c5866bf2f54b",
+        "diff_sha256": "6e017686aef1a7a2078acd0c4dab614223b35ead1d753d143b27ba6038ba733b",
+        "role": "merged source change"
+      }
+    ],
+    "mechanism": "#723 reports fsqrt.s followed by a misaligned lw: second address 0x80000004 rather than 0xa0002000. #824 initially blocks misaligned LSU requests while the APU is busy. #860 explicitly removes that fix and instead buffers multi-cycle APU results/flags and suppresses their acceptance during misaligned phases (among other conflicts). The diff supports a result-arbitration repair; exact internal address contamination is still an upstream explanation.",
+    "review_locations": "Split-access address generation/state, EX result arbitration, APU response buffer and valid/flag lifetime, bus acceptance.",
+    "stimulus": "Overlap fsqrt completion with each phase of a crossing-word load. Sweep response/grant delays and choose FP result bits unrelated to the address. Add stores as a proposed extension and aligned/no-FP controls.",
+    "observation_and_oracle": "A bus scoreboard derives accepted beat addresses/byte enables from the original effective address and access size, then checks loaded bytes or written memory independently. Observe both accepted beats and eventual FP result/flags; a final register-only check is insufficient.",
+    "verification_record": "Not run: proposed stimulus and oracle only. Cached source bodies, discussions and relevant final PR diffs reviewed; no RTL simulation or formal run performed.",
+    "upstream_verification_evidence": "#723 supplies affected revision, configuration, a sequence and OneSpin 2022.3_1 attribution. Closure explicitly names #860. The collected evidence does not include a replayed before/after regression.",
+    "evidence_state": [
+      "source-reviewed",
+      "fix-linked"
+    ],
+    "lineage_and_duplicates": "New relative to the 24 Ibex entries. IBEX-009/013 concern fault lifetime and interrupt/debug around memory; they do not cover split-address ownership under FP arbitration. #824 is superseded by #860, not independent confirming evidence. Later #881/#897 further refine shared APU buffering conditions; do not treat #860 as the final general arbitration implementation.",
+    "limitations": "VCD not inspected. No proof of all misaligned loads/stores or all FPU modes. Other issues and vendor fixes bundled in #860 are outside this entry. No claim of an unfixed defect at snapshot HEAD."
+  }
+]

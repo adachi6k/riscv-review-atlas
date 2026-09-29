@@ -14,7 +14,10 @@
       "not_applicable": 1,
       "new_candidate": 1
     },
-    "status": "selected_for_deep_read_not_validated"
+    "status": "source_reviewed_not_independently_reproduced",
+    "checklist_ids": [
+      "CV32E40P-001"
+    ]
   },
   {
     "rank": 2,
@@ -34,7 +37,10 @@
       "unclear": 1,
       "new_candidate": 1
     },
-    "status": "selected_for_deep_read_not_validated"
+    "status": "source_reviewed_not_independently_reproduced",
+    "checklist_ids": [
+      "CV32E40P-002"
+    ]
   },
   {
     "rank": 3,
@@ -54,7 +60,11 @@
       "new_candidate": 4,
       "not_applicable": 4
     },
-    "status": "selected_for_deep_read_not_validated"
+    "status": "source_reviewed_not_independently_reproduced",
+    "checklist_ids": [
+      "CV32E40P-001",
+      "CV32E40P-003"
+    ]
   },
   {
     "rank": 4,
@@ -74,7 +84,10 @@
       "unclear": 2,
       "new_candidate": 2
     },
-    "status": "selected_for_deep_read_not_validated"
+    "status": "source_reviewed_not_independently_reproduced",
+    "checklist_ids": [
+      "CV32E40P-004"
+    ]
   },
   {
     "rank": 5,
@@ -95,6 +108,9 @@
       "unclear": 3,
       "new_candidate": 7
     },
-    "status": "selected_for_deep_read_not_validated"
+    "status": "source_reviewed_not_independently_reproduced",
+    "checklist_ids": [
+      "CV32E40P-005"
+    ]
   }
 ]
